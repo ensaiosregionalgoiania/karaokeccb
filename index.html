@@ -399,15 +399,15 @@
             <div class="hymn-nav">
                 <button class="nav-btn" id="prevBtn">◀</button>
                 <div class="hymn-input-group">
-                    <input type="text" id="hymnInput" class="hymn-input" value="3" autocomplete="off" inputmode="numeric">
+                    <input type="text" id="hymnInput" class="hymn-input" value="1" autocomplete="off" inputmode="numeric">
                 </div>
                 <button class="nav-btn" id="nextBtn">▶</button>
             </div>
-            <div class="hint">Digite 1, 2 ou 3</div>
+            <div class="hint">Digite 1, 2, 3 ou 4</div>
             
             <div id="hymnInfo" class="hymn-info">
                 <div class="hymn-name-row">
-                    <div class="hymn-name" id="hymnName">Faz-nos ouvir Tua voz</div>
+                    <div class="hymn-name" id="hymnName">Ouve a nossa oração</div>
                 </div>
                 
                 <div class="speed-control">
@@ -450,133 +450,64 @@
             </div>
         </div>
     </div>
+    <script src="hinos.js"></script>
 
     <script>
         // ==================== DADOS DOS HINOS ====================
-        const hymnsData = {
-            "1": { 
-                nome: "Cristo meu Mestre",
-                velMin: 56,
-                velMed: 61,
-                velMax: 66,
-                
-                versos: [
-                    "Cri|sto |meu |Mes|tre |e |meu |Se|nhor, |Eu |Te |a|do|ro, |por |fé, |com |fer|vor; |Ro|go |que |guar|des| meu |co|ra|ção;| Vem |pro|te|gê-|lo, |com| Tu|a  |un|ção |E |de|fen|dê-|lo, |ó |meu |Guar|di|ão.|",
-                    "Mes|tre |di|vi|no, |sem|pre |sen|ti |Meu |co|ra|ção |de|pen|den|te |de |Ti; |Bom |fun|da|men|to|dá-|lhe, |Se|nhor, |Dá-|lhe |fir|me|za, |vir|tu|de, |va|lor |E |for|ta|le|za, |ó |meu |Pro|te|tor.|",
-                    "Va|le |pro|fun|do, |chei|o |de |mal, |É |este| mun|do, |ó |Rei |di|vi|nal. |Só |Tu|a |for|ça| po|de |man|ter |San|to |e |pu|ro, |na| gra|ça, |meu |ser, |Sem|pre |se|gu|ro, |com |fé |e |po|der.|",
-                    "Mes|tre |pi|e |do|so, |com |Tu|a |mão, |Fa|ze |per|fei|to |o|meu |co|ra|ção, |San|to, |ar|do|ro|so |em |Te |ser|vir, |Sem|pre |vol|ta|do |aos |bens |do |por|vir; |Mes|tre |a|ma|do, |de|se|jo |Te |ou|vir.|"
-                ],
-                
-                tempos: [
-                    4, 2, 2, 4, 4, 4, 0, 2, 8, 4, 2, 2, 4, 2, 2, 4, 2, 2, 8, 4, 2, 2, 4,
-                    4, 4, 2, 2, 8, 4, 2, 2, 4, 2, 2, 4, 3, 1, 8, 4, 2, 2, 4, 18, 2, 4, 3, 1, 8
-                ],
-                
-                notas: [
-                    'G4', 'G4', 'G4', 'Bb4', 'Bb4', 'Eb4', 'Ab4', 'Ab4', 'G4', 'C5', 'C5', 'C5',
-                    'Bb4', 'G4', 'G4', 'G4', 'F4', 'F4', 'F4', 'G4', 'G4', 'Bb4', 'Bb4', 'Bb4',
-                    'C5', 'D5', 'Eb5', 'D5', 'Eb5', 'D5', 'C5', 'Bb4', 'G4', 'Bb4', 'Bb4', 'Bb4',
-                    'Ab4', 'G4', 'C5', 'D5', 'Eb5', 'Eb5', 'Eb4', 'F4', 'G4', 'G4', 'F4', 'Eb4'
-                ]
-            },
-
-            "2": { 
-                nome: "De Deus tu és eleita",
-                velMin: 60,
-                velMed: 70,
-                velMax: 80,
-                
-                versos: [
-                    "De| Deus| tu| és| e|lei|ta,| i|gre|ja| de| Je|sus,| O| teu| di|vi|no| Mes|tre| á| gló|ria| te| con|duz;| Pre|pa|ra|-te,| pois| E|le| mui| bre|ve| vol|ta|rá;| A| gló|ria| que| te| espe|ra| já| pre|pa|ra|da es|tá.|",
-                    "Com| ce|les|tiais| a|dor|nos| es|pe|ra o| teu| Se|nhor,| Ves|ti|da| de| jus|ti|ça| e| do| di|vi|no a|mor;| Di|le|ta| és| de| Cris|to,| que| vi|da| te| do|ou;| A| fim| de| res|ga|tar|-te,| Seu| san|gue| de|rra|mou.|",
-                    "É| gran|de| tu|a| gló|ria,| i|gre|ja| de| Je|sus;| Con|sa|gra|-te| a| E|le,| an|dan|do em| su|a| luz;| Em| bre|ve,| no| Seu| rei|no,| glo|rio|sa| en|tra|rás,| E a| fa|ce| do| E|spo|so,| no| céu,| con|tem|pla|rás.|"
-                ],
-                
-                tempos: [
-                    4, 4, 4, 4, 4, 8, 4, 
-                    4, 4, 4, 4, 4, 12, 
-                    4, 4, 4, 4, 4, 8, 4, 
-                    4, 4, 4, 4, 4, 12,
-                    4, 4, 4, 4, 4, 8, 4, 
-                    4, 6, 2, 4, 4, 12, 
-                    4, 4, 4, 4, 4, 8, 4, 
-                    4, 4, 4, 4, 4, 12,
-                    4, 4, 4, 4, 4, 8, 4, 
-                    4, 4, 4, 4, 4, 12, 
-                    4, 4, 4, 4, 4, 8, 4, 
-                    4, 4, 4, 4, 4, 12
-                ],
-                
-                notas: [
-                    'G4', 'G4', 'G4', 'Ab4', 'G4', 'G4', 'F4', 
-                    'Eb4', 'Eb4', 'C5', 'Bb4', 'Ab4', 'G4',
-                    'Ab4', 'Bb4', 'Eb5', 'Eb5', 'D5', 'D5', 'C5', 
-                    'Bb4', 'Ab4', 'Bb4', 'G4', 'Eb4', 'F4',
-                    'F4', 'G4', 'Ab4', 'Bb4', 'C5', 'C5', 'Bb4', 
-                    'Eb5', 'Eb5', 'D5', 'C5', 'G4', 'Ab4',
-                    'F4', 'G4', 'G4', 'Ab4', 'G4', 'G4', 'F4', 
-                    'Eb4', 'Eb4', 'F4', 'Eb4', 'D4', 'Eb4'
-                ]
-            },
-
-            "3": { 
-                nome: "Faz-nos ouvir Tua voz",
-                velMin: 60,
-                velMed: 68,
-                velMax: 76,
-                
-                versos: [
-                    "Faz|-nos| ou|vir| Tu|a| voz| glo|ri|o|sa,| Ó| nos|so| Mes|tre,| fi|el| Re|den|tor;| A| Tu|a i|gre|ja,| di|le|ta| es|po|sa,| Sen|te| por| Ti| i|ne|fá|vel| a|mor.|"+
-                    "\nÓ| ca|ro| Sal|va|dor,| a| Tu|a| voz| de a|mor| Nos| gui|a| pa|ra o| céu,| glo|rio|so| lar;| Pe|la| Pa|la|vra| vem| nos| con|so|lar.|",
-                    "Ó| Je|sus| Cris|to,| ce|les|te| Es|po|so,| Vem| con|du|zir|-nos,| por| Teu| gran|de a|mor;| Já| an|te|ve|mos,| ó| Rei| ma|jes|to|so,| A| gló|ria e|ter|na| do| Teu| es|plen|dor.|"+
-                    "\nÓ| ca|ro| Sal|va|dor,| a| Tu|a| voz| de a|mor| Nos| gui|a| pa|ra o| céu,| glo|rio|so| lar;| Pe|la| Pa|la|vra| vem| nos| con|so|lar.|",
-                    "A| Tu|a i|gre|ja| es|tá| se a|dor|nan|do| Pa|ra en|con|trar|-se| Con|ti|go, ó| Je|sus;| Com| san|tas| ves|tes,| es|tá| a|guar|dan|do| Ver| Tu|a| fa|ce| no| rei|no| de| luz.|"+
-                    "\nÓ| ca|ro| Sal|va|dor,| a| Tu|a| voz| de a|mor| Nos| gui|a| pa|ra o| céu,| glo|rio|so| lar;| Pe|la| Pa|la|vra| vem| nos| con|so|lar.|"
-                ],
-                
-                tempos: [
-                    4, 2, 2, 4, 2, 2, 4, 2, 2, 4, 4,
-                    4, 2, 2, 4, 2, 2, 4, 2, 2, 8,
-                    4, 2, 2, 4, 2, 2, 4, 2, 2, 4, 4,
-                    4, 2, 2, 4, 2, 2, 4, 2, 2, 8,
-
-                    4, 2, 2, 3, 1, 4, 4, 2, 2, 3, 1, 4,
-                    4, 2, 2, 2, 2, 4, 4, 2, 2, 8,
-                    4, 2, 2, 3, 1, 4, 4, 2, 2, 8   
-                ],
-                
-                notas: [
-                    'G4', 'G4', 'B4', 'G4', 'G4', 'G4', 'A4', 'A4', 'A4', 'B4', 'G4', 
-                    'C5', 'C5', 'C5', 'B4', 'B4', 'B4', 'A4', 'A4', 'A4', 'G4',      
-                    'G4', 'G4', 'B4', 'G4', 'G4', 'G4', 'A4', 'A4', 'A4', 'B4', 'G4', 
-                    'C5', 'C5', 'C5', 'B4', 'B4', 'B4', 'A4', 'A4', 'A4', 'G4',
-
-                    'A4', 'B4', 'A4', 'G4', 'B4', 'D5', 'A4', 'B4', 'A4', 'G4', 'B4', 'D5', 
-                    'C5', 'C5', 'C5', 'B4', 'G4', 'B4', 'A4', 'A4', 'A4', 'B4',
-                    'C5', 'C5', 'E5', 'B4', 'G4', 'B4', 'A4', 'A4', 'A4', 'G4'                       
-
-                ]
-            },
-        };
 
         // Mapeamento de notas para frequências (adicionado B4 e ajustado)
-        const noteFrequencies = {
-            'C4': 261.63, 'D4': 293.66, 'E4': 329.63, 'F4': 349.23,
-            'G4': 392.00, 'A4': 440.00, 'B4': 493.88, 'C5': 523.25,
-            'D5': 587.33, 'E5': 659.25, 'F5': 698.46, 'G5': 783.99,
-            'Ab4': 415.30, 'Bb4': 466.16, 'Eb4': 311.13, 'Eb5': 622.25,
-            'D4': 293.66
-        };
-        
-        const noteNames = {
-            'C4': 'Dó4', 'D4': 'Ré4', 'E4': 'Mi4', 'F4': 'Fá4',
-            'G4': 'Sol4', 'A4': 'Lá4', 'B4': 'Si4', 'C5': 'Dó5',
-            'D5': 'Ré5', 'E5': 'Mi5', 'F5': 'Fá5', 'G5': 'Sol5',
-            'Eb4': 'Mi♭4', 'Bb4': 'Si♭4', 'Ab4': 'Lá♭4', 'Eb5': 'Mi♭5'
-        };
+
+// Mapeamento de notas para frequências (C4 até B5)
+const noteFrequencies = {
+    // Oitava 4 (C4 a B4)
+    'C4': 261.63,
+    'C#4': 277.18, 'Db4': 277.18,
+    'D4': 293.66,
+    'D#4': 311.13, 'Eb4': 311.13,
+    'E4': 329.63,
+    'F4': 349.23,
+    'F#4': 369.99, 'Gb4': 369.99,
+    'G4': 392.00,
+    'G#4': 415.30, 'Ab4': 415.30,
+    'A4': 440.00,
+    'A#4': 466.16, 'Bb4': 466.16,
+    'B4': 493.88,
+    
+    // Oitava 5 (C5 a B5)
+    'C5': 523.25,
+    'C#5': 554.37, 'Db5': 554.37,
+    'D5': 587.33,
+    'D#5': 622.25, 'Eb5': 622.25,
+    'E5': 659.25,
+    'F5': 698.46,
+    'F#5': 739.99, 'Gb5': 739.99,
+    'G5': 783.99,
+    'G#5': 830.61, 'Ab5': 830.61,
+    'A5': 880.00,
+    'A#5': 932.33, 'Bb5': 932.33,
+    'B5': 987.77
+};
+
+// Nomes das notas em português
+const noteNames = {
+    'C4': 'Dó4', 'C#4': 'Dó#4', 'Db4': 'Ré♭4',
+    'D4': 'Ré4', 'D#4': 'Ré#4', 'Eb4': 'Mi♭4',
+    'E4': 'Mi4',
+    'F4': 'Fá4', 'F#4': 'Fá#4', 'Gb4': 'Sol♭4',
+    'G4': 'Sol4', 'G#4': 'Sol#4', 'Ab4': 'Lá♭4',
+    'A4': 'Lá4', 'A#4': 'Lá#4', 'Bb4': 'Si♭4',
+    'B4': 'Si4',
+    'C5': 'Dó5', 'C#5': 'Dó#5', 'Db5': 'Ré♭5',
+    'D5': 'Ré5', 'D#5': 'Ré#5', 'Eb5': 'Mi♭5',
+    'E5': 'Mi5',
+    'F5': 'Fá5', 'F#5': 'Fá#5', 'Gb5': 'Sol♭5',
+    'G5': 'Sol5', 'G#5': 'Sol#5', 'Ab5': 'Lá♭5',
+    'A5': 'Lá5', 'A#5': 'Lá#5', 'Bb5': 'Si♭5',
+    'B5': 'Si5'
+};
 
         // Variáveis
-        let currentHymnId = "3";
+        let currentHymnId = "4";
         let currentHymn = hymnsData["3"];
         let playbackInterval = null;
         let currentIndex = 0;
@@ -779,13 +710,13 @@
         // ==================== NAVEGAÇÃO ====================
         function updateHymnInfo() {
             const input = document.getElementById('hymnInput').value.trim();
-            let newId = "3";
+            let newId = "4";
             
-            if (input === "1" || input === "2" || input === "3") {
+            if (input === "1" || input === "2" || input === "3" || input === "4") {
                 newId = input;
             } else {
-                newId = "3";
-                document.getElementById('hymnInput').value = "3";
+                newId = "4";
+                document.getElementById('hymnInput').value = "4";
             }
             
             if (newId !== currentHymnId) {
@@ -810,7 +741,7 @@
         function navegar(delta) {
             let newId = parseInt(currentHymnId) + delta;
             if (newId < 1) newId = 1;
-            if (newId > 3) newId = 3;
+            if (newId > 4) newId = 4;
             
             document.getElementById('hymnInput').value = newId.toString();
             updateHymnInfo();
