@@ -2132,9 +2132,34 @@ const hymnsData = {
         velMaxMeiaHora: 50,
         MeiaHora: "N",
         velX3: "N",
-        versos: [],
-        tempos: [],
-        notas: []
+        versos: [
+            "Ó |Je|sus, |és |meu |Guar|di|ão, |"+ 
+            "Tu |me |li|vras |de |to|do o |mal; |"+ 
+            "Mes|mo em |pro|va e |tri|bu|la|ção, |"+ 
+            "És |meu |Re|fú|gio |ce|les|ti|al.", 
+            
+            "Meu |te|sou|ro |és |Tu, |Je|sus, |"+ 
+            "Mi|nha |Vi|da, |meu |Ga|lar|dão. |"+ 
+            "Nes|te |mun|do |és |mi|nha |Luz |"+ 
+            "E |me |con|du|zes |com |Tu|a |mão.",
+            
+            "Pe|la |fé |e |por |Teu |a|mor, |"+
+            "Vou |se|guin|do |a |Ti, |Je|sus, |"+ 
+            "Pe|la |sen|da |do |Cri|a|dor; |"+ 
+            "Bre|ve es|ta|rei |no |Teu |lar |de |luz."
+        ],
+        tempos: [
+            8, 4, 4, 4, 4, 8, 4, 12,
+            8, 4, 4, 4, 4, 8, 4, 12,
+            8, 4, 4, 4, 4, 8, 4, 12,
+            4, 4, 4, 4, 4, 4, 8, 4, 12
+        ],
+        notas: [
+            'F4', 'G4', 'F4', 'Bb4', 'D5', 'D5', 'C5', 'Bb4',
+            'Bb4', 'Bb4', 'Bb4', 'A4', 'Bb4', 'C5', 'D5', 'C5',
+            'F4', 'G4', 'F4', 'Bb4', 'D5', 'D5', 'Eb5', 'D5',
+            'Bb4', 'A4', 'G4', 'F4', 'Eb5', 'D5', 'D5', 'C5', 'Bb4'            
+        ]
     },
     "124": { 
         nome: "Vivo na graça",
@@ -2564,9 +2589,34 @@ const hymnsData = {
         velMaxMeiaHora: 39,
         MeiaHora: "S",
         velX3: "N",
-        versos: [],
-        tempos: [],
-        notas: []
+        versos: [
+            "Je|sus |Cris|to, |meu |Se|nhor, |"+
+            "Me |jus|ti|fi|cou |por |fé; |"+
+            "Pe|la |gra|ça, |pe|lo |Seu |a|mor, |"+
+            "Al|can|cei |de |Deus |mer|cê.",
+
+            "Re|go|zi|jo, |paz |e a|mor, |"+
+            "A|le|gri|a |sem |i|gual, |"+
+            "Eu |des|fru|to |em |meu |Sal|va|dor, |"+
+            "O |Cor|dei|ro |di|vi|nal.",
+
+            "Vi|vo |no |Se|nhor |Je|sus; |"+
+            "Su|a |vi|da |sin|to em |mim; |"+
+            "E|le |é, |no |mun|do, |mi|nha |Luz |"+
+            "Pa|ra |ir |a|té |o |fim."            
+        ],
+        tempos: [
+            2, 2, 2, 2, 8, 4, 12,
+            2, 2, 2, 2, 8, 4, 12,
+            2, 2, 4, 4, 2, 2, 2, 2, 12,
+            2, 2, 2, 2, 8, 4, 12            
+        ],
+        notas: [
+            'Eb4', 'Ab4', 'C5', 'B4', 'C5', 'Bb4', 'Ab4',
+            'Ab4', 'C5', 'Eb5', 'D5', 'Eb5', 'Db5', 'C5',
+            'C5', 'C5', 'Db5', 'Db5', 'Ab4', 'Ab4', 'Bb4', 'B4', 'C5',
+            'Db5', 'C5', 'C5', 'Bb4',  'F4', 'G4', 'Ab4'            
+        ]
     },
     "151": { 
         nome: "Se de Cristo o Nome amares",
