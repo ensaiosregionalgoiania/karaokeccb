@@ -2966,9 +2966,34 @@ const hymnsData = {
         velMaxMeiaHora: 38,
         MeiaHora: "N",
         velX3: "N",
-        versos: [],
-        tempos: [],
-        notas: []
+        versos: [
+            "Um |cul|to |san|to |ao |Se|nhor |"+
+            "Foi |ce|le|bra|do |com |a|mor; |"+
+            "Foi |re|ce|bi|do |lá |nos |céus |"+
+            "Por |nos|so |po|de|ro|so |Deus.",  
+
+            "Um |no|vo a|len|to |há |em |nós, |"+
+            "Pois |Deus |ou|viu |a |nos|sa |voz; |"+
+            "A |sã |Pa|la|vra |nos |man|dou |"+
+            "E |nos|sas |for|ças |re|no|vou. ",
+
+            "Com |o |con|se|lho |di|vi|nal |"+
+            "Su|plan|ta|re|mos |to|do o |mal; |"+
+            "E, |fa|ce a |fa|ce, |lá |nos |céus, |"+
+            "Ve|re|mos |nos|so |gran|de |Deus."
+        ],
+        tempos: [
+            2, 2, 2, 4, 4, 2, 2, 6,
+            2, 2, 2, 4, 4, 2, 2, 6,
+            2, 2, 2, 4, 4, 2, 2, 6,
+            2, 2, 2, 2, 2, 4, 4, 6
+        ],
+        notas: [
+            'G4', 'G4', 'G4', 'C5', 'G4', 'G4', 'E4', 'D4',
+            'F4', 'F4', 'F4', 'D5', 'B4', 'A4', 'B4', 'C5',
+            'G4', 'G4', 'G4', 'G4', 'E4', 'F4', 'G4', 'A4',
+            'A4', 'C5', 'A4', 'G4', 'E4', 'D4', 'F4', 'E4'            
+        ]
     },
     "173": { 
         nome: "Para ouvir aqui estamos",
@@ -4278,9 +4303,34 @@ const hymnsData = {
         velMaxMeiaHora: 40,
         MeiaHora: "N",
         velX3: "N",
-        versos: [],
-        tempos: [],
-        notas: []
+        versos: [
+            "De |Je|sus |a |gra|ça |di|vi|na |e, |"+
+            "Tam|bém, |a |paz |de |Deus, |"+
+            "Com |a |ce|les|tial |dou|tri|na, |"+
+            "Per|ma|ne|çam |nos |fi|lhos |Seus.",
+
+            "Fé |e a|mor |con|ser|vam |u|ni|dos |"+
+            "Os |re|mi|dos |do |Se|nhor; |"+
+            "Se|jam |e|les |re|ves|ti|dos |"+
+            "Das |vir|tu|des |do |Re|den|tor.",
+
+            "Sem|pre u|ni|dos |ao |sá|bio |Mes|tre |"+
+            "De|vem |os |fi|éis |vi|ver; |"+
+            "E |a |co|mu|nhão |ce|les|te, |"+
+            "Nos |seus |co|ra|ções, |de|vem |ter.",            
+        ],
+        tempos: [
+            4, 4, 6, 2, 4, 2, 2, 4, 4,
+            4, 4, 6, 2, 4, 4, 8,
+            4, 4, 4, 4, 6, 2, 4, 4,
+            4, 4, 4, 4, 4, 2, 2, 8
+        ],
+        notas: [
+            'F4', 'E4', 'F4', 'G4', 'A4', 'C5', 'Bb4', 'A4', 'G4',
+            'A4', 'A4', 'A4', 'D5', 'C5', 'B4', 'C5',
+            'C5', 'B4', 'Bb4', 'A4', 'G4', 'F4', 'F4', 'E4',
+            'F4', 'F#4', 'G4', 'D5', 'F4', 'A4', 'G4', 'F4'
+        ]
     },
     "255": { 
         nome: "Jesus é a nossa Rocha",
