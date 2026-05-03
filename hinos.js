@@ -4600,9 +4600,34 @@ const hymnsData = {
         velMaxMeiaHora: 58,
         MeiaHora: "N",
         velX3: "N",
-        versos: [],
-        tempos: [],
-        notas: []
+        versos: [
+            "Gra|ças |dou |a |Ti, |ó |bom |Deus, |"+
+            "Pois |man|das|te |vi|da, |dos |céus |"+
+            "Por |Je|sus, |que |trou|xe o |per|dão |"+
+            "E |re|di|miu|-me |da |per|di|ção.",
+
+            "Gra|ças |dou |a |Ti, |For|ma|dor, |"+
+            "Pe|las |bên|ções, |por |Teu |fa|vor; |"+
+            "Ju|bi|lo|so a|go|ra |es|tou, |"+
+            "Pois |Je|sus |Cris|to |me |res|ga|tou.",
+
+            "Gra|ças |dou |a |Ti, |Deus de |a|mor, |"+
+            "Pois |Tu |ou|ves, |o |meu |cla|mor; |"+
+            "Só |a |Ti |mi|nh'al|ma |se a|tém; |"+
+            "Gra|ças |Te |dou, |Pai |do |su|mo |bem."            
+        ],
+        tempos: [
+            8, 4, 8, 4, 4, 4, 4, 12,
+            8, 4, 8, 4, 4, 4, 4, 12,
+            8, 4, 8, 4, 4, 4, 4, 12,
+            4, 4, 4, 4, 4, 4, 8, 4, 12            
+        ],
+        notas: [
+            'B4', 'G4', 'D4', 'D#4', 'E4', 'G4', 'C5', 'B4',
+            'B4', 'G4', 'D4', 'G4', 'G4', 'A4', 'B4', 'A4',
+            'B4', 'G4', 'D4', 'D#4', 'E4', 'G4', 'C5', 'B4',
+            'D5', 'B4', 'G4', 'A4', 'B4', 'C5', 'B4', 'A4', 'G4'            
+        ]
     },
     "272": { 
         nome: "Louvarei ao bom Jesus",
