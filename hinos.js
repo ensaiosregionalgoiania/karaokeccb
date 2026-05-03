@@ -1308,9 +1308,35 @@ const hymnsData = {
         velMaxMeiaHora: 50,
         MeiaHora: "N",
         velX3: "N",
-        versos: [],
-        tempos: [],
-        notas: []
+        versos: [
+            "Vem |a |Je|sus, |ó |al|ma |er|ran|te, |"+ 
+            "E|le  é  o |Su|mo |Pas|tor; |"+
+            "N'E|le a|cha|rás |a |gra|ça  a|bun|dan|te, |"+
+            "A |vi|da, |o  a|mor.",
+            
+            "Vem |a |Je|sus, |ó |al|ma |can|sa|da |"+
+            "Do |pe|ca|do e |da |dor; |"+
+            "Sem|pre |se|rás |por |E|le am|pa|ra|da, |"+
+            "Oh! |vem |ao |Se|nhor.",
+            
+            "Vem |a |Je|sus, |ó |al|ma |a|fli|ta, |"+
+            "Vem |aos |pés |do |Se|nhor; |"+
+            "Re|ce|be|rás |a |paz |in|fi|ni|ta |"+
+            "De |Deus, |Cri|a|dor."
+
+        ],
+        tempos: [
+            2, 2, 2, 4, 2, 2, 2, 2, 4, 2,
+            4, 2, 2, 2, 2, 6,
+            2, 2, 2, 4, 2, 2, 2, 2, 2, 2,
+            2, 2, 2, 2, 6,
+        ],
+        notas: [
+            'Eb4', 'F4', 'Eb4', 'Ab4', 'C5', 'Bb4', 'F4', 'G4', 'F4', 'Eb4',
+            'Ab4', 'Ab4', 'C5', 'Bb4', 'F4', 'Bb4',
+            'Eb4', 'F4', 'Eb4', 'C5', 'C5', 'C5', 'Db5', 'C5', 'C5', 'Bb4',
+            'F4', 'G4', 'F4', 'G4', 'Ab4'
+        ]
     },
     "76": { 
         nome: "Cristo Jesus Sua mão me dá",
@@ -1804,9 +1830,39 @@ const hymnsData = {
         velMaxMeiaHora: 46,
         MeiaHora: "N",
         velX3: "N",
-        versos: [],
-        tempos: [],
-        notas: []
+        versos: [ 
+            "Em |no|me |do |nos|so |Re|den|tor |"+ 
+            "O|ra|mos |a |Ti, |ó |Deus; |"+
+            "Oh! |Vem |com |Teu |ca|lor, |"+
+            "Com |Teu |di|vi|no a|mor; |"+ 
+            "Vi|si|ta|-nos |des|de os |céus.", 
+            
+            "Ben|di|to |és |Tu, |ó |Cri|a|dor, |"+ 
+            "Fi|el |e |po|ten|te |Deus; |"+ 
+            "En|vi|a, |ó |Se|nhor, |"+ 
+            "O |Teu |Con|so|la|dor; |"+ 
+            "Con|for|ta |os |san|tos |Teus.", 
+            
+            "Com |fé |nos |pros|tra|mos, |ó |Se|nhor, |"+ 
+            "Em |san|ta |a|do|ra|ção; |"+ 
+            "A|cei|ta|-nos, |ó |Deus; |"+ 
+            "Res|pon|de|-nos, |dos |céus; |"+ 
+            "Oh! |Põe|-nos |em |co|mu|nhão." 
+        ],
+        tempos: [
+            4, 8, 2, 2, 8, 4, 8, 4, 8,
+            4, 8, 2, 2, 8, 4, 8,
+            4, 6, 2, 2, 2, 8,
+            4, 6, 2, 2, 2, 8,
+            4, 8, 2, 2, 8, 4, 8
+        ],
+        notas: [
+            'D4', 'G4', 'B4', 'G4', 'B4', 'A4', 'G4', 'E4', 'D4', 
+            'D4', 'G4', 'B4', 'G4', 'B4', 'A4', 'D5',
+            'B4', 'D5', 'B4', 'D5', 'B4', 'G4',
+            'D4', 'E4', 'G4', 'G4', 'E4', 'D4',
+            'D4', 'G4', 'B4', 'G4', 'B4', 'A4', 'G4'
+        ]
     },
     "107": { 
         nome: "O fim de tudo chegará",
