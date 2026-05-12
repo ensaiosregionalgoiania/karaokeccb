@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover">
-    <title>Karaokê CCB</title>
+    <title>Karaokê CCB - Com Quebras de Linha</title>
     <style>
         * {
             margin: 0;
@@ -162,15 +162,6 @@
             box-shadow: 0 1px 3px rgba(0,0,0,0.2);
         }
 
-        .speed-values {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 8px;
-            font-size: 0.7rem;
-            font-weight: 600;
-            color: #334155;
-        }
-
         .current-speed {
             display: flex;
             align-items: center;
@@ -271,7 +262,6 @@
             height: 220px;
             overflow-y: auto;
             scroll-behavior: smooth;
-            font-family: monospace;
         }
 
         .verse-separator {
@@ -285,20 +275,22 @@
         }
 
         .syllable {
-            display: inline;
+            display: inline-block;
             font-size: 1.3rem;
             font-weight: 500;
             color: #cbd5e1;
             transition: all 0.1s ease;
             cursor: pointer;
-            background: transparent;
-            white-space: pre-wrap;
+            margin: 2px;
+            padding: 2px 4px;
+            border-radius: 6px;
         }
 
         .syllable.highlight {
             background: #ffd700;
             color: #1e293b;
             border-radius: 4px;
+            box-shadow: 0 0 8px rgba(255,215,0,0.5);
         }
 
         .current-note-info {
@@ -314,12 +306,6 @@
             font-size: 1.2rem;
             font-weight: bold;
             color: #ffd700;
-        }
-
-        .current-note-info .syllable-text {
-            font-size: 1rem;
-            margin-top: 4px;
-            color: #94a3b8;
         }
 
         .progress-bar {
@@ -353,27 +339,6 @@
             font-size: 0.8rem;
         }
 
-        .status-warning {
-            color: #f59e0b;
-        }
-
-        .status-error {
-            color: #ef4444;
-        }
-
-        @media (max-width: 480px) {
-            .syllable {
-                font-size: 1rem;
-            }
-            .lyrics-scroll {
-                height: 180px;
-                padding: 12px;
-            }
-            .current-speed {
-                font-size: 1.5rem;
-            }
-        }
-
         .tap-bpm-icon {
             cursor: pointer;
             display: inline-flex;
@@ -390,29 +355,37 @@
             transform: scale(0.9);
         }
 
+        @media (max-width: 480px) {
+            .syllable {
+                font-size: 1rem;
+            }
+            .lyrics-scroll {
+                height: 180px;
+            }
+        }
+        
         .tap-feedback {
             animation: tapPulse 0.3s ease;
         }
-
+        
         @keyframes tapPulse {
             0% { transform: scale(1); background: rgba(44, 62, 102, 0.1); }
             50% { transform: scale(1.1); background: rgba(44, 62, 102, 0.4); }
             100% { transform: scale(1); background: rgba(44, 62, 102, 0.1); }
         }
-
+        
         .unavailable-message {
             text-align: center;
             padding: 40px 20px;
             color: #94a3b8;
             font-size: 1rem;
         }
-
-        .available-count {
-            text-align: center;
-            margin-top: 8px;
-            font-size: 0.7rem;
-            color: #3b4b7a;
-            font-weight: 500;
+        
+        .line-break {
+            display: block;
+            width: 100%;
+            height: 0;
+            margin: 6px 0;
         }
     </style>
 </head>
@@ -420,19 +393,18 @@
     <div class="container">
         <div class="header">
             <h1>🎵 Karaokê CCB</h1>
-            <p>Hinos disponíveis com letra e melodia</p>
+            <p>Com suporte a quebras de linha \\n nos versos</p>
         </div>
         
         <div class="content">
             <div class="hymn-nav">
                 <button class="nav-btn" id="prevBtn">◀</button>
                 <div class="hymn-input-group">
-                    <input type="text" id="hymnInput" class="hymn-input" value="1" autocomplete="off" inputmode="numeric">
+                    <input type="text" id="hymnInput" class="hymn-input" value="276" autocomplete="off" inputmode="numeric">
                 </div>
                 <button class="nav-btn" id="nextBtn">▶</button>
             </div>
-            <div class="hint" id="hintText">🔍 Digite o número do hino ou use as setas ─ Navega apenas entre hinos disponíveis</div>
-            <div class="available-count" id="availableCount"></div>
+            <div class="hint">🔍 Use \\n para quebrar linhas | \\n\\n para novo verso</div>
             
             <div id="hymnInfo" class="hymn-info">
                 <div class="hymn-name-row">
@@ -441,9 +413,9 @@
                 
                 <div class="speed-control">
                     <label>⚡ BPM</label>
-                    <input type="range" id="speedSlider" min="40" max="200" step="1" value="76">
+                    <input type="range" id="speedSlider" min="40" max="200" step="1" value="65">
                     <div class="current-speed">
-                        <span id="currentSpeed">76</span> BPM
+                        <span id="currentSpeed">65</span> BPM
                         <div class="tap-bpm-icon" id="tapBpmIcon" title="Clique no ritmo">👆</div>
                     </div>
                 </div>
@@ -465,7 +437,6 @@
                     </div>
                     <div class="current-note-info" id="currentNoteInfo">
                         <div class="note">🎵 Clique em Tocar</div>
-                        <div class="syllable-text">-</div>
                     </div>
                     <div class="progress-bar">
                         <div class="progress-fill" id="progressFill"></div>
@@ -474,132 +445,46 @@
                 
                 <div class="status" id="status"></div>
                 <div class="info">
-                    🎼 Cada tempo 4 = 1 pulso no BPM selecionado
+                    🎼 \\n = quebra de linha | \\n\\n = novo verso com separador
                 </div>
             </div>
         </div>
     </div>
-    <script src="hinos.js"></script>aa
+    <script src="hinos.js"></script>
     <script>
-        // ==================== DADOS DOS HINOS (apenas os que têm versos preenchidos) ====================
-        /*const hymnsData = {
-            "1": { 
-                nome: "Cristo meu Mestre",
-                compasso: "4/4",
-                velMin: 56, velMed: 61, velMax: 66,
-                inicio: 1,
-                velMinMeiaHora: 35, velMedMeiaHora: 37, velMaxMeiaHora: 40,
-                MeiaHora: "S", velX3: "N",
-                versos: [
-                    "Cri|sto |meu |Mes|tre |e |meu |Se|nhor, |Eu |Te |a|do|ro, |por |fé, |com |fer|vor; |Ro|go |que |guar|des| meu |co|ra|ção;| Vem |pro|te|gê-|lo, |com| Tu|a  |un|ção |E |de|fen|dê-|lo, |ó |meu |Guar|di|ão.",
-                    "Mes|tre |di|vi|no, |sem|pre |sen|ti |Meu |co|ra|ção |de|pen|den|te |de |Ti; |Bom |fun|da|men|to |dá-|lhe, |Se|nhor, |Dá-|lhe |fir|me|za, |vir|tu|de, |va|lor |E |for|ta|le|za, |ó |meu |Pro|te|tor.",
-                    "Va|le |pro|fun|do, |chei|o |de |mal, |É |es|te| mun|do, |ó |Rei |di|vi|nal. |Só |Tu|a |for|ça| po|de |man|ter |San|to |e |pu|ro, |na| gra|ça, |meu |ser, |Sem|pre |se|gu|ro, |com |fé |e |po|der.",
-                    "Mes|tre |pie|do|so, |com |Tu|a |mão, |Fa|ze |per|fei|to |o |meu |co|ra|ção, |San|to, ar|do|ro|so |em |Te |ser|vir, |Sem|pre |vol|ta|do |aos |bens |do |por|vir; |Mes|tre |a|ma|do, |de|se|jo |Te ou|vir."
-                ],
-                tempos: [4,2,2,4,4,4,2,2,8,4,2,2,4,2,2,4,2,2,8,4,2,2,4,4,4,2,2,8,4,2,2,4,2,2,4,3,1,8,4,2,2,4,4,2,4,3,1,8],
-                notas: ['G4','G4','G4','Bb4','Bb4','Eb4','Ab4','Ab4','G4','C5','C5','C5','Bb4','G4','G4','G4','F4','F4','F4','G4','G4','Bb4','Bb4','Bb4','C5','D5','Eb5','D5','Eb5','D5','C5','Bb4','G4','Bb4','Bb4','Bb4','Ab4','G4','C5','D5','Eb5','Eb5','Eb4','F4','G4','G4','F4','Eb4']
-            },
-            "2": { 
-                nome: "De Deus tu és eleita",
-                compasso: "4/4",
-                velMin: 60, velMed: 70, velMax: 80,
-                inicio: 4,
-                velMinMeiaHora: 42, velMedMeiaHora: 44, velMaxMeiaHora: 46,
-                MeiaHora: "S", velX3: "N",
-                versos: [
-                    "De| Deus| tu| és| e|lei|ta,| i|gre|ja| de| Je|sus,| O| teu| di|vi|no| Mes|tre| á| gló|ria| te| con|duz;| Pre|pa|ra|-te,| pois| E|le| mui| bre|ve| vol|ta|rá;| A| gló|ria| que| te| espe|ra| já| pre|pa|ra|da es|tá.",
-                    "Com| ce|les|tiais| a|dor|nos| es|pe|ra o| teu| Se|nhor,| Ves|ti|da| de| jus|ti|ça| e| do| di|vi|no a|mor;| Di|le|ta| és| de| Cris|to,| que| vi|da| te| do|ou;| A| fim| de| res|ga|tar|-te,| Seu| san|gue| der|ra|mou.",
-                    "É| gran|de| tu|a| gló|ria,| i|gre|ja| de| Je|sus;| Con|sa|gra|-te| a| E|le,| an|dan|do em| su|a| luz;| Em| bre|ve,| no| Seu| rei|no,| glo|rio|sa| en|tra|rás,| E a| fa|ce| do| E|spo|so,| no| céu,| con|tem|pla|rás."
-                ],
-                tempos: [
-                4,4,4,4,4,8,4,4,4,4,4,4,12,
-                4,4,4,4,4,8,4,4,4,4,4,4,12,
-                4,4,4,4,4,8,4,4,6,2,4,4,12,
-                4,4,4,4,4,8,4,4,4,4,4,4,12
-                ],
-                notas: ['G4','G4','G4','Ab4','G4','G4','F4','Eb4','Eb4','C5','Bb4','Ab4','G4','Ab4','Bb4','Eb5','Eb5','D5','D5','C5','Bb4','Ab4','Bb4','G4','Eb4','F4','F4','G4','Ab4','Bb4','C5','C5','Bb4','Eb5','Eb5','D5','C5','G4','Ab4','F4','G4','G4','Ab4','G4','G4','F4','Eb4','Eb4','F4','Eb4','D4','Eb4']
-            },
-            "3": { 
-                nome: "Faz-nos ouvir Tua voz",
-                compasso: "4/4",
-                velMin: 60, velMed: 68, velMax: 76,
-                inicio: 1,
-                velMinMeiaHora: 37, velMedMeiaHora: 38, velMaxMeiaHora: 40,
-                MeiaHora: "N", velX3: "N",
-                versos: [
-                    "Faz|-nos| ou|vir| Tu|a| voz| glo|ri|o|sa,| Ó| nos|so| Mes|tre,| fi|el| Re|den|tor;| A| Tu|a i|gre|ja,| di|le|ta| es|po|sa,| Sen|te| por| Ti| i|ne|fá|vel| a|mor.\n\n|Ó| ca|ro| Sal|va|dor,| a| Tu|a| voz| de a|mor| Nos| gui|a| pa|ra o| céu,| glo|rio|so| lar;| Pe|la| Pa|la|vra| vem| nos| con|so|lar.",
-                    "Ó| Je|sus| Cris|to,| ce|les|te| Es|po|so,| Vem| con|du|zir|-nos,| por| Teu| gran|de a|mor;| Já| an|te|ve|mos,| ó| Rei| ma|jes|to|so,| A| gló|ria e|ter|na| do| Teu| es|plen|dor..\n\n|Ó| ca|ro| Sal|va|dor,| a| Tu|a| voz| de a|mor| Nos| gui|a| pa|ra o| céu,| glo|rio|so| lar;| Pe|la| Pa|la|vra| vem| nos| con|so|lar.",
-                    "A| Tu|a i|gre|ja| es|tá| se a|dor|nan|do| Pa|ra en|con|trar|-se| Con|ti|go, ó| Je|sus;| Com| san|tas| ves|tes,| es|tá| a|guar|dan|do| Ver| Tu|a| fa|ce| no| rei|no| de| luz..\n\n|Ó| ca|ro| Sal|va|dor,| a| Tu|a| voz| de a|mor| Nos| gui|a| pa|ra o| céu,| glo|rio|so| lar;| Pe|la| Pa|la|vra| vem| nos| con|so|lar."
-                ],
-                tempos: [4,2,2,4,2,2,4,2,2,4,4,4,2,2,4,2,2,4,2,2,8,4,2,2,4,2,2,4,2,2,4,4,4,2,2,4,2,2,4,2,2,8,4,2,2,3,1,4,4,2,2,3,1,4,4,2,2,2,2,4,4,2,2,8,4,2,2,3,1,4,4,2,2,8],
-                notas: ['G4','G4','B4','G4','G4','G4','A4','A4','A4','B4','G4','C5','C5','C5','B4','B4','B4','A4','A4','A4','G4','G4','G4','B4','G4','G4','G4','A4','A4','A4','B4','G4','C5','C5','C5','B4','B4','B4','A4','A4','A4','G4','A4','B4','A4','G4','B4','D5','A4','B4','A4','G4','B4','D5','C5','C5','C5','B4','G4','B4','A4','A4','A4','B4','C5','C5','E5','B4','G4','B4','A4','A4','A4','G4']
-            },
-            "4": { 
-                nome: "Ouve a nossa oração",
-                compasso: "6/4",
-                velMin: 112, velMed: 125, velMax: 138,
-                inicio: 1,
-                velMinMeiaHora: 72, velMedMeiaHora: 75, velMaxMeiaHora: 78,
-                MeiaHora: "N", velX3: "N",
-                versos: [
-                    "Nos|sos| o|lhos| pa|ra os| céus, |ó| Deus,| nos| le|van|ta|mos; |Con|fi|an|do em| Teu| a|mor, |a| nos|sa| voz| al|ça|mos.\n\n|Ou|ve a| nos|sa| o|ra|ção |Des|de a| Tu|a ha|bi|ta|ção; |Tu|a| ben|ção,| Teu| per|dão, |Man|da, ó Deus| pi|e|do|so.",
-                    "Re|fri|gé|rio| ce|les|tial |e |bál|sa|mo| pre|cio|so |É| sen|tir|-Te em| nos|so| ser, |Pai| san|to,| glo|ri|o|so.\n\n|Ou|ve a| nos|sa| o|ra|ção |Des|de a| Tu|a ha|bi|ta|ção; |Tu|a| ben|ção,| Teu| per|dão, |Man|da, ó Deus| pi|e|do|so.",
-                    "No| Teu| tro|no,| ó| Se|nhor, |re|ce|be| nes|ta| ho|ra |A| hu|mil|de| o|ra|ção |do| po|vo| que| Te a|do|ra.\n\n|Ou|ve a| nos|sa| o|ra|ção |Des|de a| Tu|a ha|bi|ta|ção; |Tu|a| ben|ção,| Teu| per|dão, |Man|da, ó Deus| pi|e|do|so."
-                ],
-                tempos: [
-                    4,2,4,2,4,2,4,
-                    2,4,2,4,2,6,6,
-                    4,2,4,2,4,2,4,
-                    2,4,2,4,2,6,6,
-                    4,2,4,2,4,2,6,
-                    4,2,4,2,4,2,6,
-                    4,2,4,2,4,2,6,
-                    4,2,4,2,6,6
-                ],
-                notas: ['C5','C5','B4','B4','C5','C5','Bb4','Ab4','Eb4','Ab4','Bb4','Ab4','Ab4','G4','Db5','Db5','C5','C5','Db5','Bb4','G4','Eb4','Ab4','Bb4','C5','D5','Eb5','Eb4','C5','C5','Db5','C5','C5','Bb4','F4','Bb4','Bb4','C5','Bb4','Bb4','Ab4','Eb4','C4','Eb4','Ab4','Bb4','C5','Eb5','Db5','C5','Ab4','C5','Ab4','Bb4','Ab4']
-            },
-            "34": { 
-                nome: "A Rocha celestial",
-                compasso: "6/8",
-                velMin: 112, velMed: 128, velMax: 144,
-                inicio: 1,
-                velMinMeiaHora: 70, velMedMeiaHora: 73, velMaxMeiaHora: 76,
-                MeiaHora: "N", velX3: "N",
-                versos: [
-                    "Sá|bio e |pru|den|te |se|rá |o |var|ão |Que a |ca|sa |na |ro|cha |er|guer; | |Sem|pre |te|rá |e|fi|caz |pro|te|ção, |Pois |na|da |a |po|de a|ba|ter.| |\n\n"+
-                    "A |Ro|cha |ce|les|ti|al |É |Cris|to, o |Fi|lho |de |Deus, |O |Fun|da|men|to e|ter|nal |De |quem |bus|ca o |rei|no |dos |céus.",
-                    "Quem |so|bre a a|rei|a |qui|ser |cons|tru|ir, |Em |vão |tra|ba|lha|do |te|rá, | |Pois |su|a |ca|sa |vi|rá |a |ca|ir; |Em |fal|so a|li|cer|ce es|ta|rá.| |\n\n"+
-                    "A |Ro|cha |ce|les|ti|al |É |Cris|to, o |Fi|lho |de |Deus, |O |Fun|da|men|to e|ter|nal |De |quem |bus|ca o |rei|no |dos |céus.",
-                    "As |tem|pes|ta|des |e os |ven|tos |vi|rão |A |to|dos, |com |gran|de |fu|ror; | |Mas |os |que |so|bre |a |Ro|cha |es|tão, |Fir|me|za |te|rão |no |Se|nhor.| |\n\n"+
-                    "A |Ro|cha |ce|les|ti|al |É |Cris|to, o |Fi|lho |de |Deus, |O |Fun|da|men|to e|ter|nal |De |quem |bus|ca o |rei|no |dos |céus."
-                ],
-                tempos: [
-                    2,2,2,2,2,2,2,2,2,4,
-                    2,2,2,2,2,2,2,6,6,
-                    2,2,2,2,2,2,2,2,2,4,
-                    2,2,2,2,2,2,2,6,6,
-                    6,4,2,2,2,2,6,
-                    6,4,2,2,2,2,6,
-                    6,4,2,2,2,2,12,
-                    6,2,2,2,2,2,2,12
-                ],
-                notas: [
-                    'Eb4','Eb4','Eb4','Eb4','C4','Eb4','Ab4','Bb4','C5','Eb4','Ab4','G4','G4','G4','G4','Ab4','Bb4','Ab4','Eb4',
-                    'Eb4','Eb4','Eb4','Eb4','C4','Eb4','Ab4','Bb4','C5','Eb4','C5','Bb4','Bb4','Bb4','Bb4','Ab4','F4','Eb4',' ',
-                    'C5','Ab4','F4','Eb4','C4','F4','Eb4',
-                    'C5','Db5','C5','Bb4','F4','C5','Bb4',
-                    'C5','Eb5','Eb5','Db5','Ab4','Bb4','C5',
-                    'Db5','C5','Bb4','Ab4','G4','Ab4','Bb4','Ab4'
-                ]
-            },
-        };*/
+        // Note frequencies and names...
+        const noteFrequencies = {
+            'C4': 261.63, 'D4': 293.66, 'E4': 329.63, 'F4': 349.23, 'G4': 392.00,
+            'A4': 440.00, 'B4': 493.88, 'C5': 523.25, 'D5': 587.33, 'E5': 659.25,
+            'F5': 698.46, 'G5': 783.99, 'A5': 880.00, 'Bb4': 466.16, 'Eb5': 622.25,
+            'Ab4': 415.30, 'F#4': 369.99
+        };
 
-        // Função para verificar se o hino está disponível (tem versos preenchidos)
-        function isHymnAvailable(hymn) {
-            return hymn && hymn.versos && hymn.versos.length > 0 && hymn.versos[0] !== "";
+        const noteNames = {
+            'C4': 'Dó4', 'D4': 'Ré4', 'E4': 'Mi4', 'F4': 'Fá4', 'G4': 'Sol4',
+            'A4': 'Lá4', 'B4': 'Si4', 'C5': 'Dó5', 'D5': 'Ré5', 'E5': 'Mi5',
+            'F5': 'Fá5', 'G5': 'Sol5', 'A5': 'Lá5', 'Bb4': 'Si♭4', 'Eb5': 'Mi♭5',
+            'Ab4': 'Lá♭4', 'F#4': 'Fá#4'
+        };
+
+        // Assume hinos.js is loaded with hymnsData
+        // Preencher hinos vazios
+        for (let i = 1; i <= 486; i++) {
+            if (!hymnsData[i]) {
+                hymnsData[i] = {
+                    nome: `Hino ${i}`,
+                    versos: [],
+                    temposVersos: [],
+                    temposNotas: [],
+                    notas: []
+                };
+            }
         }
 
-        // Construir lista de hinos disponíveis (apenas os que existem no hymnsData e têm versos)
+        function isHymnAvailable(hymn) {
+            return hymn.versos && hymn.versos.length > 0 && hymn.versos[0] !== "";
+        }
+
         function getAvailableHymns() {
             const available = [];
             for (const id in hymnsData) {
@@ -607,158 +492,234 @@
                     available.push(id);
                 }
             }
-            // Ordenar numericamente
             available.sort((a, b) => parseInt(a) - parseInt(b));
             return available;
         }
 
-        // Lista global de hinos disponíveis
         let availableHymns = getAvailableHymns();
 
-        // Para os hinos não disponíveis, adicionar entries vazias para o objeto principal (para o input manual funcionar)
-        for (let i = 1; i <= 486; i++) {
-            if (!hymnsData[i]) {
-                hymnsData[i] = {
-                    nome: `Hino ${i}`,
-                    compasso: "4/4",
-                    velMin: 60, velMed: 70, velMax: 80,
-                    inicio: 1,
-                    velMinMeiaHora: 40, velMedMeiaHora: 42, velMaxMeiaHora: 44,
-                    MeiaHora: "N", velX3: "N",
-                    versos: [],
-                    tempos: [],
-                    notas: []
-                };
-            }
-        }
-
-        // ==================== CONFIGURAÇÕES ====================
-        const noteFrequencies = {
-            'C4': 261.63, 'C#4': 277.18, 'Db4': 277.18, 'D4': 293.66,
-            'D#4': 311.13, 'Eb4': 311.13, 'E4': 329.63, 'F4': 349.23,
-            'F#4': 369.99, 'Gb4': 369.99, 'G4': 392.00, 'G#4': 415.30,
-            'Ab4': 415.30, 'A4': 440.00, 'A#4': 466.16, 'Bb4': 466.16,
-            'B4': 493.88, 'C5': 523.25, 'C#5': 554.37, 'Db5': 554.37,
-            'D5': 587.33, 'D#5': 622.25, 'Eb5': 622.25, 'E5': 659.25,
-            'F5': 698.46, 'F#5': 739.99, 'Gb5': 739.99, 'G5': 783.99,
-            'G#5': 830.61, 'Ab5': 830.61, 'A5': 880.00, 'A#5': 932.33,
-            'Bb5': 932.33, 'B5': 987.77
-        };
-
-        const noteNames = {
-            'C4': 'Dó4', 'D4': 'Ré4', 'Eb4': 'Mi♭4', 'E4': 'Mi4',
-            'F4': 'Fá4', 'G4': 'Sol4', 'Ab4': 'Lá♭4', 'A4': 'Lá4',
-            'Bb4': 'Si♭4', 'B4': 'Si4', 'C5': 'Dó5', 'Db5': 'Ré♭5',
-            'D5': 'Ré5', 'Eb5': 'Mi♭5', 'F5': 'Fá5', 'G5': 'Sol5',
-            'Ab5': 'Lá♭5', 'A5': 'Lá5', 'Bb5': 'Si♭5'
-        };
-
-        // Variáveis
-        let currentHymnId = "1";
-        let currentHymn = hymnsData["1"];
+        // ==================== VARIÁVEIS ====================
+        let currentHymnId = "276";
+        let currentHymn = hymnsData["276"];
         let playbackInterval = null;
-        let currentIndex = 0;
         let isPlaying = false;
         let isMuted = false;
         let audioCtx = null;
-        let currentOscillator = null;
-        let todasSilabas = [];
-        let todosTempos = [];
-        let todasNotas = [];
-        let silabasPorVerso = [];
-
-        function updateAvailableCountDisplay() {
-            const count = availableHymns.length;
-            const element = document.getElementById('availableCount');
-            if (count > 0) {
-                element.innerHTML = `📚 ${count} hinos disponíveis: ${availableHymns.join(', ')}`;
-            } else {
-                element.innerHTML = `📚 Nenhum hino disponível ainda`;
-            }
-        }
-
+        let processedSyllables = [];
+        
+        // Estrutura para renderização: cada item é { type: 'verse', verseNumber, lines: [[syl1, syl2,...]] }
+        let renderStructure = [];
+        let allSyllablesText = [];
+        
         function processHymnData() {
-            todasSilabas = [];
-            todosTempos = [];
-            todasNotas = [];
-            silabasPorVerso = [];
+            processedSyllables = [];
+            renderStructure = [];
+            allSyllablesText = [];
             
-            if (!isHymnAvailable(currentHymn)) {
-                document.getElementById('syllablesContainer').innerHTML = '<div class="unavailable-message">📖 Hino ainda não disponível<br>Versos serão adicionados em breve</div>';
-                document.getElementById('playBtn').disabled = true;
-                document.getElementById('stopBtn').disabled = true;
-                return;
-            }
+            if (!isHymnAvailable(currentHymn)) return;
             
-            document.getElementById('playBtn').disabled = false;
+            const bpm = parseInt(document.getElementById('speedSlider').value);
+            const tempoUnitMs = (60000 / bpm) / 4;
             
-            const temposBase = currentHymn.tempos;
-            const notasBase = currentHymn.notas;
-            let silabaGlobalIndex = 0;
+            // ========== 1. Extrair todas as sílabas de todos os versos (mantendo estrutura) ==========
+            let allSyllables = [];
+            let rawLines = []; // guarda cada linha bruta (array de sílabas)
             
-            for (let v = 0; v < currentHymn.versos.length; v++) {
-                const verso = currentHymn.versos[v];
-                const partes = verso.split('|');
-                const silabasVerso = [];
+            for (const verse of currentHymn.versos) {
+                // Divide por \n\n para obter VERSOS completos
+                const versesParts = verse.split(/\n\n/);
                 
-                for (const parte of partes) {
-                    if (parte !== '') {
-                        silabasVerso.push(parte);
-                    } else {
-                        silabasVerso.push(' ');
+                for (const versePart of versesParts) {
+                    if (versePart.trim() === '') continue;
+                    
+                    // Dentro de cada verso, divide por \n para obter linhas
+                    const lines = versePart.split('\n');
+                    let currentVerseLines = [];
+                    
+                    for (const line of lines) {
+                        if (line.trim() === '') continue;
+                        // Divide por | para obter sílabas
+                        const parts = line.split('|');
+                        const syllablesInLine = [];
+                        for (const part of parts) {
+                            const syl = part.trim();
+                            if (syl !== '') {
+                                syllablesInLine.push(syl);
+                                allSyllables.push(syl);
+                                allSyllablesText.push(syl);
+                            }
+                        }
+                        if (syllablesInLine.length > 0) {
+                            currentVerseLines.push(syllablesInLine);
+                            rawLines.push(syllablesInLine);
+                        }
+                    }
+                    
+                    if (currentVerseLines.length > 0) {
+                        renderStructure.push({
+                            type: 'verse',
+                            lines: currentVerseLines
+                        });
                     }
                 }
-                
-                silabasPorVerso.push(silabasVerso.length);
-                
-                for (let i = 0; i < silabasVerso.length; i++) {
-                    todasSilabas.push(silabasVerso[i]);
-                    const tempoIndex = silabaGlobalIndex % temposBase.length;
-                    const notaIndex = silabaGlobalIndex % notasBase.length;
-                    todosTempos.push(temposBase[tempoIndex]);
-                    todasNotas.push(notasBase[notaIndex]);
-                    silabaGlobalIndex++;
-                }
             }
             
-            console.log(`Hino ${currentHymnId}: ${todasSilabas.length} sílabas`);
+            const temposVersos = currentHymn.temposVersos || [];
+            const temposNotas = currentHymn.temposNotas || [];
+            const notas = currentHymn.notas || [];
+            
+            const numSyllables = allSyllables.length;
+            const numNotes = notas.length;
+            
+            if (numSyllables === 0) return;
+            
+            // Processar mapeamento de notas para sílabas (igual ao seu código original)
+            if (numSyllables === numNotes) {
+                for (let i = 0; i < numSyllables; i++) {
+                    const highlightDuration = (temposVersos[i] || 4) * tempoUnitMs;
+                    const noteDuration = (temposNotas[i] || 4) * tempoUnitMs;
+                    const freq = noteFrequencies[notas[i]];
+                    
+                    if (freq) {
+                        processedSyllables.push({
+                            text: allSyllables[i],
+                            highlightMs: highlightDuration,
+                            notes: [{
+                                freq: freq,
+                                durationMs: noteDuration,
+                                noteName: notas[i]
+                            }]
+                        });
+                    } else {
+                        processedSyllables.push({
+                            text: allSyllables[i],
+                            highlightMs: highlightDuration,
+                            notes: []
+                        });
+                    }
+                }
+            }
+            else if (numSyllables < numNotes) {
+                let noteIndex = 0;
+                for (let i = 0; i < numSyllables; i++) {
+                    const highlightDuration = (temposVersos[i] || 4) * tempoUnitMs;
+                    let notesForSyllable = [];
+                    let currentDuration = 0;
+                    
+                    while (noteIndex < numNotes) {
+                        const noteDuration = (temposNotas[noteIndex] || 4) * tempoUnitMs;
+                        if (currentDuration + noteDuration > highlightDuration + (tempoUnitMs * 2) && notesForSyllable.length > 0) {
+                            break;
+                        }
+                        const freq = noteFrequencies[notas[noteIndex]];
+                        if (freq) {
+                            notesForSyllable.push({
+                                freq: freq,
+                                durationMs: noteDuration,
+                                noteName: notas[noteIndex]
+                            });
+                            currentDuration += noteDuration;
+                            noteIndex++;
+                        } else {
+                            noteIndex++;
+                        }
+                        if (currentDuration >= highlightDuration && notesForSyllable.length > 0) {
+                            break;
+                        }
+                    }
+                    
+                    if (notesForSyllable.length === 0) {
+                        notesForSyllable.push({
+                            freq: 440,
+                            durationMs: highlightDuration,
+                            noteName: 'A4'
+                        });
+                    }
+                    
+                    let totalDur = notesForSyllable.reduce((sum, n) => sum + n.durationMs, 0);
+                    if (totalDur > highlightDuration && notesForSyllable.length > 0) {
+                        const factor = highlightDuration / totalDur;
+                        for (let n of notesForSyllable) {
+                            n.durationMs *= factor;
+                        }
+                    }
+                    
+                    processedSyllables.push({
+                        text: allSyllables[i],
+                        highlightMs: highlightDuration,
+                        notes: notesForSyllable
+                    });
+                }
+            }
+            else {
+                for (let i = 0; i < numSyllables; i++) {
+                    const highlightDuration = (temposVersos[i] || 4) * tempoUnitMs;
+                    const noteIndex = i % numNotes;
+                    const noteDuration = (temposNotas[noteIndex] || 4) * tempoUnitMs;
+                    const freq = noteFrequencies[notas[noteIndex]];
+                    
+                    if (freq) {
+                        processedSyllables.push({
+                            text: allSyllables[i],
+                            highlightMs: highlightDuration,
+                            notes: [{
+                                freq: freq,
+                                durationMs: noteDuration,
+                                noteName: notas[noteIndex]
+                            }]
+                        });
+                    } else {
+                        processedSyllables.push({
+                            text: allSyllables[i],
+                            highlightMs: highlightDuration,
+                            notes: []
+                        });
+                    }
+                }
+            }
         }
-
+        
         function buildLyricsDisplay() {
             const container = document.getElementById('syllablesContainer');
             container.innerHTML = '';
             
-            if (!isHymnAvailable(currentHymn)) {
-                container.innerHTML = '<div class="unavailable-message">📖 Hino ainda não disponível<br>Versos serão adicionados em breve</div>';
+            if (!isHymnAvailable(currentHymn) || processedSyllables.length === 0 || renderStructure.length === 0) {
+                container.innerHTML = '<div class="unavailable-message">📖 Hino não disponível</div>';
                 return;
             }
             
             let sylIndex = 0;
-            for (let v = 0; v < silabasPorVerso.length; v++) {
-                if (silabasPorVerso[v] === 0) continue;
-                
+            let verseNumber = 1;
+            
+            for (const verse of renderStructure) {
+                // Adiciona separador de verso
                 const sep = document.createElement('div');
                 sep.className = 'verse-separator';
-                sep.textContent = `┈┈ ✝️ ${v + 1}º VERSO ✝️ ┈┈`;
+                sep.textContent = `┈┈ ✝️ ${verseNumber}º VERSO ✝️ ┈┈`;
                 container.appendChild(sep);
                 
-                for (let i = 0; i < silabasPorVerso[v]; i++) {
-                    const span = document.createElement('span');
-                    span.className = 'syllable';
-                    let silabaTexto = todasSilabas[sylIndex];
-                    if (silabaTexto === ' ') {
-                        span.textContent = ' ';
-                        span.style.whiteSpace = 'pre';
-                    } else {
-                        span.textContent = silabaTexto;
+                // Cada linha dentro do verso
+                for (const line of verse.lines) {
+                    for (let s = 0; s < line.length; s++) {
+                        if (sylIndex < processedSyllables.length) {
+                            const span = document.createElement('span');
+                            span.className = 'syllable';
+                            span.textContent = processedSyllables[sylIndex].text;
+                            span.setAttribute('data-index', sylIndex);
+                            container.appendChild(span);
+                            sylIndex++;
+                        }
                     }
-                    span.setAttribute('data-index', sylIndex);
-                    container.appendChild(span);
-                    sylIndex++;
+                    // Quebra de linha após cada linha (exceto última)
+                    if (verse.lines.indexOf(line) < verse.lines.length - 1) {
+                        const br = document.createElement('div');
+                        br.className = 'line-break';
+                        container.appendChild(br);
+                    }
                 }
             }
         }
-
+        
         function highlightSyllable(index) {
             document.querySelectorAll('.syllable').forEach((el, i) => {
                 if (i === index) {
@@ -768,18 +729,6 @@
                     el.classList.remove('highlight');
                 }
             });
-            
-            if (index >= 0 && index < todasNotas.length) {
-                const nota = todasNotas[index];
-                const silaba = todasSilabas[index];
-                const freq = noteFrequencies[nota];
-                const displayNote = noteNames[nota] || nota;
-                
-                document.getElementById('currentNoteInfo').innerHTML = `
-                    <div class="note">🎵 ${displayNote} (${freq?.toFixed(0) || '?'} Hz)</div>
-                    <div class="syllable-text">"${silaba.trim()}"</div>
-                `;
-            }
         }
         
         function updateProgress(percent) {
@@ -793,21 +742,19 @@
             return audioCtx;
         }
         
-        function playNote(frequency, durationMs) {
+        function playNote(frequency, durationMs, startTime) {
             if (isMuted) return;
             if (!audioCtx || audioCtx.state !== 'running') return;
             
             try {
                 const oscillator = audioCtx.createOscillator();
                 const gainNode = audioCtx.createGain();
-                
                 oscillator.connect(gainNode);
                 gainNode.connect(audioCtx.destination);
-                
                 oscillator.type = 'sine';
                 oscillator.frequency.value = frequency;
                 
-                const now = audioCtx.currentTime;
+                const now = startTime || audioCtx.currentTime;
                 const durationSec = durationMs / 1000;
                 
                 gainNode.gain.setValueAtTime(0, now);
@@ -817,7 +764,6 @@
                 
                 oscillator.start(now);
                 oscillator.stop(now + durationSec);
-                currentOscillator = oscillator;
             } catch(e) {
                 console.error('Erro:', e);
             }
@@ -825,28 +771,21 @@
         
         function stopPlayback() {
             isPlaying = false;
-            if (playbackInterval) clearTimeout(playbackInterval);
-            if (currentOscillator) {
-                try { currentOscillator.stop(); } catch(e) {}
-                currentOscillator = null;
+            if (playbackInterval) {
+                clearTimeout(playbackInterval);
+                playbackInterval = null;
             }
             highlightSyllable(-1);
             updateProgress(0);
             document.getElementById('status').innerHTML = '';
-            document.getElementById('playBtn').disabled = !isHymnAvailable(currentHymn);
+            document.getElementById('playBtn').disabled = false;
             document.getElementById('stopBtn').disabled = true;
-            document.getElementById('currentNoteInfo').innerHTML = '<div class="note">🎵 Parado</div><div class="syllable-text">-</div>';
-            currentIndex = 0;
+            document.getElementById('currentNoteInfo').innerHTML = '<div class="note">🎵 Parado</div>';
         }
         
         async function startPlayback() {
-            if (!isHymnAvailable(currentHymn)) {
-                document.getElementById('status').innerHTML = '⚠️ Hino não disponível para reprodução';
-                document.getElementById('status').className = 'status status-warning';
-                setTimeout(() => {
-                    document.getElementById('status').innerHTML = '';
-                    document.getElementById('status').className = 'status';
-                }, 3000);
+            if (!isHymnAvailable(currentHymn) || processedSyllables.length === 0) {
+                document.getElementById('status').innerHTML = '⚠️ Hino sem dados';
                 return;
             }
             
@@ -858,52 +797,55 @@
             }
             
             isPlaying = true;
-            currentIndex = 0;
             document.getElementById('playBtn').disabled = true;
             document.getElementById('stopBtn').disabled = false;
             document.getElementById('status').innerHTML = '▶ Tocando...';
-            document.getElementById('status').className = 'status';
             
-            const bpm = parseInt(document.getElementById('speedSlider').value);
-            const tempoUnitMs = (60000 / bpm) / 4;
-            const totalDuration = todosTempos.reduce((sum, t) => sum + t * tempoUnitMs, 0);
+            const totalDuration = processedSyllables.reduce((sum, s) => sum + s.highlightMs, 0);
             let accumulatedTime = 0;
+            let currentSylIndex = 0;
             
-            function playNext() {
-                if (!isPlaying || currentIndex >= todasSilabas.length) {
-                    if (currentIndex >= todasSilabas.length) {
-                        document.getElementById('status').innerHTML = '✅ Hino concluído!';
+            function playSyllable() {
+                if (!isPlaying || currentSylIndex >= processedSyllables.length) {
+                    if (currentSylIndex >= processedSyllables.length) {
+                        document.getElementById('status').innerHTML = '✅ Concluído!';
                         setTimeout(() => stopPlayback(), 1000);
                     }
                     return;
                 }
                 
-                const tempoValue = todosTempos[currentIndex];
-                const duration = tempoValue * tempoUnitMs;
-                const frequency = noteFrequencies[todasNotas[currentIndex]];
+                const syl = processedSyllables[currentSylIndex];
                 
-                highlightSyllable(currentIndex);
+                highlightSyllable(currentSylIndex);
                 updateProgress((accumulatedTime / totalDuration) * 100);
                 
-                if (frequency) playNote(frequency, duration);
+                const notasStr = syl.notes.map(n => `${noteNames[n.noteName] || n.noteName}(${n.durationMs.toFixed(0)}ms)`).join(' → ');
+                document.getElementById('currentNoteInfo').innerHTML = `
+                    <div class="note">🎵 ${notasStr || 'Sem som'}</div>
+                    <div style="font-size:0.8rem; margin-top:5px;">"${syl.text}" destaque ${syl.highlightMs.toFixed(0)}ms</div>
+                `;
+                
+                let noteStartTime = audioCtx.currentTime;
+                for (const note of syl.notes) {
+                    playNote(note.freq, note.durationMs, noteStartTime);
+                    noteStartTime += note.durationMs / 1000;
+                }
                 
                 playbackInterval = setTimeout(() => {
-                    accumulatedTime += duration;
-                    currentIndex++;
-                    playNext();
-                }, duration);
+                    accumulatedTime += syl.highlightMs;
+                    currentSylIndex++;
+                    playSyllable();
+                }, syl.highlightMs);
             }
             
-            playNext();
+            playSyllable();
         }
         
         function updateHymnInfo() {
             const input = document.getElementById('hymnInput').value.trim();
             let newId = parseInt(input);
-            
             if (isNaN(newId) || newId < 1) newId = 1;
             if (newId > 486) newId = 486;
-            
             newId = newId.toString();
             
             if (newId !== currentHymnId) {
@@ -914,73 +856,27 @@
             document.getElementById('hymnInput').value = newId;
             document.getElementById('hymnName').textContent = currentHymn.nome;
             
+            const speedSlider = document.getElementById('speedSlider');
+            const newBpm = currentHymn.velMed || 65;
+            speedSlider.value = newBpm;
+            document.getElementById('currentSpeed').innerHTML = newBpm;
+            
             processHymnData();
             buildLyricsDisplay();
             stopPlayback();
-            
-            if (!isHymnAvailable(currentHymn)) {
-                document.getElementById('status').innerHTML = '📝 Hino em fase de cadastro';
-                document.getElementById('status').className = 'status status-warning';
-            } else {
-                document.getElementById('status').innerHTML = '';
-                document.getElementById('status').className = 'status';
-            }
         }
         
-        // Navegação apenas pelos hinos disponíveis
         function navegar(delta) {
             if (availableHymns.length === 0) return;
+            const currentIdx = availableHymns.indexOf(currentHymnId);
+            let newIdx = delta === -1 ? currentIdx - 1 : currentIdx + 1;
+            if (newIdx < 0) newIdx = availableHymns.length - 1;
+            if (newIdx >= availableHymns.length) newIdx = 0;
             
-            const currentIndexInAvailable = availableHymns.indexOf(currentHymnId);
-            let newIndex;
-            
-            if (delta === -1) { // Anterior
-                newIndex = currentIndexInAvailable - 1;
-                if (newIndex < 0) newIndex = availableHymns.length - 1; // Volta para o último
-            } else { // Próximo
-                newIndex = currentIndexInAvailable + 1;
-                if (newIndex >= availableHymns.length) newIndex = 0; // Volta para o primeiro
-            }
-            
-            const newId = availableHymns[newIndex];
-            currentHymnId = newId;
+            currentHymnId = availableHymns[newIdx];
             currentHymn = hymnsData[currentHymnId];
-            
-            document.getElementById('hymnInput').value = newId;
-            
-            // Ajustar BPM conforme o hino carregado
-            const speedSlider = document.getElementById('speedSlider');
-            speedSlider.value = currentHymn.velMax || 80;
-            document.getElementById('currentSpeed').innerHTML = currentHymn.velMax || 80;
-            
+            document.getElementById('hymnInput').value = currentHymnId;
             updateHymnInfo();
-            
-            // Feedback visual
-            const statusDiv = document.getElementById('status');
-            statusDiv.innerHTML = `🎵 Navegando para o Hino ${newId} - ${currentHymn.nome}`;
-            statusDiv.className = 'status';
-            setTimeout(() => {
-                if (statusDiv.innerHTML !== '▶ Tocando...') {
-                    statusDiv.innerHTML = '';
-                }
-            }, 2000);
-        }
-        
-        // Função para ir diretamente para o hino (se não estiver disponível, mostra aviso)
-        function goToHymnDirectly(hymnId) {
-            const hymn = hymnsData[hymnId];
-            if (!isHymnAvailable(hymn)) {
-                document.getElementById('status').innerHTML = `⚠️ Hino ${hymnId} não está disponível. Use as setas para navegar apenas entre hinos disponíveis.`;
-                document.getElementById('status').className = 'status status-warning';
-                setTimeout(() => {
-                    if (document.getElementById('status').innerHTML.includes('não está disponível')) {
-                        document.getElementById('status').innerHTML = '';
-                        document.getElementById('status').className = 'status';
-                    }
-                }, 3000);
-                return false;
-            }
-            return true;
         }
         
         let tapTimes = [];
@@ -993,9 +889,6 @@
             tapTimes.push(now);
             if (tapTimes.length > 6) tapTimes.shift();
             
-            document.getElementById('tapBpmIcon').classList.add('tap-feedback');
-            setTimeout(() => document.getElementById('tapBpmIcon').classList.remove('tap-feedback'), 300);
-            
             if (tapTimes.length >= 2) {
                 let total = 0;
                 for (let i = 1; i < tapTimes.length; i++) {
@@ -1005,40 +898,41 @@
                 bpm = Math.min(200, Math.max(40, bpm));
                 document.getElementById('speedSlider').value = bpm;
                 document.getElementById('currentSpeed').innerHTML = bpm;
-                if (isPlaying) startPlayback();
+                if (isPlaying) {
+                    processHymnData();
+                    startPlayback();
+                } else {
+                    processHymnData();
+                    buildLyricsDisplay();
+                }
             }
+            
+            document.getElementById('tapBpmIcon').classList.add('tap-feedback');
+            setTimeout(() => document.getElementById('tapBpmIcon').classList.remove('tap-feedback'), 300);
         }
         
         // Eventos
         document.getElementById('playBtn').addEventListener('click', startPlayback);
         document.getElementById('stopBtn').addEventListener('click', stopPlayback);
         document.getElementById('muteCheckbox').addEventListener('change', (e) => isMuted = e.target.checked);
-        document.getElementById('speedSlider').addEventListener('change', function() {
+        document.getElementById('speedSlider').addEventListener('input', function() {
             document.getElementById('currentSpeed').innerHTML = this.value;
-            if (isPlaying) startPlayback();
+            if (isPlaying) {
+                processHymnData();
+                startPlayback();
+            } else {
+                processHymnData();
+                buildLyricsDisplay();
+            }
         });
         document.getElementById('tapBpmIcon').addEventListener('click', tapBPM);
         document.getElementById('prevBtn').addEventListener('click', () => navegar(-1));
         document.getElementById('nextBtn').addEventListener('click', () => navegar(1));
         document.getElementById('hymnInput').addEventListener('keydown', (e) => {
-            if (e.key === 'Enter') {
-                e.preventDefault();
-                const newId = parseInt(document.getElementById('hymnInput').value.trim());
-                if (!isNaN(newId) && newId >= 1 && newId <= 486) {
-                    if (goToHymnDirectly(newId.toString())) {
-                        updateHymnInfo();
-                    } else {
-                        // Se não estiver disponível, recarrega o hino atual no input
-                        document.getElementById('hymnInput').value = currentHymnId;
-                    }
-                } else {
-                    document.getElementById('hymnInput').value = currentHymnId;
-                }
-            }
+            if (e.key === 'Enter') updateHymnInfo();
         });
         
         // Inicializar
-        updateAvailableCountDisplay();
         updateHymnInfo();
         initAudio();
         

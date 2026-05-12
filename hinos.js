@@ -12,8 +12,9 @@ const hymnsData = {
             "Va|le |pro|fun|do, |chei|o |de |mal, |É |es|te| mun|do, |ó |Rei |di|vi|nal. |Só |Tu|a |for|ça| po|de |man|ter |San|to |e |pu|ro, |na| gra|ça, |meu |ser, |Sem|pre |se|gu|ro, |com |fé |e |po|der.",//46
             "Mes|tre |pie|do|so, |com |Tu|a |mão, |Fa|ze |per|fei|to |o |meu |co|ra|ção, |San|to, ar|do|ro|so |em |Te |ser|vir, |Sem|pre |vol|ta|do |aos |bens |do |por|vir; |Mes|tre |a|ma|do, |de|se|jo |Te ou|vir."
         ],
-        tempos: [4,2,2,4,4,4,2,2,8,4,2,2,4,2,2,4,2,2,8,4,2,2,4,4,4,2,2,8,4,2,2,4,2,2,4,3,1,8,4,2,2,4,4,2,4,3,1,8],
-        notas: ['G4','G4','G4','Bb4','Bb4','Eb4','Ab4','Ab4','G4','C5','C5','C5','Bb4','G4','G4','G4','F4','F4','F4','G4','G4','Bb4','Bb4','Bb4','C5','D5','Eb5','D5','Eb5','D5','C5','Bb4','G4','Bb4','Bb4','Bb4','Ab4','G4','C5','D5','Eb5','Eb5','Eb4','F4','G4','G4','F4','Eb4']
+        temposVersos: [4,2,2,4,4,4,2,2,8,4,2,2,4,2,2,4,2,2,8,4,2,2,4,4,4,2,2,8,4,2,2,4,2,2,4,3,1,8,4,2,2,4,4,2,4,3,1,8],
+        notas: ['G4','G4','G4','Bb4','Bb4','Eb4','Ab4','Ab4','G4','C5','C5','C5','Bb4','G4','G4','G4','F4','F4','F4','G4','G4','Bb4','Bb4','Bb4','C5','D5','Eb5','D5','Eb5','D5','C5','Bb4','G4','Bb4','Bb4','Bb4','Ab4','G4','C5','D5','Eb5','Eb5','Eb4','F4','G4','G4','F4','Eb4'],
+        temposNotas: [4,2,2,4,4,4,2,2,8,4,2,2,4,2,2,4,2,2,8,4,2,2,4,4,4,2,2,8,4,2,2,4,2,2,4,3,1,8,4,2,2,4,4,2,4,3,1,8],
     },
     "2": { 
         nome: "De Deus tu és eleita",
@@ -27,13 +28,19 @@ const hymnsData = {
             "Com| ce|les|tiais| a|dor|nos| es|pe|ra o| teu| Se|nhor,| Ves|ti|da| de| jus|ti|ça| e| do| di|vi|no a|mor;| Di|le|ta| és| de| Cris|to,| que| vi|da| te| do|ou;| A| fim| de| res|ga|tar|-te,| Seu| san|gue| der|ra|mou.",
             "É| gran|de| tu|a| gló|ria,| i|gre|ja| de| Je|sus;| Con|sa|gra|-te| a| E|le,| an|dan|do em| su|a| luz;| Em| bre|ve,| no| Seu| rei|no,| glo|rio|sa| en|tra|rás,| E a| fa|ce| do| E|spo|so,| no| céu,| con|tem|pla|rás."
         ],
-        tempos: [
+        temposVersos: [
         4,4,4,4,4,8,4,4,4,4,4,4,12,
         4,4,4,4,4,8,4,4,4,4,4,4,12,
         4,4,4,4,4,8,4,4,6,2,4,4,12,
         4,4,4,4,4,8,4,4,4,4,4,4,12
         ],
-        notas: ['G4','G4','G4','Ab4','G4','G4','F4','Eb4','Eb4','C5','Bb4','Ab4','G4','Ab4','Bb4','Eb5','Eb5','D5','D5','C5','Bb4','Ab4','Bb4','G4','Eb4','F4','F4','G4','Ab4','Bb4','C5','C5','Bb4','Eb5','Eb5','D5','C5','G4','Ab4','F4','G4','G4','Ab4','G4','G4','F4','Eb4','Eb4','F4','Eb4','D4','Eb4']
+        notas: ['G4','G4','G4','Ab4','G4','G4','F4','Eb4','Eb4','C5','Bb4','Ab4','G4','Ab4','Bb4','Eb5','Eb5','D5','D5','C5','Bb4','Ab4','Bb4','G4','Eb4','F4','F4','G4','Ab4','Bb4','C5','C5','Bb4','Eb5','Eb5','D5','C5','G4','Ab4','F4','G4','G4','Ab4','G4','G4','F4','Eb4','Eb4','F4','Eb4','D4','Eb4'],
+        temposNotas: [
+        4,4,4,4,4,8,4,4,4,4,4,4,12,
+        4,4,4,4,4,8,4,4,4,4,4,4,12,
+        4,4,4,4,4,8,4,4,6,2,4,4,12,
+        4,4,4,4,4,8,4,4,4,4,4,4,12
+        ],
     },
     "3": { 
         nome: "Faz-nos ouvir Tua voz",
@@ -47,8 +54,9 @@ const hymnsData = {
             "Ó| Je|sus| Cris|to,| ce|les|te| Es|po|so,| Vem| con|du|zir|-nos,| por| Teu| gran|de a|mor;| Já| an|te|ve|mos,| ó| Rei| ma|jes|to|so,| A| gló|ria e|ter|na| do| Teu| es|plen|dor..\n\n|Ó| ca|ro| Sal|va|dor,| a| Tu|a| voz| de a|mor| Nos| gui|a| pa|ra o| céu,| glo|rio|so| lar;| Pe|la| Pa|la|vra| vem| nos| con|so|lar.",
             "A| Tu|a i|gre|ja| es|tá| se a|dor|nan|do| Pa|ra en|con|trar|-se| Con|ti|go, ó| Je|sus;| Com| san|tas| ves|tes,| es|tá| a|guar|dan|do| Ver| Tu|a| fa|ce| no| rei|no| de| luz..\n\n|Ó| ca|ro| Sal|va|dor,| a| Tu|a| voz| de a|mor| Nos| gui|a| pa|ra o| céu,| glo|rio|so| lar;| Pe|la| Pa|la|vra| vem| nos| con|so|lar."
         ],
-        tempos: [4,2,2,4,2,2,4,2,2,4,4,4,2,2,4,2,2,4,2,2,8,4,2,2,4,2,2,4,2,2,4,4,4,2,2,4,2,2,4,2,2,8,4,2,2,3,1,4,4,2,2,3,1,4,4,2,2,2,2,4,4,2,2,8,4,2,2,3,1,4,4,2,2,8],
-        notas: ['G4','G4','B4','G4','G4','G4','A4','A4','A4','B4','G4','C5','C5','C5','B4','B4','B4','A4','A4','A4','G4','G4','G4','B4','G4','G4','G4','A4','A4','A4','B4','G4','C5','C5','C5','B4','B4','B4','A4','A4','A4','G4','A4','B4','A4','G4','B4','D5','A4','B4','A4','G4','B4','D5','C5','C5','C5','B4','G4','B4','A4','A4','A4','B4','C5','C5','E5','B4','G4','B4','A4','A4','A4','G4']
+        temposVersos: [4,2,2,4,2,2,4,2,2,4,4,4,2,2,4,2,2,4,2,2,8,4,2,2,4,2,2,4,2,2,4,4,4,2,2,4,2,2,4,2,2,8,4,2,2,3,1,4,4,2,2,3,1,4,4,2,2,2,2,4,4,2,2,8,4,2,2,3,1,4,4,2,2,8],
+        notas: ['G4','G4','B4','G4','G4','G4','A4','A4','A4','B4','G4','C5','C5','C5','B4','B4','B4','A4','A4','A4','G4','G4','G4','B4','G4','G4','G4','A4','A4','A4','B4','G4','C5','C5','C5','B4','B4','B4','A4','A4','A4','G4','A4','B4','A4','G4','B4','D5','A4','B4','A4','G4','B4','D5','C5','C5','C5','B4','G4','B4','A4','A4','A4','B4','C5','C5','E5','B4','G4','B4','A4','A4','A4','G4'],
+        temposNotas: [4,2,2,4,2,2,4,2,2,4,4,4,2,2,4,2,2,4,2,2,8,4,2,2,4,2,2,4,2,2,4,4,4,2,2,4,2,2,4,2,2,8,4,2,2,3,1,4,4,2,2,3,1,4,4,2,2,2,2,4,4,2,2,8,4,2,2,3,1,4,4,2,2,8],
     },
     "4": { 
         nome: "Ouve a nossa oração",
@@ -62,7 +70,7 @@ const hymnsData = {
             "Re|fri|gé|rio| ce|les|tial |e |bál|sa|mo| pre|cio|so |É| sen|tir|-Te em| nos|so| ser, |Pai| san|to,| glo|ri|o|so.\n\n|Ou|ve a| nos|sa| o|ra|ção |Des|de a| Tu|a ha|bi|ta|ção; |Tu|a| ben|ção,| Teu| per|dão, |Man|da, ó Deus| pi|e|do|so.",
             "No| Teu| tro|no,| ó| Se|nhor, |re|ce|be| nes|ta| ho|ra |A| hu|mil|de| o|ra|ção |do| po|vo| que| Te a|do|ra.\n\n|Ou|ve a| nos|sa| o|ra|ção |Des|de a| Tu|a ha|bi|ta|ção; |Tu|a| ben|ção,| Teu| per|dão, |Man|da, ó Deus| pi|e|do|so."
         ],
-        tempos: [
+        temposVersos: [
             4,2,4,2,4,2,4,
             2,4,2,4,2,6,6,
             4,2,4,2,4,2,4,
@@ -72,7 +80,17 @@ const hymnsData = {
             4,2,4,2,4,2,6,
             4,2,4,2,6,6
         ],
-        notas: ['C5','C5','B4','B4','C5','C5','Bb4','Ab4','Eb4','Ab4','Bb4','Ab4','Ab4','G4','Db5','Db5','C5','C5','Db5','Bb4','G4','Eb4','Ab4','Bb4','C5','D5','Eb5','Eb4','C5','C5','Db5','C5','C5','Bb4','F4','Bb4','Bb4','C5','Bb4','Bb4','Ab4','Eb4','C4','Eb4','Ab4','Bb4','C5','Eb5','Db5','C5','Ab4','C5','Ab4','Bb4','Ab4']
+        notas: ['C5','C5','B4','B4','C5','C5','Bb4','Ab4','Eb4','Ab4','Bb4','Ab4','Ab4','G4','Db5','Db5','C5','C5','Db5','Bb4','G4','Eb4','Ab4','Bb4','C5','D5','Eb5','Eb4','C5','C5','Db5','C5','C5','Bb4','F4','Bb4','Bb4','C5','Bb4','Bb4','Ab4','Eb4','C4','Eb4','Ab4','Bb4','C5','Eb5','Db5','C5','Ab4','C5','Ab4','Bb4','Ab4'],
+        temposNotas: [
+            4,2,4,2,4,2,4,
+            2,4,2,4,2,6,6,
+            4,2,4,2,4,2,4,
+            2,4,2,4,2,6,6,
+            4,2,4,2,4,2,6,
+            4,2,4,2,4,2,6,
+            4,2,4,2,4,2,6,
+            4,2,4,2,6,6
+        ],
     },
     "5": { 
         nome: "A Rocha celestial",
@@ -89,7 +107,7 @@ const hymnsData = {
             "As |tem|pes|ta|des |e os |ven|tos |vi|rão |A |to|dos, |com |gran|de |fu|ror; | |Mas |os |que |so|bre |a |Ro|cha |es|tão, |Fir|me|za |te|rão |no |Se|nhor.| |\n\n"+
             "A |Ro|cha |ce|les|ti|al |É |Cris|to, o |Fi|lho |de |Deus, |O |Fun|da|men|to e|ter|nal |De |quem |bus|ca o |rei|no |dos |céus.",
         ],
-        tempos: [
+        temposVersos: [
             2,2,2,2,2,2,2,2,2,4,
             2,2,2,2,2,2,2,6,6,
             2,2,2,2,2,2,2,2,2,4,
@@ -104,7 +122,16 @@ const hymnsData = {
             'C5','Ab4','F4','Eb4','C4','F4','Eb4',
             'C5','Db5','C5','Bb4','F4','C5','Bb4',
             'C5','Eb5','Eb5','Db5','Ab4','Bb4','C5',
-            'Db5','C5','Bb4','Ab4','G4','Ab4','Bb4','Ab4']
+            'Db5','C5','Bb4','Ab4','G4','Ab4','Bb4','Ab4'],
+        temposNotas: [
+            2,2,2,2,2,2,2,2,2,4,
+            2,2,2,2,2,2,2,6,6,
+            2,2,2,2,2,2,2,2,2,4,
+            2,2,2,2,2,2,2,6,6,
+            6,4,2,2,2,2,6,
+            6,4,2,2,2,2,6,
+            6,4,2,2,2,2,12,
+            6,2,2,2,2,2,2,12],
     },
 
     "6": { 
@@ -120,8 +147,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "7": { 
         nome: "Granjeai granjeai os talentos",
@@ -136,8 +164,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "8": { 
         nome: "Oh! Vem sim vem",
@@ -152,8 +181,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "9": { 
         nome: "Luminosa é a senda",
@@ -168,8 +198,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "10": { 
         nome: "Prossegui vitoriosos em Cristo",
@@ -184,8 +215,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "11": { 
         nome: "Ó igreja de Deus resplandece",
@@ -200,8 +232,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "12": { 
         nome: "Sempre em Jesus confiarei",
@@ -216,8 +249,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "13": { 
         nome: "Confiemos em Deus",
@@ -232,8 +266,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "14": { 
         nome: "Manda os Teus dons celestes",
@@ -248,8 +283,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "15": { 
         nome: "Ó alma que choras",
@@ -264,8 +300,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "16": { 
         nome: "Promessa excelente",
@@ -280,8 +317,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "17": { 
         nome: "Ó Senhor vem visitar-me",
@@ -296,8 +334,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "18": { 
         nome: "É Jesus meu Refúgio",
@@ -312,8 +351,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "19": { 
         nome: "Manda-nos Teu Poder",
@@ -328,8 +368,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "20": { 
         nome: "Teu Espírito derrama",
@@ -344,8 +385,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "21": { 
         nome: "Não mais oprimidos seremos",
@@ -360,8 +402,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "22": { 
         nome: "Guia-me ó Senhor",
@@ -376,8 +419,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "23": { 
         nome: "O Senhor é o meu Pastor",
@@ -392,8 +436,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "24": { 
         nome: "Dá-me graça, Senhor",
@@ -408,8 +453,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "25": { 
         nome: "Um grande bem precioso bem",
@@ -424,8 +470,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "26": { 
         nome: "Julga-me Senhor",
@@ -440,8 +487,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "27": { 
         nome: "O Senhor é minha Luz",
@@ -456,8 +504,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "28": { 
         nome: "Para o céu marchemos",
@@ -472,8 +521,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "29": { 
         nome: "Senhor Jesus Tu és o meu Rochedo",
@@ -488,8 +538,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "30": { 
         nome: "Confiarei sempre no Senhor",
@@ -504,8 +555,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "31": { 
         nome: "Forte Rocha",
@@ -520,8 +572,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "32": { 
         nome: "Eu me escondo em Ti Senhor",
@@ -536,8 +589,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "33": { 
         nome: "Jesus é o nosso Guia",
@@ -552,8 +606,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "34": { 
         nome: "O Mestre que desceu dos céus",
@@ -588,13 +643,17 @@ const hymnsData = {
             "Por |nós, |Je|sus, |o |Sal|va|dor, |"+ 
             "I|rá |in|ter|ce|der. "             
         ],
-        tempos: [
+        temposVersos: [
             4, 6, 2, 2, 2, 3, 1, 6, 2, 6, 2, 2, 2, 8,
             4, 6, 2, 2, 2, 3, 1, 6, 2, 6, 2, 2, 2, 8
          ],
         notas: [
             'G4', 'G4', 'G4', 'Ab4', 'G4', 'G4', 'F4', 'F4', 'F4', 'Bb4', 'F4', 'G4', 'Ab4', 'G4',
             'Bb4', 'Bb4', 'Bb4', 'Eb5', 'D5', 'D5', 'C5', 'C5', 'C5', 'Bb4', 'Eb4', 'G4', 'F4', 'Eb4'
+        ],
+        temposNotas: [
+            4, 6, 2, 2, 2, 3, 1, 6, 2, 6, 2, 2, 2, 8,
+            4, 6, 2, 2, 2, 3, 1, 6, 2, 6, 2, 2, 2, 8
         ]
     },
     "35": { 
@@ -610,8 +669,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "36": { 
         nome: "A fiel proteção",
@@ -626,8 +686,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "37": { 
         nome: "Se a nossa vida entregarmos a Jesus",
@@ -642,8 +703,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "38": { 
         nome: "Ó Senhor és minha vida",
@@ -678,7 +740,7 @@ const hymnsData = {
             "Vem |fa|lar|-lhe |das |de|lí|cias |"+ 
             "Do |Teu |rei|no |de es|plen|dor."             
         ],
-        tempos: [
+        temposVersos: [
             4, 4, 6, 2, 4, 4, 4, 4, 4, 4, 6, 2, 4, 4, 8,
             4, 4, 6, 2, 4, 4, 4, 4, 4, 4, 6, 2, 4, 4, 8            
         ],
@@ -687,6 +749,10 @@ const hymnsData = {
             'Bb4', 'Eb5', 'D5', 'A4', 'Bb4', 'C5', 'Bb4',
             'Bb4', 'Db5', 'C5', 'G4', 'Bb4', 'Ab4', 'F4', 'F4',
             'Eb4', 'F4', 'Ab4', 'G4', 'F4', 'F4', 'Eb4'
+        ],
+        temposNotas: [
+            4, 4, 6, 2, 4, 4, 4, 4, 4, 4, 6, 2, 4, 4, 8,
+            4, 4, 6, 2, 4, 4, 4, 4, 4, 4, 6, 2, 4, 4, 8            
         ]
     },
     "39": { 
@@ -702,8 +768,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "40": { 
         nome: "Quanto em mim Tu operaste",
@@ -718,8 +785,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "41": { 
         nome: "O teu coração vem a Cristo entregar",
@@ -734,8 +802,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "42": { 
         nome: "Ó minha alma por que te abates?",
@@ -750,8 +819,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "S",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "43": { 
         nome: "Trema o céu a terra o mar",
@@ -766,8 +836,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "44": { 
         nome: "Sol da justiça",
@@ -782,8 +853,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "45": { 
         nome: "Oh! Quanto nos amaste!",
@@ -798,8 +870,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "46": { 
         nome: "Grandioso é o nosso Deus",
@@ -814,8 +887,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "47": { 
         nome: "Sublime é o perdão!",
@@ -830,8 +904,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "48": { 
         nome: "Creio no Senhor",
@@ -846,8 +921,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "49": { 
         nome: "Venho adorar-Te, santo Criador",
@@ -862,8 +938,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "50": { 
         nome: "Glória a Jesus Aleluia",
@@ -878,8 +955,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "51": { 
         nome: "A Palavra do Senhor é Pão celestial",
@@ -894,8 +972,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "52": { 
         nome: "Luz eternal é Jesus",
@@ -910,8 +989,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "53": { 
         nome: "Nós somos luz do mundo",
@@ -926,8 +1006,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "54": { 
         nome: "Um tesouro glorioso achei",
@@ -942,8 +1023,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "55": { 
         nome: "Paz seja em vós",
@@ -958,8 +1040,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "56": { 
         nome: "Põe em Deus a confiança",
@@ -974,8 +1057,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "57": { 
         nome: "É estreita a porta para a salvação",
@@ -990,8 +1074,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "58": { 
         nome: "Sou crente em Jesus",
@@ -1006,8 +1091,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "59": { 
         nome: "Faz-me mais perseverante",
@@ -1022,8 +1108,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "60": { 
         nome: "Oh! Vem a Jesus",
@@ -1038,8 +1125,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "61": { 
         nome: "A minha alma deseja ver-Te",
@@ -1054,8 +1142,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "62": { 
         nome: "Ó Criador forte Rocha és",
@@ -1070,8 +1159,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "63": { 
         nome: "Se vós baterdes Ele vos abre",
@@ -1086,8 +1176,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "S",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "64": { 
         nome: "Tu que vives sem destino",
@@ -1123,7 +1214,7 @@ const hymnsData = {
             "Pa|ra, um |di|a |na |Su|a |gló|ria, |"+ 
             "A |co|ro|a |da |vi|da |nos |dar."
         ],
-        tempos: [
+        temposVersos: [
             8, 4, 8, 4, 8, 4, 8, 4,
             8, 4, 4, 4, 4, 8, 4, 12,
             8, 4, 6, 2, 4, 8, 4, 8, 4,
@@ -1134,6 +1225,12 @@ const hymnsData = {
             'C5', 'A4', 'C5', 'Bb4', 'G4', 'F4', 'A4', 'G4',
             'F4', 'F4', 'E4', 'D4', 'C4', 'Bb4', 'Bb4', 'A4', 'F4',
             'C5', 'A4', 'G4', 'Bb4', 'D5', 'F4', 'A4', 'G4', 'F4'
+        ],
+        temposNotas: [
+            8, 4, 8, 4, 8, 4, 8, 4,
+            8, 4, 4, 4, 4, 8, 4, 12,
+            8, 4, 6, 2, 4, 8, 4, 8, 4,
+            8, 4, 4, 4, 4, 8, 2, 2, 12
         ]
     },
     "65": { 
@@ -1149,8 +1246,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "S",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "66": { 
         nome: "Cansado estás? Vem a Jesus",
@@ -1165,8 +1263,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "67": { 
         nome: "Vinde a Mim!",
@@ -1181,8 +1280,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "68": { 
         nome: "Sem tardar vai a Cristo",
@@ -1197,8 +1297,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "69": { 
         nome: "A família de Jesus",
@@ -1213,8 +1314,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "70": { 
         nome: "Senhor Tu és a minha esperança",
@@ -1229,8 +1331,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "71": { 
         nome: "Ó Senhor Jesus eu recorro a Ti",
@@ -1245,8 +1348,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "72": { 
         nome: "Nome glorioso o de Jesus",
@@ -1261,8 +1365,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "73": { 
         nome: "Semearei semearei",
@@ -1277,8 +1382,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "74": { 
         nome: "Vamos produzir frutos de louvor",
@@ -1293,8 +1399,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "75": { 
         nome: "Vem a Jesus ó alma errante",
@@ -1325,7 +1432,7 @@ const hymnsData = {
             "De |Deus, |Cri|a|dor."
 
         ],
-        tempos: [
+        temposVersos: [
             2, 2, 2, 4, 2, 2, 2, 2, 4, 2,
             4, 2, 2, 2, 2, 6,
             2, 2, 2, 4, 2, 2, 2, 2, 2, 2,
@@ -1336,6 +1443,12 @@ const hymnsData = {
             'Ab4', 'Ab4', 'C5', 'Bb4', 'F4', 'Bb4',
             'Eb4', 'F4', 'Eb4', 'C5', 'C5', 'C5', 'Db5', 'C5', 'C5', 'Bb4',
             'F4', 'G4', 'F4', 'G4', 'Ab4'
+        ],
+        temposNotas: [
+            2, 2, 2, 4, 2, 2, 2, 2, 4, 2,
+            4, 2, 2, 2, 2, 6,
+            2, 2, 2, 4, 2, 2, 2, 2, 2, 2,
+            2, 2, 2, 2, 6,
         ]
     },
     "76": { 
@@ -1351,8 +1464,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "77": { 
         nome: "Vamos lançar a semente",
@@ -1367,8 +1481,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "78": { 
         nome: "Glória a Jesus Glória a Jesus",
@@ -1383,8 +1498,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "79": { 
         nome: "Bom é estarmos nós aqui",
@@ -1399,8 +1515,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "80": { 
         nome: "Por Cristo resgatado",
@@ -1415,8 +1532,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "81": { 
         nome: "A vida deu por ti",
@@ -1431,8 +1549,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "82": { 
         nome: "Oh Que grande amor",
@@ -1447,8 +1566,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "83": { 
         nome: "Vinde às bodas",
@@ -1463,8 +1583,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "84": { 
         nome: "Quão amável é a Tua casa",
@@ -1479,8 +1600,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "85": { 
         nome: "Anunciai o santo Evangelho",
@@ -1495,8 +1617,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "86": { 
         nome: "Grande Tu és ó Pai",
@@ -1511,8 +1634,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "87": { 
         nome: "Eis que vem Jesus",
@@ -1527,8 +1651,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "88": { 
         nome: "Minha oração",
@@ -1543,8 +1668,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "89": { 
         nome: "Oh Grande Deus",
@@ -1559,8 +1685,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "90": { 
         nome: "Teu destino é a glória",
@@ -1575,8 +1702,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "91": { 
         nome: "No esconderijo do Onipotente",
@@ -1591,8 +1719,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "92": { 
         nome: "O santo Evangelho",
@@ -1607,8 +1736,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "93": { 
         nome: "Aceitando ao Senhor...",
@@ -1623,8 +1753,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "94": { 
         nome: "Quem sustenta a nossa vida",
@@ -1639,8 +1770,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "95": { 
         nome: "Vinde ó benditos de Meu Pai",
@@ -1655,8 +1787,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "96": { 
         nome: "Vinde adoremos a Deus",
@@ -1671,8 +1804,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "97": { 
         nome: "Cristo Jesus nosso bom Pastor",
@@ -1687,8 +1821,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "S",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "98": { 
         nome: "Cristo Jesus tudo pode",
@@ -1703,8 +1838,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "99": { 
         nome: "Jesus Cristo é o Amigo celestial",
@@ -1719,8 +1855,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "100": { 
         nome: "Todos juntos jubilemos",
@@ -1735,8 +1872,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "101": { 
         nome: "Cantemos juntos louvores a Deus",
@@ -1751,8 +1889,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "102": { 
         nome: "Sinto a voz divina do meu fiel Pastor",
@@ -1767,8 +1906,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "103": { 
         nome: "Bendize ó minha alma",
@@ -1783,8 +1923,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "104": { 
         nome: "Santo Santo és Senhor",
@@ -1799,8 +1940,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "105": { 
         nome: "Volta ao teu lar Paternal!",
@@ -1815,8 +1957,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "S",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "106": { 
         nome: "Em nome do nosso Redentor",
@@ -1849,7 +1992,7 @@ const hymnsData = {
             "Res|pon|de|-nos, |dos |céus; |"+ 
             "Oh! |Põe|-nos |em |co|mu|nhão." 
         ],
-        tempos: [
+        temposVersos: [
             4, 8, 2, 2, 8, 4, 8, 4, 8,
             4, 8, 2, 2, 8, 4, 8,
             4, 6, 2, 2, 2, 8,
@@ -1862,6 +2005,13 @@ const hymnsData = {
             'B4', 'D5', 'B4', 'D5', 'B4', 'G4',
             'D4', 'E4', 'G4', 'G4', 'E4', 'D4',
             'D4', 'G4', 'B4', 'G4', 'B4', 'A4', 'G4'
+        ],
+        temposNotas: [
+            4, 8, 2, 2, 8, 4, 8, 4, 8,
+            4, 8, 2, 2, 8, 4, 8,
+            4, 6, 2, 2, 2, 8,
+            4, 6, 2, 2, 2, 8,
+            4, 8, 2, 2, 8, 4, 8
         ]
     },
     "107": { 
@@ -1877,8 +2027,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "S",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "108": { 
         nome: "É Jesus a Fonte de riqueza",
@@ -1893,8 +2044,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "109": { 
         nome: "Vem ó Senhor ajudar-me",
@@ -1909,8 +2061,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "110": { 
         nome: "Vigiai irmãos",
@@ -1925,8 +2078,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "111": { 
         nome: "Do sepulcro ressurgiu triunfante",
@@ -1941,8 +2095,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "112": { 
         nome: "Sigamos sempre ao Senhor",
@@ -1957,8 +2112,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "113": { 
         nome: "O Senhor seja louvado",
@@ -1973,8 +2129,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "114": { 
         nome: "Clama ao Mestre Cristo Jesus",
@@ -1989,8 +2146,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "115": { 
         nome: "Minha alma engrandece...",
@@ -2005,8 +2163,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "116": { 
         nome: "Amo ao Senhor",
@@ -2021,8 +2180,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "117": { 
         nome: "Jesus habita em meu coração",
@@ -2037,8 +2197,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "118": { 
         nome: "Fiel Salvador é Jesus",
@@ -2053,8 +2214,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "119": { 
         nome: "Luz aos meus pés é a Tua Palavra",
@@ -2069,8 +2231,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "120": { 
         nome: "Nossa cruz tomemos",
@@ -2085,8 +2248,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "121": { 
         nome: "O meu socorro vem do Senhor",
@@ -2101,8 +2265,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "122": { 
         nome: "Alegrei-me quando me disseram...",
@@ -2117,8 +2282,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "123": { 
         nome: "Ó Jesus és meu Guardião",
@@ -2148,7 +2314,7 @@ const hymnsData = {
             "Pe|la |sen|da |do |Cri|a|dor; |"+ 
             "Bre|ve es|ta|rei |no |Teu |lar |de |luz."
         ],
-        tempos: [
+        temposVersos: [
             8, 4, 4, 4, 4, 8, 4, 12,
             8, 4, 4, 4, 4, 8, 4, 12,
             8, 4, 4, 4, 4, 8, 4, 12,
@@ -2159,6 +2325,12 @@ const hymnsData = {
             'Bb4', 'Bb4', 'Bb4', 'A4', 'Bb4', 'C5', 'D5', 'C5',
             'F4', 'G4', 'F4', 'Bb4', 'D5', 'D5', 'Eb5', 'D5',
             'Bb4', 'A4', 'G4', 'F4', 'Eb5', 'D5', 'D5', 'C5', 'Bb4'            
+        ],
+        temposNotas: [
+            8, 4, 4, 4, 4, 8, 4, 12,
+            8, 4, 4, 4, 4, 8, 4, 12,
+            8, 4, 4, 4, 4, 8, 4, 12,
+            4, 4, 4, 4, 4, 4, 8, 4, 12
         ]
     },
     "124": { 
@@ -2174,8 +2346,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "125": { 
         nome: "Mais grato a Ti",
@@ -2190,8 +2363,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "126": { 
         nome: "Levemos a mensagem de amor",
@@ -2206,8 +2380,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "127": { 
         nome: "Meu bom Jesus Contigo almejo estar",
@@ -2222,8 +2397,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "128": { 
         nome: "Teu filho sou ó Criador",
@@ -2238,8 +2414,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "129": { 
         nome: "Salvo estou por Jesus",
@@ -2254,8 +2431,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "130": { 
         nome: "A minha alma",
@@ -2270,8 +2448,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "131": { 
         nome: "Ó Senhor glorioso Deus da perfeição",
@@ -2286,8 +2465,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "132": { 
         nome: "Eis-me Senhor aos Teus pés",
@@ -2302,8 +2482,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "133": { 
         nome: "Quão bom e quão suave é...",
@@ -2318,8 +2499,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "134": { 
         nome: "Teu amor ó Cordeiro divinal",
@@ -2334,8 +2516,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "135": { 
         nome: "Bendito o Rei que veio dos céu!",
@@ -2350,8 +2533,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "136": { 
         nome: "Benignidade eterna é a de Deus",
@@ -2366,8 +2550,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "137": { 
         nome: "Senhor vem selar-nos",
@@ -2382,8 +2567,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "138": { 
         nome: "Louvemos ao bom Jesus",
@@ -2398,8 +2584,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "139": { 
         nome: "Ó Senhor Tu me conheces",
@@ -2414,8 +2601,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "140": { 
         nome: "Sou feliz",
@@ -2430,8 +2618,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "141": { 
         nome: "Cristo o Verbo",
@@ -2446,8 +2635,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "142": { 
         nome: "Ó Pai celestial",
@@ -2462,8 +2652,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "143": { 
         nome: "Porfiemos irmãos por entrar nos céus",
@@ -2478,8 +2669,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "144": { 
         nome: "A vida eterna",
@@ -2494,8 +2686,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "145": { 
         nome: "Pródigo filho vai!",
@@ -2510,8 +2703,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "146": { 
         nome: "De Deus veio a Luz",
@@ -2526,8 +2720,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "147": { 
         nome: "É bom louvar ao Criador",
@@ -2542,8 +2737,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "148": { 
         nome: "Louvor a Deus o Criador",
@@ -2558,8 +2754,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "149": { 
         nome: "Ó irmãos por fé louvemos a Jesus",
@@ -2574,8 +2771,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "150": { 
         nome: "Jesus Cristo meu Senhor",
@@ -2605,7 +2803,7 @@ const hymnsData = {
             "E|le |é, |no |mun|do, |mi|nha |Luz |"+
             "Pa|ra |ir |a|té |o |fim."            
         ],
-        tempos: [
+        temposVersos: [
             2, 2, 2, 2, 8, 4, 12,
             2, 2, 2, 2, 8, 4, 12,
             2, 2, 4, 4, 2, 2, 2, 2, 12,
@@ -2616,6 +2814,12 @@ const hymnsData = {
             'Ab4', 'C5', 'Eb5', 'D5', 'Eb5', 'Db5', 'C5',
             'C5', 'C5', 'Db5', 'Db5', 'Ab4', 'Ab4', 'Bb4', 'B4', 'C5',
             'Db5', 'C5', 'C5', 'Bb4',  'F4', 'G4', 'Ab4'            
+        ],
+        temposNotas: [            
+            2, 2, 2, 2, 8, 4, 12,
+            2, 2, 2, 2, 8, 4, 12,
+            2, 2, 4, 4, 2, 2, 2, 2, 12,
+            2, 2, 2, 2, 8, 4, 12            
         ]
     },
     "151": { 
@@ -2631,8 +2835,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "152": { 
         nome: "Venho à casa do Senhor",
@@ -2647,8 +2852,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "153": { 
         nome: "O divinal Cordeiro",
@@ -2663,8 +2869,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "154": { 
         nome: "Terá que renascer",
@@ -2679,8 +2886,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "155": { 
         nome: "Olha a Cristo o Redentor",
@@ -2695,8 +2903,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "156": { 
         nome: "Cristo entrou nos céus primeiro",
@@ -2711,8 +2920,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "157": { 
         nome: "Ouve a voz que te convida...",
@@ -2727,8 +2937,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "158": { 
         nome: "Meu lar está no céu",
@@ -2743,8 +2954,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "159": { 
         nome: "Deus amou o mundo",
@@ -2759,8 +2971,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "160": { 
         nome: "Sou o Caminho a Verdade e a Vida",
@@ -2775,8 +2988,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "161": { 
         nome: "Cristo quer salvar",
@@ -2791,8 +3005,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "162": { 
         nome: "Cristo salvou-me",
@@ -2807,8 +3022,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "S",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "163": { 
         nome: "Neste mundo de ilusão",
@@ -2823,8 +3039,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "164": { 
         nome: "Louvemos sempre alegres",
@@ -2839,8 +3056,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "165": { 
         nome: "Foi o Senhor Jesus",
@@ -2855,8 +3073,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "166": { 
         nome: "A graça inefável de Deus",
@@ -2871,8 +3090,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "167": { 
         nome: "Água viva",
@@ -2887,8 +3107,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "168": { 
         nome: "A Palavra do Senhor",
@@ -2903,8 +3124,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "169": { 
         nome: "Aos pés de Deus estamos",
@@ -2919,8 +3141,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "170": { 
         nome: "Pai eternal envia dos céus...",
@@ -2935,8 +3158,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "171": { 
         nome: "Vida eterna Vida eterna!",
@@ -2951,8 +3175,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "172": { 
         nome: "Um culto santo ao Senhor",
@@ -2982,7 +3207,7 @@ const hymnsData = {
             "E, |fa|ce a |fa|ce, |lá |nos |céus, |"+
             "Ve|re|mos |nos|so |gran|de |Deus."
         ],
-        tempos: [
+        temposVersos: [
             2, 2, 2, 4, 4, 2, 2, 6,
             2, 2, 2, 4, 4, 2, 2, 6,
             2, 2, 2, 4, 4, 2, 2, 6,
@@ -2993,6 +3218,12 @@ const hymnsData = {
             'F4', 'F4', 'F4', 'D5', 'B4', 'A4', 'B4', 'C5',
             'G4', 'G4', 'G4', 'G4', 'E4', 'F4', 'G4', 'A4',
             'A4', 'C5', 'A4', 'G4', 'E4', 'D4', 'F4', 'E4'            
+        ],
+        temposNotas: [
+            2, 2, 2, 4, 4, 2, 2, 6,
+            2, 2, 2, 4, 4, 2, 2, 6,
+            2, 2, 2, 4, 4, 2, 2, 6,
+            2, 2, 2, 2, 2, 4, 4, 6
         ]
     },
     "173": { 
@@ -3008,8 +3239,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "174": { 
         nome: "Vem atender ao Seu chamado",
@@ -3024,8 +3256,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "175": { 
         nome: "O Senhor Jesus te chama",
@@ -3040,8 +3273,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "176": { 
         nome: "Por Ti vivo ó Deus potente",
@@ -3056,8 +3290,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "177": { 
         nome: "Eu necessito achegar-me",
@@ -3072,8 +3307,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "S",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "178": { 
         nome: "A Palavra preciosa",
@@ -3088,8 +3324,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "179": { 
         nome: "Trabalhai Trabalhai!",
@@ -3104,8 +3341,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "180": { 
         nome: "Jesus é a Luz que veio ao mundo...",
@@ -3120,8 +3358,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "181": { 
         nome: "Só em Cristo só em Cristo",
@@ -3136,8 +3375,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "182": { 
         nome: "Brevemente retornará Jesus Cristo",
@@ -3152,8 +3392,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "183": { 
         nome: "Cristo Jesus é a Porta dos céus",
@@ -3168,8 +3409,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "184": { 
         nome: "Nós Te louvamos por fé grande Deus",
@@ -3184,8 +3426,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "185": { 
         nome: "Deus mandou Sua Luz",
@@ -3200,8 +3443,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "186": { 
         nome: "Cristo Luz do mundo",
@@ -3216,8 +3460,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "187": { 
         nome: "Jesus Cristo habita em nós",
@@ -3232,8 +3477,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "188": { 
         nome: "O Mestre habita em mim",
@@ -3248,8 +3494,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "189": { 
         nome: "Oh! Que preciosa paz",
@@ -3264,8 +3511,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "190": { 
         nome: "Amados não temamos",
@@ -3280,8 +3528,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "191": { 
         nome: "Vem vem consolar-me",
@@ -3296,8 +3545,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "192": { 
         nome: "Quão fiel promessa Jesus nos fez",
@@ -3312,8 +3562,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "193": { 
         nome: "Nada jamais me faltará",
@@ -3328,8 +3579,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "194": { 
         nome: "Vós chorareis e vos lamentareis",
@@ -3344,8 +3596,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "195": { 
         nome: "Senhor estou disposto",
@@ -3360,8 +3613,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "196": { 
         nome: "Sem Deus Pai",
@@ -3376,8 +3630,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "197": { 
         nome: "Senhor por Teu poder",
@@ -3392,8 +3647,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "198": { 
         nome: "Nosso Pai celeste sabe e provê",
@@ -3408,8 +3664,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "199": { 
         nome: "Senhor Tu és a minha porção",
@@ -3424,8 +3681,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "200": { 
         nome: "Não se turbe o vosso coração",
@@ -3440,8 +3698,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "201": { 
         nome: "Deus nos guarde...",
@@ -3456,8 +3715,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "202": { 
         nome: "Em Ti me alegro Senhor",
@@ -3472,8 +3732,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "203": { 
         nome: "O meu vero Amigo é Jesus",
@@ -3488,8 +3749,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "204": { 
         nome: "Só Jesus é Amigo verdadeiro",
@@ -3504,8 +3766,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "205": { 
         nome: "Salvo por Seu poder",
@@ -3520,8 +3783,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "S",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "206": { 
         nome: "Tu és o Amigo",
@@ -3536,8 +3800,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "207": { 
         nome: "Cristo é fiel",
@@ -3552,8 +3817,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "208": { 
         nome: "Conserva a paz ó minha alma",
@@ -3568,8 +3834,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "209": { 
         nome: "Oh! Marchai soldados",
@@ -3584,8 +3851,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "210": { 
         nome: "Grandes promessas",
@@ -3600,8 +3868,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "211": { 
         nome: "O Senhor Jesus passava...",
@@ -3616,8 +3885,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "212": { 
         nome: "Testemunhas verazes nós somos",
@@ -3632,8 +3902,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "213": { 
         nome: "Quando vier do céu",
@@ -3648,8 +3919,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "214": { 
         nome: "Como foi para os céus assim virá",
@@ -3664,8 +3936,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "215": { 
         nome: "Em breve ao céu irei",
@@ -3680,8 +3953,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "S",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "216": { 
         nome: "Irmãos amemos ao Senhor",
@@ -3696,8 +3970,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "217": { 
         nome: "Vamos unidos a Deus louvar",
@@ -3712,8 +3987,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "218": { 
         nome: "Oh Jubilemos devotos de Cristo",
@@ -3728,8 +4004,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "219": { 
         nome: "Novos céus nós aguardamos",
@@ -3744,8 +4021,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "S",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "220": { 
         nome: "Cristo voltará",
@@ -3760,8 +4038,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "221": { 
         nome: "A descida do Espírito Santo",
@@ -3776,8 +4055,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "222": { 
         nome: "Brevemente virá o Senhor Jesus",
@@ -3792,8 +4072,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "223": { 
         nome: "Muitos por fé aceitaram Jesus",
@@ -3808,8 +4089,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "224": { 
         nome: "Só Jesus concede paz e salvação",
@@ -3824,8 +4106,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "225": { 
         nome: "Senhor com Tua voz me chamas",
@@ -3840,8 +4123,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "226": { 
         nome: "A história do Evangelho",
@@ -3856,8 +4140,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "227": { 
         nome: "Procuras tu ao Salvador?",
@@ -3872,8 +4157,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "228": { 
         nome: "Salvação! Salvação!",
@@ -3888,8 +4174,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "229": { 
         nome: "Eu vivia no pecado",
@@ -3904,8 +4191,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "230": { 
         nome: "A Ti rendemos graças",
@@ -3920,8 +4208,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "231": { 
         nome: "Provemos irmãos do amor do Senhor",
@@ -3936,8 +4225,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "232": { 
         nome: "Seguro estou",
@@ -3952,8 +4242,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "233": { 
         nome: "Avante santos e fiéis de Deus",
@@ -3968,8 +4259,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "234": { 
         nome: "O meu ser entrego a Cristo",
@@ -3984,8 +4276,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "235": { 
         nome: "Um amor imenso",
@@ -4000,8 +4293,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "236": { 
         nome: "Há um lugar de eterna paz",
@@ -4016,8 +4310,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "237": { 
         nome: "Deus é por mim",
@@ -4032,8 +4327,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "238": { 
         nome: "Teu servo ouve fala Senhor",
@@ -4048,8 +4344,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "239": { 
         nome: "Eis que a noite é passada",
@@ -4064,8 +4361,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "240": { 
         nome: "Não me cansarei de cantar",
@@ -4080,8 +4378,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "241": { 
         nome: "A Justiça divina",
@@ -4096,8 +4395,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "242": { 
         nome: "Profundo é o saber de Deus Criador",
@@ -4112,8 +4412,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "243": { 
         nome: "É Jesus o nosso Intercessor",
@@ -4128,8 +4429,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "244": { 
         nome: "Cristo intercede por ti",
@@ -4144,8 +4446,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "245": { 
         nome: "Não pode entender o mundo",
@@ -4160,8 +4463,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "246": { 
         nome: "Irmãos já resgatados",
@@ -4176,8 +4480,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "247": { 
         nome: "Se fores tentado",
@@ -4192,8 +4497,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "248": { 
         nome: "Glória Aleluia Sinto Jesus",
@@ -4208,8 +4514,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "249": { 
         nome: "A Caridade",
@@ -4224,8 +4531,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "250": { 
         nome: "Com meu Redentor viverei nos céus",
@@ -4240,8 +4548,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "251": { 
         nome: "Firme nas mãos de Cristo",
@@ -4256,8 +4565,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "252": { 
         nome: "Exaltação ao Deus Onipotente",
@@ -4272,8 +4582,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "253": { 
         nome: "Foi alegre ditoso o dia",
@@ -4288,8 +4599,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "254": { 
         nome: "De Jesus a graça divina",
@@ -4319,7 +4631,7 @@ const hymnsData = {
             "E |a |co|mu|nhão |ce|les|te, |"+
             "Nos |seus |co|ra|ções, |de|vem |ter.",            
         ],
-        tempos: [
+        temposVersos: [
             4, 4, 6, 2, 4, 2, 2, 4, 4,
             4, 4, 6, 2, 4, 4, 8,
             4, 4, 4, 4, 6, 2, 4, 4,
@@ -4330,6 +4642,12 @@ const hymnsData = {
             'A4', 'A4', 'A4', 'D5', 'C5', 'B4', 'C5',
             'C5', 'B4', 'Bb4', 'A4', 'G4', 'F4', 'F4', 'E4',
             'F4', 'F#4', 'G4', 'D5', 'F4', 'A4', 'G4', 'F4'
+        ],
+        temposNotas: [
+            4, 4, 6, 2, 4, 2, 2, 4, 4,
+            4, 4, 6, 2, 4, 4, 8,
+            4, 4, 4, 4, 6, 2, 4, 4,
+            4, 4, 4, 4, 4, 2, 2, 8
         ]
     },
     "255": { 
@@ -4345,8 +4663,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "256": { 
         nome: "Sem Deus Pai vivi no mundo",
@@ -4361,8 +4680,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "257": { 
         nome: "Remiu-nos por graça",
@@ -4377,8 +4697,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "258": { 
         nome: "Louvemos ao nosso Senhor",
@@ -4392,9 +4713,45 @@ const hymnsData = {
         velMaxMeiaHora: 42,
         MeiaHora: "N",
         velX3: "N",
-        versos: [],
-        tempos: [],
-        notas: []
+        versos: [
+            "Lou|ve|mos |ao |nos|so |Se|nhor, |"+
+            "E|xal|te|mos |Seu |No|me |e|ter|no, |"+
+            "Pois |E|le |é |Fon|te |de a|mor |"+
+            "E |é |dig|no |de |to|do o |lou|vor.|" ,
+
+            "Oh! |Va|mos |lou|vo|res |can|tar, |"+
+            "A|gra|dá|veis |lou|vo|res |ao |bom |Deus, \n|"+
+            "E |hi|nos |de |gló|ria en|to|ar; |"+
+            "Va|mos |no |Seu |a|mor |ju|bi|lar!|" ,
+
+            "Oh! |Va|mos, |com |fé, |ao |Se|nhor; |"+
+            "As|sen|te|mo|-nos |to|dos |à |me|sa, \n|"+
+            "Pois |nos |ser|vi|rá |com |a|mor, |"+
+            "Pe|lo Es|pí|ri|to |Con|so|la|dor.|" ,
+
+            "A|qui |nos |a|cha|mos |Se|nhor, |"+
+            "O|fer|tan|do |tri|bu|tos |de |gló|ria; \|"+
+            "Só |Tu |és, |do |bem, |Do|a|dor, |"+
+            "Ó |e|ter|no, |bon|do|so |Se|nhor.|" ,
+        ],
+        temposVersos: [
+            4,4,2,2,4,2,2,12,
+            2,2,4,2,2,4,2,2,4,8,
+            4,4,2,2,4,2,2,12,
+            2,2,4,2,2,4,2,2,12,4
+        ],
+        notas: [
+            'F4','D5','C5','C5','Bb4','A4','A4','Bb4',
+            'F4','F4','G4','C5','Bb4','A4','G4','A4','G4','F4',
+            'Bb4','D5','C5','C5','Bb4','A4','A4','Bb4',
+            'Bb4','C5','D5','Eb5','Eb5','D5','C5','C5','Bb4','C1'
+        ],
+        temposNotas: [
+            4,4,2,2,4,2,2,12,
+            2,2,4,2,2,4,2,2,4,8,
+            4,4,2,2,4,2,2,12,
+            2,2,4,2,2,4,2,2,12,4
+        ]
     },
     "259": { 
         nome: "Só triunfará o de sincero coração",
@@ -4409,8 +4766,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "260": { 
         nome: "Sou servo inútil ó Deus piedoso",
@@ -4425,8 +4783,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "261": { 
         nome: "Vivo por Cristo",
@@ -4441,8 +4800,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "262": { 
         nome: "Senhor a Tua igreja",
@@ -4457,8 +4817,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "263": { 
         nome: "Cristo é Luz resplandecente",
@@ -4473,8 +4834,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "264": { 
         nome: "Redentor celeste e santo",
@@ -4489,8 +4851,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "265": { 
         nome: "Bênçãos dos céus prometidas",
@@ -4505,8 +4868,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "266": { 
         nome: "Vinde às fileiras",
@@ -4521,8 +4885,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "267": { 
         nome: "Graça maravilhosa",
@@ -4537,8 +4902,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "268": { 
         nome: "Ó Deus bendito",
@@ -4553,8 +4919,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "269": { 
         nome: "Ressuscitados por graça fomos",
@@ -4569,8 +4936,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "270": { 
         nome: "Deste mundo mais nada esperarei",
@@ -4585,8 +4953,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "271": { 
         nome: "Graças dou a Ti ó bom Deus",
@@ -4616,7 +4985,7 @@ const hymnsData = {
             "Só |a |Ti |mi|nh'al|ma |se a|tém; |"+
             "Gra|ças |Te |dou, |Pai |do |su|mo |bem."            
         ],
-        tempos: [
+        temposVersos: [
             8, 4, 8, 4, 4, 4, 4, 12,
             8, 4, 8, 4, 4, 4, 4, 12,
             8, 4, 8, 4, 4, 4, 4, 12,
@@ -4627,6 +4996,12 @@ const hymnsData = {
             'B4', 'G4', 'D4', 'G4', 'G4', 'A4', 'B4', 'A4',
             'B4', 'G4', 'D4', 'D#4', 'E4', 'G4', 'C5', 'B4',
             'D5', 'B4', 'G4', 'A4', 'B4', 'C5', 'B4', 'A4', 'G4'            
+        ],
+        temposNotas: [
+            8, 4, 8, 4, 4, 4, 4, 12,
+            8, 4, 8, 4, 4, 4, 4, 12,
+            8, 4, 8, 4, 4, 4, 4, 12,
+            4, 4, 4, 4, 4, 4, 8, 4, 12            
         ]
     },
     "272": { 
@@ -4642,8 +5017,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "S",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "273": { 
         nome: "Jesus me deu celeste hino",
@@ -4658,8 +5034,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "274": { 
         nome: "Na plenitude estarei",
@@ -4674,8 +5051,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "275": { 
         nome: "Avante eu vou",
@@ -4690,8 +5068,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "276": { 
         nome: "Ó Senhor da glória",
@@ -4705,9 +5084,92 @@ const hymnsData = {
         velMaxMeiaHora: 42,
         MeiaHora: "S",
         velX3: "N",
-        versos: [],
-        tempos: [],
-        notas: []
+        versos: [
+            "Ó |Se|nhor |da |gló|ria, |"+
+            "Rei |ce|les|ti|al, |\n"+ 
+            "Sem|pre |tens |to|tal |vi|tó|ria |"+
+            "So|bre |to|do o |mal.\n\n|", 
+            //"\n" +
+            "Re|den|tor |ce|les|te, |"+ 
+            "Fon|te |do |sa|ber, |\n" +
+            "Pa|ra |nos |re|mir, |vi|es|te |" +
+            "So|bre a |cruz |mor|rer.\n\n|"+
+
+            "Tu |nos |li|ber|tas|te |"+
+            "Da |es|cra|vi|dão; |\n"+
+            "Com |Teu |san|gue |Tu |pa|gas|te |"+
+            "Nos|sa |trans|gres|são.\n\n|" ,
+
+            "Nos|sa |For|ta|le|za, |"+
+            "Nos|sa |paz |e |Luz, |\n"+
+            "Nos|sa |Gló|ria |e |Ri|que|za |"+
+            "És, |Se|nhor |Je|sus.\n\n|" 
+            
+        ],
+        temposVersos: [
+            6,2,4,4,8,8,
+            6,2,4,4,16,
+            6,2,4,4,4,4,4,4,
+            6,2,4,4,12,
+
+            6,2,4,4,8,8,
+            6,2,4,4,16,
+            6,2,4,4,4,4,4,4,
+            6,2,4,4,12,
+
+            6,2,4,4,8,8,
+            6,2,4,4,16,
+            6,2,4,4,4,4,4,4,
+            6,2,4,4,12,
+
+            6,2,4,4,8,8,
+            6,2,4,4,16,
+            6,2,4,4,4,4,4,4,
+            6,2,4,4,12
+        ],
+        notas: [
+            'Bb4','A4','C5','Bb4','G4','F4',
+            'Ab4','G4','Ab4','C5','Bb4','G4',
+            'Bb4','A4','Bb4','Eb5','D5','C5','Bb4','Ab4',
+            'G4','Bb4','Ab4','F4','Eb4',
+
+            'Bb4','A4','C5','Bb4','G4','F4',
+            'Ab4','G4','Ab4','C5','Bb4','G4',
+            'Bb4','A4','Bb4','Eb5','D5','C5','Bb4','Ab4',
+            'G4','Bb4','Ab4','F4','Eb4',
+
+            'Bb4','A4','C5','Bb4','G4','F4',
+            'Ab4','G4','Ab4','C5','Bb4','G4',
+            'Bb4','A4','Bb4','Eb5','D5','C5','Bb4','Ab4',
+            'G4','Bb4','Ab4','F4','Eb4',
+
+            'Bb4','A4','C5','Bb4','G4','F4',
+            'Ab4','G4','Ab4','C5','Bb4','G4',
+            'Bb4','A4','Bb4','Eb5','D5','C5','Bb4','Ab4',
+            'G4','Bb4','Ab4','F4','Eb4',
+            ],
+        temposNotas: [
+            6,2,4,4,8,8,
+            6,2,4,4,8,8,
+            6,2,4,4,4,4,4,4,
+            6,2,4,4,12,
+
+            6,2,4,4,8,8,
+            6,2,4,4,8,8,
+            6,2,4,4,4,4,4,4,
+            6,2,4,4,12,
+
+            6,2,4,4,8,8,
+            6,2,4,4,8,8,
+            6,2,4,4,4,4,4,4,
+            6,2,4,4,12,
+
+            6,2,4,4,8,8,
+            6,2,4,4,8,8,
+            6,2,4,4,4,4,4,4,
+            6,2,4,4,12,
+
+        ]
     },
     "277": { 
         nome: "Oh! Quanto é bom louvarmos",
@@ -4722,8 +5184,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "278": { 
         nome: "Éramos mortos nas obras más",
@@ -4738,8 +5201,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "279": { 
         nome: "Oh! Não temas igreja de Deus",
@@ -4754,8 +5218,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "280": { 
         nome: "De Deus a armadura",
@@ -4770,8 +5235,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "281": { 
         nome: "Soldados valorosos nós somos",
@@ -4786,8 +5252,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "282": { 
         nome: "Constantemente oremos a Deus",
@@ -4802,8 +5269,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "283": { 
         nome: "Quero ó Senhor ir Contigo ao céu",
@@ -4818,8 +5286,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "284": { 
         nome: "Louvor nos céus altíssimos",
@@ -4834,8 +5303,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "285": { 
         nome: "Glória e louvor a Jesus darei",
@@ -4850,8 +5320,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "286": { 
         nome: "Nome precioso para mim",
@@ -4866,8 +5337,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "287": { 
         nome: "Irmãos amados sempre avante",
@@ -4882,8 +5354,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "288": { 
         nome: "Ó irmãos com Cristo avante",
@@ -4898,8 +5371,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "289": { 
         nome: "Avante sempre avante",
@@ -4914,8 +5388,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "290": { 
         nome: "Sempre avante!",
@@ -4930,8 +5405,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "291": { 
         nome: "Irmãos avante avante!",
@@ -4946,8 +5422,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "292": { 
         nome: "Oh! Quanto é bom o Redentor!",
@@ -4962,8 +5439,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "293": { 
         nome: "Tu és Oleiro",
@@ -4978,8 +5456,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "294": { 
         nome: "Avante! Coragem! Marchemos",
@@ -4994,8 +5473,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "295": { 
         nome: "Fui Senhor por Ti remido",
@@ -5009,9 +5489,92 @@ const hymnsData = {
         velMaxMeiaHora: 39,
         MeiaHora: "N",
         velX3: "N",
-        versos: [],
-        tempos: [],
-        notas: []
+        versos: [
+            "Fui, |Se|nhor, |por |Ti |re|mi|do |"+
+            "Pa|ra an|dar |em |san|to a|mor; |\n"+
+            "Nes|te |mun|do, a |Ti |u|ni|do, |"+
+            "Eu |se|rei |um |ven|ce|dor.|\n\n" ,
+
+            "Teu |a|mor |já |me |con|so|la |"+
+            "Pa|ra |sem|pre o|be|de|cer |\n"+
+            "À |Pa|la|vra, |que |con|tro|la |"+
+            "To|do |es|te |fra|co |ser.|\n\n" ,
+
+            "Se|ja |eu |for|ti|fi|ca|do |"+
+            "Com |o |Teu |po|der, |Se|nhor, |\n"+
+            "Pa|ra |ser |san|ti|fi|ca|do |"+
+            "Pe|lo Es|pí|ri|to |de a|mor.|\n\n" ,
+
+            "Sou |Teu |ser|vo |mui|to a|ma|do, |"+
+            "Co-|her|dei|ro |Teu, |Se|nhor; |\n"+
+            "E, |no |rei|no |de|se|ja|do, |"+
+            "Eu |ve|rei |o |Cri|a|dor.|\n\n" ,
+        ],
+        temposVersos: [
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,8,
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,12,
+
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,8,
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,12,
+
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,8,
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,12,
+
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,8,
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,12
+
+        ],
+        notas: [
+            'B4','F#4','A4','G4','G4','D4','F#4','E4',
+            'A4','B4','C5','E4','F#4','D4','B4',
+            'B4','F#4','A4','G4','D5','B4','C5','E4',
+            'A4','G4','F#4','D4','B4','A4','G4',
+
+            'B4','F#4','A4','G4','G4','D4','F#4','E4',
+            'A4','B4','C5','E4','F#4','D4','B4',
+            'B4','F#4','A4','G4','D5','B4','C5','E4',
+            'A4','G4','F#4','D4','B4','A4','G4',
+
+            'B4','F#4','A4','G4','G4','D4','F#4','E4',
+            'A4','B4','C5','E4','F#4','D4','B4',
+            'B4','F#4','A4','G4','D5','B4','C5','E4',
+            'A4','G4','F#4','D4','B4','A4','G4',
+
+            'B4','F#4','A4','G4','G4','D4','F#4','E4',
+            'A4','B4','C5','E4','F#4','D4','B4',
+            'B4','F#4','A4','G4','D5','B4','C5','E4',
+            'A4','G4','F#4','D4','B4','A4','G4'
+        ],
+        temposNotas: [
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,8,
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,12,
+
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,8,
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,12,
+
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,8,
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,12,
+
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,8,
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,12
+
+        ]
     },
     "296": { 
         nome: "Teu Nome é soberano ó Redentor",
@@ -5026,8 +5589,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "297": { 
         nome: "Senhor conforta meu coração",
@@ -5042,8 +5606,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "298": { 
         nome: "Avante sempre sem temer!",
@@ -5058,8 +5623,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "299": { 
         nome: "Em nome de Jesus",
@@ -5074,8 +5640,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "300": { 
         nome: "Tudo o que os falta",
@@ -5090,8 +5657,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "301": { 
         nome: "Nossa esperança é Jesus",
@@ -5106,8 +5674,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "302": { 
         nome: "Que gloriosa Esperança é Jesus!",
@@ -5122,8 +5691,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "303": { 
         nome: "O Senhor não mudará",
@@ -5138,8 +5708,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "304": { 
         nome: "Cristo é a Esperança",
@@ -5154,8 +5725,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "305": { 
         nome: "Oh! Que fundamento",
@@ -5170,8 +5742,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "306": { 
         nome: "Bendizei ao Altíssimo Deus",
@@ -5186,8 +5759,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "307": { 
         nome: "Cristo nos dará da Sua plenitude",
@@ -5202,8 +5776,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "308": { 
         nome: "Soa a trombeta",
@@ -5218,8 +5793,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "309": { 
         nome: "Galardão nos espera",
@@ -5234,8 +5810,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "310": { 
         nome: "Nós Te louvamos ó Rei dos reis",
@@ -5250,8 +5827,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "311": { 
         nome: "Teus tesouros revelaste",
@@ -5266,8 +5844,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "312": { 
         nome: "Tributos de louvor",
@@ -5282,8 +5861,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "313": { 
         nome: "Arrebatado aos céus",
@@ -5298,8 +5878,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "314": { 
         nome: "O Teu poder supremo",
@@ -5314,8 +5895,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "315": { 
         nome: "Contempla do céu",
@@ -5330,8 +5912,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "316": { 
         nome: "Tua vida é triste?",
@@ -5346,8 +5929,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "S",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "317": { 
         nome: "Sinto o Senhor por fé em mim",
@@ -5362,8 +5946,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "318": { 
         nome: "Ó Salvador vem converter o pecador",
@@ -5378,8 +5963,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "319": { 
         nome: "Foi Jesus Quem me salvou",
@@ -5394,8 +5980,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "320": { 
         nome: "Que prazer é andar com Cristo",
@@ -5410,8 +5997,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "321": { 
         nome: "Bendito seja o Deus vivente",
@@ -5426,8 +6014,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "322": { 
         nome: "Vem Rei eterno",
@@ -5442,8 +6031,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "323": { 
         nome: "Oh! Não busques ansioso",
@@ -5458,8 +6048,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "324": { 
         nome: "Do mal o Salvador veio me tirar",
@@ -5474,8 +6065,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "325": { 
         nome: "Louvemos ao Rei dos reis",
@@ -5490,8 +6082,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "326": { 
         nome: "Sempre a Cristo fiéis",
@@ -5506,8 +6099,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "327": { 
         nome: "Soldados somos do Senhor",
@@ -5522,8 +6116,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "328": { 
         nome: "Grande é o Teu poder Senhor",
@@ -5538,8 +6133,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "329": { 
         nome: "Com fé combate",
@@ -5554,8 +6150,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "330": { 
         nome: "Ao findar a jornada",
@@ -5570,8 +6167,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "331": { 
         nome: "Vem a Cristo sem tardar",
@@ -5586,8 +6184,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "332": { 
         nome: "É Cristo Quem cuida de ti",
@@ -5602,8 +6201,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "333": { 
         nome: "Peregrino sou no mundo",
@@ -5618,8 +6218,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "334": { 
         nome: "Há uma pátria perfeita...",
@@ -5634,8 +6235,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "335": { 
         nome: "Eu almejo nessa pátria entrar...",
@@ -5650,8 +6252,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "336": { 
         nome: "Sempre brilhar devemos",
@@ -5666,8 +6269,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "337": { 
         nome: "Por fé seguimos ao Senhor",
@@ -5682,8 +6286,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "338": { 
         nome: "O Senhor é sempiterno",
@@ -5698,8 +6303,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "339": { 
         nome: "Glória sem par",
@@ -5714,8 +6320,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "340": { 
         nome: "No mundo sou peregrino",
@@ -5730,8 +6337,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "341": { 
         nome: "Com fé espera no Senhor",
@@ -5746,8 +6354,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "342": { 
         nome: "Sião celestial",
@@ -5762,8 +6371,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "343": { 
         nome: "Lá no céu cantaremos",
@@ -5778,8 +6388,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "344": { 
         nome: "Vou encontrar meu Deus",
@@ -5794,8 +6405,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "345": { 
         nome: "Regozijo-me em falar do Salvador",
@@ -5810,8 +6422,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "346": { 
         nome: "Longe do mal e perto de Ti",
@@ -5826,8 +6439,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "347": { 
         nome: "Ontem, hoje e eternamente",
@@ -5842,8 +6456,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "348": { 
         nome: "Em Cristo espera, sem vacilar",
@@ -5858,8 +6473,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "349": { 
         nome: "Irmãos amados",
@@ -5874,8 +6490,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "350": { 
         nome: "A jornada farei",
@@ -5890,8 +6507,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "351": { 
         nome: "Senhor, à Tua presença",
@@ -5905,9 +6523,93 @@ const hymnsData = {
         velMaxMeiaHora: 70,
         MeiaHora: "S",
         velX3: "N",
-        versos: [],
-        tempos: [],
-        notas: []
+        versos: [
+            "Se|nhor, |à |Tu|a |pre|sen|ça, |"+
+            "Em |paz |va|mos |nos |pros|trar, |\n"+
+            "E, |pe|lo Es|pí|ri|to |San|to, |"+
+            "Teu |No|me |ce|les|te in|vo|car. |\n\n" ,
+
+            "Se|nhor, |és |Tu |que |co|nhe|ces |"+
+            "O |que |sen|te o |co|ra|ção; |\n"+
+            "Hu|mil|des, |Te |su|pli|ca|mos: |"+
+            "A|ten|de |a |nos|sa o|ra|ção. |\n\n" ,
+
+            "Se|nhor, |com |fé |nós |ro|ga|mos: |"+
+            "Con|ce|de|-nos |mais |te|mor |\n"+
+            "A |fim |de |per|ma|ne|cer|mos |"+
+            "Em |Tu|a |jus|ti|ça |e a|mor. |\n\n" ,
+
+            "Do |tro|no |da |Tu|a |gra|ça, |"+
+            "En|vi|a |con|so|la|ção; |\n"+
+            "As |bên|ções |nós |es|pe|ra|mos; |"+
+            "Res|pon|de |a |nos|sa o|ra|ção. |\n\n" ,
+
+        ],
+        temposVersos: [
+            2,4,2,2,2,2,6,4,
+            2,2,2,2,4,2,10,
+            2,4,2,2,2,2,6,4,
+            2,2,2,2,2,2,2,10,
+
+            2,4,2,2,2,2,6,4,
+            2,2,2,2,4,2,10,
+            2,4,2,2,2,2,6,4,
+            2,2,2,2,2,2,2,10,
+            
+            2,4,2,2,2,2,6,4,
+            2,2,2,2,4,2,10,
+            2,4,2,2,2,2,6,4,
+            2,2,2,2,2,2,2,10,
+            
+            2,4,2,2,2,2,6,4,
+            2,2,2,2,4,2,10,
+            2,4,2,2,2,2,6,4,
+            2,2,2,2,2,2,2,10
+
+        ],
+        notas: [
+            'G4','G4','F4','E4','G4','C5','B4','A4',
+            'G4','G4','A4','G4','D4','F4','E4','C4',
+            'G4','G4','F4','E4','G4','C5','E5','C5','G4',
+            'C5','B4','A4','G4','A4','F4','D4','C4',
+
+            'G4','G4','F4','E4','G4','C5','B4','A4',
+            'G4','G4','A4','G4','D4','F4','E4','C4',
+            'G4','G4','F4','E4','G4','C5','E5','C5','G4',
+            'C5','B4','A4','G4','A4','F4','D4','C4',
+
+            'G4','G4','F4','E4','G4','C5','B4','A4',
+            'G4','G4','A4','G4','D4','F4','E4','C4',
+            'G4','G4','F4','E4','G4','C5','E5','C5','G4',
+            'C5','B4','A4','G4','A4','F4','D4','C4',
+
+            'G4','G4','F4','E4','G4','C5','B4','A4',
+            'G4','G4','A4','G4','D4','F4','E4','C4',
+            'G4','G4','F4','E4','G4','C5','E5','C5','G4',
+            'C5','B4','A4','G4','A4','F4','D4','C4'
+        ],
+        temposNotas: [
+            2,4,2,2,2,2,6,4,
+            2,2,2,2,4,2,6,4,
+            2,4,2,2,2,2,4,2,4,
+            2,2,2,2,2,2,2,10,
+
+            2,4,2,2,2,2,6,4,
+            2,2,2,2,4,2,6,4,
+            2,4,2,2,2,2,4,2,4,
+            2,2,2,2,2,2,2,10,
+            
+            2,4,2,2,2,2,6,4,
+            2,2,2,2,4,2,6,4,
+            2,4,2,2,2,2,4,2,4,
+            2,2,2,2,2,2,2,10,
+            
+            2,4,2,2,2,2,6,4,
+            2,2,2,2,4,2,6,4,
+            2,4,2,2,2,2,4,2,4,
+            2,2,2,2,2,2,2,10
+
+        ]
     },
     "352": { 
         nome: "Sinto viva esperança",
@@ -5922,8 +6624,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "353": { 
         nome: "Eleitos nós somos",
@@ -5938,8 +6641,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "354": { 
         nome: "Jerusalém celestial!",
@@ -5954,8 +6658,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "355": { 
         nome: "A Ti, Deus, eu consagrei-me",
@@ -5970,8 +6675,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "356": { 
         nome: "Por preço elevado jesus resgatou-me",
@@ -5986,8 +6692,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "357": { 
         nome: "Face a face O verei",
@@ -6002,8 +6709,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "358": { 
         nome: "O Teu precioso sangue",
@@ -6018,8 +6726,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "359": { 
         nome: "Ó irmãos, de Deus diletos",
@@ -6034,8 +6743,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "360": { 
         nome: "Do mal apartados devemos estar",
@@ -6050,8 +6760,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "361": { 
         nome: "Tudo entende o Salvador",
@@ -6066,8 +6777,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "362": { 
         nome: "Que bela herança!",
@@ -6082,8 +6794,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "363": { 
         nome: "Aos Teus pés estou Senhor",
@@ -6098,8 +6811,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "364": { 
         nome: "Os tempos já chegados são...",
@@ -6114,8 +6828,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "365": { 
         nome: "Contrito venho a Ti",
@@ -6130,8 +6845,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "366": { 
         nome: "Pela fé tereis vitória",
@@ -6146,8 +6862,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "367": { 
         nome: "Ao que vive para sempre...",
@@ -6162,8 +6879,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "368": { 
         nome: "Deus nos elegeu para Si",
@@ -6178,8 +6896,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "369": { 
         nome: "Sentes bater em teu coração?",
@@ -6194,8 +6913,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "370": { 
         nome: "Têm os santos do Senhor",
@@ -6210,8 +6930,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "371": { 
         nome: "Aos Teus pés me apresento",
@@ -6226,8 +6947,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "372": { 
         nome: "Da igreja fiel Fundamento é Jesus",
@@ -6242,8 +6964,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "373": { 
         nome: "Cristo Jesus o Redentor",
@@ -6258,8 +6981,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "374": { 
         nome: "Santo! Santo! Santo!",
@@ -6274,8 +6998,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "375": { 
         nome: "A paz Eu vos deixo",
@@ -6290,8 +7015,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "376": { 
         nome: "Senhor preciso mais...",
@@ -6306,8 +7032,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "377": { 
         nome: "No céu Senhor no céu",
@@ -6322,8 +7049,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "378": { 
         nome: "Grandioso és Tu",
@@ -6338,8 +7066,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "379": { 
         nome: "Grande festa haverá nos céus",
@@ -6354,8 +7083,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "380": { 
         nome: "Com Jesus eternamente viverei",
@@ -6370,8 +7100,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "381": { 
         nome: "Mui breve virá mui breve virá",
@@ -6386,8 +7117,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "382": { 
         nome: "Creio nas fiéis promessas do meu Deus",
@@ -6402,8 +7134,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "383": { 
         nome: "Cristo é a Estrela",
@@ -6418,8 +7151,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "384": { 
         nome: "Nos resgatou e nos lavou",
@@ -6434,8 +7168,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "385": { 
         nome: "Vinde após Mim",
@@ -6450,8 +7185,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "386": { 
         nome: "Pela morte de Jesus",
@@ -6466,8 +7202,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "387": { 
         nome: "Ó Salvador, que recebeste poder",
@@ -6482,8 +7219,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "388": { 
         nome: "Na cidade santa",
@@ -6498,8 +7236,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "389": { 
         nome: "Cristo Jesus chama os Seus",
@@ -6514,8 +7253,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "390": { 
         nome: "Eis que vem o Verdadeiro",
@@ -6530,8 +7270,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "391": { 
         nome: "Um peregrino sou aqui",
@@ -6546,8 +7287,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "392": { 
         nome: "Com Jesus, a Esperança",
@@ -6562,8 +7304,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "393": { 
         nome: "Ó bom Jesus, meu caro Jesus",
@@ -6578,8 +7321,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "394": { 
         nome: "Nas moradas do Senhor",
@@ -6594,8 +7338,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "395": { 
         nome: "'Eis-Me aqui', dirá o Criador",
@@ -6610,8 +7355,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "396": { 
         nome: "Vamos, ó irmãos, marchar",
@@ -6626,8 +7372,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "397": { 
         nome: "Paz, sublime paz",
@@ -6642,8 +7389,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "398": { 
         nome: "Não tardará a volta do Senhor",
@@ -6658,8 +7406,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "399": { 
         nome: "Sou a videira",
@@ -6674,8 +7423,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "400": { 
         nome: "Divina Fonte é Jesus",
@@ -6690,8 +7440,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "401": { 
         nome: "Revela Teu querer",
@@ -6706,8 +7457,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "402": { 
         nome: "Ó irmãos a Deus devemos...",
@@ -6722,8 +7474,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "403": { 
         nome: "Pefa fé uma vez...",
@@ -6738,8 +7491,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "404": { 
         nome: "Por fé, recebe o grande Mestre",
@@ -6754,8 +7508,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "405": { 
         nome: "Só por Cristo temos salvação",
@@ -6770,8 +7525,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "406": { 
         nome: "A voz de Cristo te convida: Vem!",
@@ -6786,8 +7542,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "407": { 
         nome: "És bendito eternamente!",
@@ -6802,8 +7559,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "408": { 
         nome: "Jesus Cristo é o Pão celeste",
@@ -6818,8 +7576,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "409": { 
         nome: "Breve voltará Jesus Cristo",
@@ -6834,8 +7593,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "410": { 
         nome: "O sangue precioso",
@@ -6850,8 +7610,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "411": { 
         nome: "O vitupério de Jesus",
@@ -6866,8 +7627,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "412": { 
         nome: "Senhor, recordamos aqui...",
@@ -6882,8 +7644,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "413": { 
         nome: "Foi por mim que morreste",
@@ -6898,8 +7661,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "414": { 
         nome: "Teu sangue imaculado",
@@ -6914,8 +7678,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "415": { 
         nome: "Na cruz morreu o Cordeiro",
@@ -6930,8 +7695,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "416": { 
         nome: "No Calvário...",
@@ -6946,8 +7712,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "417": { 
         nome: "Recordemo-nos sempre do Mestre",
@@ -6962,8 +7729,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "418": { 
         nome: "Só Jesus Cristo, santo Cordeiro",
@@ -6978,8 +7746,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "419": { 
         nome: "Fazei isto em memória de Mim",
@@ -6994,8 +7763,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "420": { 
         nome: "Foi no Calvário...",
@@ -7010,8 +7780,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "421": { 
         nome: "Recorda, por fé, minha alma",
@@ -7026,8 +7797,9 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "422": { 
         nome: "Jesus Cristo, fiel Cordeiro",
@@ -7042,8 +7814,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "423": { 
         nome: "Só o sangue precioso e expiador",
@@ -7058,8 +7831,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "424": { 
         nome: "Ó Jesus, por nós morreste",
@@ -7074,8 +7848,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "425": { 
         nome: "Cristo Supremo",
@@ -7090,8 +7865,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "426": { 
         nome: "Lá no céu, o lar de amor",
@@ -7106,8 +7882,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "427": { 
         nome: "Os que no Senhor dormiram",
@@ -7122,8 +7899,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "428": { 
         nome: "O dia de Cristo bem perto está",
@@ -7138,8 +7916,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "429": { 
         nome: "A trombeta soará",
@@ -7154,8 +7933,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "430": { 
         nome: "Preciosa é, aos olhos do Criador...",
@@ -7170,8 +7950,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "431": { 
         nome: "Ó meninos, estamos reunidos",
@@ -7186,8 +7967,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "432": { 
         nome: "Vem, ó divino Mestre",
@@ -7202,8 +7984,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "433": { 
         nome: "Na santa escola",
@@ -7218,8 +8001,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "434": { 
         nome: "A minha alma sente paz no Senhor",
@@ -7234,8 +8018,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "435": { 
         nome: "Ó Jesus, quanto és piedoso!",
@@ -7250,8 +8035,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "436": { 
         nome: "Alegria sinto em servir Jesus",
@@ -7266,8 +8052,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "437": { 
         nome: "Os meninos viram Jesus passar",
@@ -7282,8 +8069,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "438": { 
         nome: "Oh! Que amor celeste!",
@@ -7298,8 +8086,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "439": { 
         nome: "Somos jovens",
@@ -7314,8 +8103,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "440": { 
         nome: "Lembra-te do teu Criador!",
@@ -7330,8 +8120,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "441": { 
         nome: "Eu sou um cordeirinho",
@@ -7346,8 +8137,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "442": { 
         nome: "Bênçãos, bênçãos Deus derramará",
@@ -7362,8 +8154,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "443": { 
         nome: "Ó meninos, Deus vos convida",
@@ -7378,8 +8171,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "444": { 
         nome: "Ó meninos, exaltemos",
@@ -7394,8 +8188,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "445": { 
         nome: "Ajuntemos um tesouro eterno",
@@ -7410,8 +8205,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "446": { 
         nome: "Vós, ó jovens do Senhor",
@@ -7426,8 +8222,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "447": { 
         nome: "Brilha mais e mais",
@@ -7442,8 +8239,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "448": { 
         nome: "Sou criança, Senhor",
@@ -7458,8 +8256,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "449": { 
         nome: "O meu nome no céu escreveste, Senhor",
@@ -7474,8 +8273,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "450": { 
         nome: "Vamos, queridos, escolher a boa parte",
@@ -7490,8 +8290,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "451": { 
         nome: "Jamais esquecerei Tua mercê",
@@ -7506,8 +8307,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "452": { 
         nome: "Jesus, ó divinal Pastor",
@@ -7522,8 +8324,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "453": { 
         nome: "Consagrados sejamos a Deus",
@@ -7538,8 +8341,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "454": { 
         nome: "Cidadão dos céus",
@@ -7554,8 +8358,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "455": { 
         nome: "Quão ditoso é caminhar com Jesus!",
@@ -7570,8 +8375,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "456": { 
         nome: "Somos jóias preciosas",
@@ -7586,8 +8392,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "457": { 
         nome: "Comigo está Jesus",
@@ -7602,8 +8409,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "458": { 
         nome: "Cristo me ama",
@@ -7618,8 +8426,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "459": { 
         nome: "Vamos nos preparar!",
@@ -7634,8 +8443,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "460": { 
         nome: "Vamos todos juntos cantar",
@@ -7650,8 +8460,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "461": { 
         nome: "Abrigado em Jesus",
@@ -7666,8 +8477,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "462": { 
         nome: "Gloriosa é a história",
@@ -7682,8 +8494,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "463": { 
         nome: "Mocidade! Vamos combater!",
@@ -7698,8 +8511,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "464": { 
         nome: "Reunidos nós estamos",
@@ -7714,8 +8528,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "465": { 
         nome: "Deus tem por nós imenso amor",
@@ -7730,8 +8545,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "466": { 
         nome: "A criança consagrada",
@@ -7746,8 +8562,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "467": { 
         nome: "Vamos com Jesus",
@@ -7762,8 +8579,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "468": { 
         nome: "Toda a criança",
@@ -7778,8 +8596,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "469": { 
         nome: "Pai nosso, que estás nos céus",
@@ -7794,8 +8613,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "470": { 
         nome: "Jesus Cristo, Seus fiéis, ensina",
@@ -7810,8 +8630,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "471": { 
         nome: "Que grande bem é andar com Cristo!",
@@ -7826,8 +8647,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "472": { 
         nome: "Glorificarei, glorificarei",
@@ -7842,8 +8664,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "473": { 
         nome: "Forasteiro sou no mundo",
@@ -7858,8 +8681,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "474": { 
         nome: "Oh! Glória! Bendito é o Senhor!",
@@ -7874,8 +8698,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "475": { 
         nome: "Se eu for aqui provado",
@@ -7890,8 +8715,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "476": { 
         nome: "Deixai a Mim vir os pequeninos...",
@@ -7906,8 +8732,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "477": { 
         nome: "Vinde, crianças",
@@ -7922,8 +8749,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "478": { 
         nome: "Cedo retorna o Senhor",
@@ -7938,8 +8766,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "479": { 
         nome: "Somos jovens consagrados",
@@ -7954,8 +8783,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "480": { 
         nome: "Jovens, amai o conselho",
@@ -7970,8 +8800,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "481": { 
         nome: "Aleluia! Aleluia!",
@@ -7986,8 +8817,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "482": { 
         nome: "Toda a glória a Jesus",
@@ -8001,9 +8833,30 @@ const hymnsData = {
         velMaxMeiaHora: 36,
         MeiaHora: "N",
         velX3: "N",
-        versos: [],
-        tempos: [],
-        notas: []
+        versos: [
+            "To|da |a |gló|ria |a |Je|sus!| "+
+            "To|da |a |hon|ra |a |Je|sus!\n|"+
+            "Jun|tos |lou|ve|mos |a |Je|sus!| "+
+            "Seu |san|to |No|me |va|mos |e|xal|tar." ,
+        ],
+        temposVersos: [
+            2,4,2,2,6,4,4,8,
+            2,4,2,2,6,4,4,8,
+            2,4,2,2,6,4,4,8,
+            2,4,2,2,2,2,2,4,4,12
+        ],
+        notas: [
+            'G4','G4','G4','E4','D4','G4','B4','D5',
+            'E5','E5','E5','D5','B4','A4','A4','D5',
+            'G4','G4','G4','E4','D4','G4','B4','D5',
+            'E5','E5','E5','D5','B4','G4','A4','B4','A4','G4',''
+        ],
+        temposNotas: [            
+            2,4,2,2,6,4,4,8,
+            2,4,2,2,6,4,4,8,
+            2,4,2,2,6,4,4,8,
+            2,4,2,2,2,2,2,4,4,12,4
+        ]
     },
     "483": { 
         nome: "Ação de graças darei",
@@ -8017,9 +8870,31 @@ const hymnsData = {
         velMaxMeiaHora: 39,
         MeiaHora: "N",
         velX3: "N",
-        versos: [],
-        tempos: [],
-        notas: []
+        versos: [
+            "A|ção |de |gra|ças |da|rei |"+
+            "A |Je|sus, |meu |Pas|tor, |meu |Rei;\n|"+
+            "As |Su|as |o|bras |con|ta|rei, |"+
+            "Seu |No|me |e|xal|ta|rei!" ,
+
+        ],
+        temposVersos: [
+            4,4,4,4,2,2,12,
+            2,2,4,2,2,4,4,12,
+            4,4,4,4,4,4,4,4,
+            4,4,2,2,4,4,12
+        ],
+        notas: [
+            'D4','G4','G4','B4','A4','G4','A4',
+            'B4','C5','D5','C5','B4','C5','B4','A4',
+            'D5','B4','G4','A4','D4','G4','B4','D5',
+            'D5','E5','D5','C5','B4','A4','G4',
+        ],
+        temposNotas: [
+            4,4,4,4,2,2,12,
+            2,2,4,2,2,4,4,12,
+            4,4,4,4,4,4,4,4,
+            4,4,2,2,4,4,12
+        ]
     },
     "484": { 
         nome: "Glória, glórias nas alturas!",
@@ -8034,8 +8909,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "485": { 
         nome: "Majestoso é Cristo Jesus!",
@@ -8050,8 +8926,9 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [],
-        tempos: [],
-        notas: []
+        temposVersos: [],
+        notas: [],
+        temposNotas: []
     },
     "486": { 
         nome: "A Jesus eu cantarei louvor",
@@ -8065,8 +8942,29 @@ const hymnsData = {
         velMaxMeiaHora: 40,
         MeiaHora: "N",
         velX3: "N",
-        versos: [],
-        tempos: [],
-        notas: []
+        versos: [
+            "A |Je|sus |eu |can|ta|rei |lou|vor; |"+
+            "Hon|ra e |gló|ria |sem|pre |Lhe |da|rei;\n|"+
+            "E|xal|ta|rei |ao |meu |Se|nhor; |"+
+            "O |Seu |No|me |ben|di|rei."            
+        ],
+        temposVersos: [
+            6,2,2,2,2,2,4,4,8,
+            6,2,2,2,2,2,4,4,8,
+            4,3,1,8,4,3,1,8,
+            6,2,2,2,2,2,12
+        ],
+        notas: [
+            'G4','G4','G4','B4','A4','G4','D4','F#4','A4',
+            'A4','A4','A4','C5','B4','A4','G4','B4','D5',
+            'D5','D5','D5','D5','C5','C5','C5','E5',
+            'D5','D5','D5','B4','C5','A4','G4'
+        ],
+        temposNotas: [
+            6,2,2,2,2,2,4,4,8,
+            6,2,2,2,2,2,4,4,8,
+            4,3,1,8,4,3,1,8,
+            6,2,2,2,2,2,12
+        ]
     }
 };
