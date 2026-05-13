@@ -1329,10 +1329,91 @@ const hymnsData = {
         velMaxMeiaHora: 48,
         MeiaHora: "S",
         velX3: "N",
-        versos: [],
-        temposVersos: [],
-        notas: [],
-        temposNotas: []
+        versos: [
+            "Ó |Cri|a|dor, |for|te |Ro|cha |és, |"+
+            "I|men|so é |o |Teu |po|der; |"+
+            "Eu |me |a|bri|go em |Ti, |Se|nhor, |"+
+            "A|fim |de |nun|ca |pe|re|cer. |" ,
+
+            "Ó |Cri|a|dor, |Teu |fi|el |fa|vor |"+
+            "Me |faz |ju|bi|lar de |a|mor; |"+
+            "Com |to|da a |al|ma, im|plo|ro a |Ti: |"+
+            "Oh! |Vem |me |de|fen|der, |Se|nhor. |" ,
+
+            "Ó |Cri|a|dor, |vem |me |pres|er|var |"+
+            "Do |mal |e |da |ten|ta|ção; |"+
+            "Mui |fra|co |sou, |re|cor|ro a |Ti; |"+
+            "A|ten|de |mi|nha |o|ra|ção. |" ,
+
+            "Ó |Cri|a|dor, |po|de|ro|so |Deus, |"+
+            "Es|pe|ro |em |Teu |a|mor; |"+
+            "O|pe|ra |sem|pre a |meu |fa|vor; |"+
+            "Lou|vo|res |Te |da|rei, |Se|nhor." ,
+
+        ],
+        temposVersos: [
+            4,8,4,8,2,2,8,4,8,
+            4,8,2,2,8,4,8,
+            4,8,4,8,4,8,4,8,
+            4,4,4,2,2,8,4,8,
+
+            4,8,4,8,2,2,8,4,8,
+            4,8,2,2,8,4,8,
+            4,8,4,8,4,8,4,8,
+            4,4,4,2,2,8,4,8,
+
+            4,8,4,8,2,2,8,4,8,
+            4,8,2,2,8,4,8,
+            4,8,4,8,4,8,4,8,
+            4,4,4,2,2,8,4,8,
+
+            4,8,4,8,2,2,8,4,8,
+            4,8,2,2,8,4,8,
+            4,8,4,8,4,8,4,8,
+            4,4,4,2,2,8,4,8,
+        ],
+        notas: [
+            'Eb4','Ab4','F4','Eb4','Ab4','Bb4','C5','Bb4','Ab4',
+            'C5','Eb5','C5','Bb4','Ab4','C5','Bb4',
+            'Eb5','C5','Bb4','Ab4','C5','Db5','C5','Bb4',
+            'C5','Eb4','F4','Ab4','Bb4','C5','Bb4','Ab4',
+
+            'Eb4','Ab4','F4','Eb4','Ab4','Bb4','C5','Bb4','Ab4',
+            'C5','Eb5','C5','Bb4','Ab4','C5','Bb4',
+            'Eb5','C5','Bb4','Ab4','C5','Db5','C5','Bb4',
+            'C5','Eb4','F4','Ab4','Bb4','C5','Bb4','Ab4',
+
+            'Eb4','Ab4','F4','Eb4','Ab4','Bb4','C5','Bb4','Ab4',
+            'C5','Eb5','C5','Bb4','Ab4','C5','Bb4',
+            'Eb5','C5','Bb4','Ab4','C5','Db5','C5','Bb4',
+            'C5','Eb4','F4','Ab4','Bb4','C5','Bb4','Ab4',
+
+            'Eb4','Ab4','F4','Eb4','Ab4','Bb4','C5','Bb4','Ab4',
+            'C5','Eb5','C5','Bb4','Ab4','C5','Bb4',
+            'Eb5','C5','Bb4','Ab4','C5','Db5','C5','Bb4',
+            'C5','Eb4','F4','Ab4','Bb4','C5','Bb4','Ab4'
+        ],
+        temposNotas: [
+            4,8,4,8,2,2,8,4,8,
+            4,8,2,2,8,4,8,
+            4,8,4,8,4,8,4,8,
+            4,4,4,2,2,8,4,8,
+
+            4,8,4,8,2,2,8,4,8,
+            4,8,2,2,8,4,8,
+            4,8,4,8,4,8,4,8,
+            4,4,4,2,2,8,4,8,
+
+            4,8,4,8,2,2,8,4,8,
+            4,8,2,2,8,4,8,
+            4,8,4,8,4,8,4,8,
+            4,4,4,2,2,8,4,8,
+
+            4,8,4,8,2,2,8,4,8,
+            4,8,2,2,8,4,8,
+            4,8,4,8,4,8,4,8,
+            4,4,4,2,2,8,4,8,
+        ]
     },
     "63": { 
         nome: "Se vós baterdes Ele vos abre",
@@ -1855,10 +1936,98 @@ const hymnsData = {
         velMaxMeiaHora: 56,
         MeiaHora: "N",
         velX3: "N",
-        versos: [],
-        temposVersos: [],
-        notas: [],
-        temposNotas: []
+        versos: [
+            "Oh! |Gran|de |Deus, |"+
+            "se |cum|prem |as |pro|mes|sas |"+
+            "Que |Tu |tens |fei|to |no |Se|nhor |Je|sus; |.|"+
+            "Pe|los |Teus |si|nais, |"+
+            "já |ve|mos |que |Te a|pres|sas |"+
+            "Em |mos|trar |a |to|dos |Tu|a e|ter|na |luz. |" ,
+
+            "Pai |e|ter|nal, |"+
+            "do |céu |nos |tens |man|da|do |"+
+            "Teu |San|to |Fi|lho, |o |E|ma|nu|el, |.|"+
+            "Que, |da es|cra|vi|dão, |"+
+            "nos |tem |já |li|ber|ta|do |"+
+            "E |nos |fez |Seu |po|vo |san|to |e |fi|el. |" ,
+
+            "Deus |Cri|a|dor, |"+
+            "tam|bém |nos |en|vi|as|te |"+
+            "Teu |San|to Es|pí|ri|to |Con|so|la|dor; |.|"+
+            "Pa|ra a |re|den|ção |"+
+            "e|ter|na |nos |se|las|te |"+
+            "E, |por |es|se |Dom, |sen|ti|mos |Teu |a|mor. |" ,
+
+        ],
+        temposVersos: [
+            8,4,4,12,
+            4,4,4,4,4,8,8,
+            8,6,2,4,4,4,4,8,8,12,4,
+            4,4,4,4,12,
+            4,4,4,4,4,8,8,
+            4,4,4,4,4,4,4,4,8,8,12,
+
+            8,4,4,12,
+            4,4,4,4,4,8,8,
+            8,6,2,4,4,4,4,8,8,12,4,
+            4,4,4,4,12,
+            4,4,4,4,4,8,8,
+            4,4,4,4,4,4,4,4,8,8,12,
+
+            8,4,4,12,
+            4,4,4,4,4,8,8,
+            8,6,2,4,4,4,4,8,8,12,4,
+            4,4,4,4,12,
+            4,4,4,4,4,8,8,
+            4,4,4,4,4,4,4,4,8,8,12
+
+        ],
+        notas: [
+            'Bb4','A4','G4','F4',
+            'F4','Bb4','A4','Bb4','C5','D5','Bb4',
+            'D5','C5','C5','Bb4','G4','A4','Bb4','A4','G4','F4','',
+            'F4','Eb5','D5','C5','Bb4',
+            'F4','F4','Eb5','D5','C5','C5','Bb4',
+            'F4','G4','F4','G4','F4','A4','Bb4','C5','D5','C5','Bb4',
+
+            'Bb4','A4','G4','F4',
+            'F4','Bb4','A4','Bb4','C5','D5','Bb4',
+            'D5','C5','C5','Bb4','G4','A4','Bb4','A4','G4','F4','',
+            'F4','Eb5','D5','C5','Bb4',
+            'F4','F4','Eb5','D5','C5','C5','Bb4',
+            'F4','G4','F4','G4','F4','A4','Bb4','C5','D5','C5','Bb4',
+
+            'Bb4','A4','G4','F4',
+            'F4','Bb4','A4','Bb4','C5','D5','Bb4',
+            'D5','C5','C5','Bb4','G4','A4','Bb4','A4','G4','F4','',
+            'F4','Eb5','D5','C5','Bb4',
+            'F4','F4','Eb5','D5','C5','C5','Bb4',
+            'F4','G4','F4','G4','F4','A4','Bb4','C5','D5','C5','Bb4'
+
+        ],
+        temposNotas: [
+            8,4,4,12,
+            4,4,4,4,4,8,8,
+            8,6,2,4,4,4,4,8,8,12,4,
+            4,4,4,4,12,
+            4,4,4,4,4,8,8,
+            4,4,4,4,4,4,4,4,8,8,12,
+
+            8,4,4,12,
+            4,4,4,4,4,8,8,
+            8,6,2,4,4,4,4,8,8,12,4,
+            4,4,4,4,12,
+            4,4,4,4,4,8,8,
+            4,4,4,4,4,4,4,4,8,8,12,
+
+            8,4,4,12,
+            4,4,4,4,4,8,8,
+            8,6,2,4,4,4,4,8,8,12,4,
+            4,4,4,4,12,
+            4,4,4,4,4,8,8,
+            4,4,4,4,4,4,4,4,8,8,12
+
+        ]
     },
     "90": { 
         nome: "Teu destino é a glória",
@@ -1923,10 +2092,96 @@ const hymnsData = {
         velMaxMeiaHora: 40,
         MeiaHora: "N",
         velX3: "N",
-        versos: [],
-        temposVersos: [],
-        notas: [],
-        temposNotas: []
+        versos: [
+            "O |Se|nhor |Je|sus |te |cha|ma, |"+
+            "Só |por |E|le |tens |per|dão; |"+
+            "Quer |do|ar|-te |no|va |vi|da, |"+
+            "Dar|-te |paz |ao |co|ra|ção; |"+
+            "A|cei|tan|do |ao |Se|nhor, |"+
+            "Tem |per|dão |o |pe|ca|dor. |" ,
+
+            "O |pe|ca|do |não |im|pe|de |"+
+            "Que |te |cha|me |com |a|mor; |"+
+            "Es|que|cer |o |teu |pas|sa|do |"+
+            "Quer |Je|sus, |o |Re|den|tor; |"+
+            "A|cei|tan|do |ao |Se|nhor, |"+
+            "Tem |fa|vor |o |pe|ca|dor. |" ,
+
+            "Tu|do es|tá |já |pre|pa|ra|do, |"+
+            "Só |te |res|ta o|be|de|cer; |"+
+            "Não |rei|jei|tes |o |cha|ma|do |"+
+            "Que |Je|sus |vem |te |fa|zer; |"+
+            "A|cei|tan|do |ao |Se|nhor, |"+
+            "Tem |a |vi|da o |pe|ca|dor." ,
+
+        ],
+        temposVersos: [
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,8,
+            3,1,6,2,2,2,4,4,
+            3,1,6,2,2,2,8,
+            3,1,4,4,3,1,8,
+            3,1,6,2,2,2,8,
+
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,8,
+            3,1,6,2,2,2,4,4,
+            3,1,6,2,2,2,8,
+            3,1,4,4,3,1,8,
+            3,1,6,2,2,2,8,
+
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,8,
+            3,1,6,2,2,2,4,4,
+            3,1,6,2,2,2,8,
+            3,1,4,4,3,1,8,
+            3,1,6,2,2,2,8
+        ],
+        notas: [
+            'F4','G4','F4','D4','Bb4','G4','F4','F4',
+            'Bb4','C5','D5','C5','Bb4','A4','Bb4',
+            'A4','Bb4','C5','C5','A4','F4','Bb4','Bb4',
+            'A4','Bb4','C5','C5','A4','F4','Bb4',
+            'F4','G4','F4','D4','Bb4','G4','F4',
+            'Bb4','C5','D5','C5','Bb4','A4','Bb4',
+
+            'F4','G4','F4','D4','Bb4','G4','F4','F4',
+            'Bb4','C5','D5','C5','Bb4','A4','Bb4',
+            'A4','Bb4','C5','C5','A4','F4','Bb4','Bb4',
+            'A4','Bb4','C5','C5','A4','F4','Bb4',
+            'F4','G4','F4','D4','Bb4','G4','F4',
+            'Bb4','C5','D5','C5','Bb4','A4','Bb4',
+
+            'F4','G4','F4','D4','Bb4','G4','F4','F4',
+            'Bb4','C5','D5','C5','Bb4','A4','Bb4',
+            'A4','Bb4','C5','C5','A4','F4','Bb4','Bb4',
+            'A4','Bb4','C5','C5','A4','F4','Bb4',
+            'F4','G4','F4','D4','Bb4','G4','F4',
+            'Bb4','C5','D5','C5','Bb4','A4','Bb4'
+        ],
+        temposNotas: [
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,8,
+            3,1,6,2,2,2,4,4,
+            3,1,6,2,2,2,8,
+            3,1,4,4,3,1,8,
+            3,1,6,2,2,2,8,
+
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,8,
+            3,1,6,2,2,2,4,4,
+            3,1,6,2,2,2,8,
+            3,1,4,4,3,1,8,
+            3,1,6,2,2,2,8,
+
+            3,1,4,4,3,1,4,4,
+            3,1,6,2,3,1,8,
+            3,1,6,2,2,2,4,4,
+            3,1,6,2,2,2,8,
+            3,1,4,4,3,1,8,
+            3,1,6,2,2,2,8
+
+        ]
     },
     "94": { 
         nome: "Quem sustenta a nossa vida",
