@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover">
-    <title>Karaokê CCB - Com Quebras de Linha</title>
+    <title>Karaokê CCB - Apenas Hinos com Notas</title>
     <style>
         * {
             margin: 0;
@@ -387,20 +387,30 @@
             height: 0;
             margin: 6px 0;
         }
+        
+        .available-count {
+            font-size: 0.7rem;
+            background: #334155;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 8px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <h1>🎵 Karaokê CCB</h1>
-            <p>Com suporte a quebras de linha \\n nos versos</p>
+            <p>Apenas hinos com notas musicais disponíveis</p>
         </div>
         
         <div class="content">
             <div class="hymn-nav">
                 <button class="nav-btn" id="prevBtn">◀</button>
                 <div class="hymn-input-group">
-                    <input type="text" id="hymnInput" class="hymn-input" value="32" autocomplete="off" inputmode="numeric">
+                    <input type="text" id="hymnInput" class="hymn-input" value="158" autocomplete="off" inputmode="numeric">
                 </div>
                 <button class="nav-btn" id="nextBtn">▶</button>
             </div>
@@ -409,6 +419,7 @@
             <div id="hymnInfo" class="hymn-info">
                 <div class="hymn-name-row">
                     <div class="hymn-name" id="hymnName">Carregando...</div>
+                    <div id="availableCount" class="available-count"></div>
                 </div>
                 
                 <div class="speed-control">
@@ -445,7 +456,7 @@
                 
                 <div class="status" id="status"></div>
                 <div class="info">
-                    🎼 \\n = quebra de linha | \\n\\n = novo verso com separador
+                    🎼 Mostrando apenas hinos que possuem notas musicais cadastradas
                 </div>
             </div>
         </div>
@@ -457,18 +468,29 @@
             'C4': 261.63, 'D4': 293.66, 'E4': 329.63, 'F4': 349.23, 'G4': 392.00,
             'A4': 440.00, 'B4': 493.88, 'C5': 523.25, 'D5': 587.33, 'E5': 659.25,
             'F5': 698.46, 'G5': 783.99, 'A5': 880.00, 'Bb4': 466.16, 'Eb5': 622.25,
-            'Ab4': 415.30, 'F#4': 369.99, 'Db5': 554.37, 'Eb4' : 311.13
+            'Ab4': 415.30, 'F#4': 369.99, 'Db5': 554.37, 'Eb4' : 311.13, 'G#4': 415.30,
+            'A#4': 466.16, 'Bb3': 233.08, 'C#5': 554.37
         };
 
         const noteNames = {
             'C4': 'Dó4', 'D4': 'Ré4', 'E4': 'Mi4', 'F4': 'Fá4', 'G4': 'Sol4',
             'A4': 'Lá4', 'B4': 'Si4', 'C5': 'Dó5', 'D5': 'Ré5', 'E5': 'Mi5',
             'F5': 'Fá5', 'G5': 'Sol5', 'A5': 'Lá5', 'Bb4': 'Si♭4', 'Eb5': 'Mi♭5',
-            'Ab4': 'Lá♭4', 'F#4': 'Fá#4', 'Db5': 'Ré♭5', 'Eb4': 'Mi♭4'
+            'Ab4': 'Lá♭4', 'F#4': 'Fá#4', 'Db5': 'Ré♭5', 'Eb4': 'Mi♭4', 'G#4': 'Sol#4',
+            'A#4': 'Lá#4', 'Bb3': 'Si♭3', 'C#5': 'Dó#5'
         };
 
-        // Assume hinos.js is loaded with hymnsData
-        // Preencher hinos vazios
+        // Função melhorada: verifica se o hino está disponível (tem versos E tem notas)
+        function isHymnAvailable(hymn) {
+            // Verifica se tem versos e se o primeiro verso não está vazio
+            const hasVersos = hymn.versos && hymn.versos.length > 0 && hymn.versos[0] !== "";
+            // Verifica se tem notas e se o array de notas tem pelo menos um elemento
+            const hasNotas = hymn.notas && Array.isArray(hymn.notas) && hymn.notas.length > 0;
+            
+            return hasVersos && hasNotas;
+        }
+
+        // Preencher hinos vazios (apenas os que existem em hymnsData)
         for (let i = 1; i <= 486; i++) {
             if (!hymnsData[i]) {
                 hymnsData[i] = {
@@ -481,10 +503,7 @@
             }
         }
 
-        function isHymnAvailable(hymn) {
-            return hymn.versos && hymn.versos.length > 0 && hymn.versos[0] !== "";
-        }
-
+        // Função que retorna apenas os hinos que têm notas preenchidas
         function getAvailableHymns() {
             const available = [];
             for (const id in hymnsData) {
@@ -497,10 +516,16 @@
         }
 
         let availableHymns = getAvailableHymns();
+        
+        // Encontrar o primeiro hino disponível ou manter o que foi solicitado
+        let initialHymnId = "276";
+        if (!availableHymns.includes(initialHymnId) && availableHymns.length > 0) {
+            initialHymnId = availableHymns[0];
+        }
 
         // ==================== VARIÁVEIS ====================
-        let currentHymnId = "276";
-        let currentHymn = hymnsData["276"];
+        let currentHymnId = initialHymnId;
+        let currentHymn = hymnsData[currentHymnId];
         let playbackInterval = null;
         let isPlaying = false;
         let isMuted = false;
@@ -511,12 +536,23 @@
         let renderStructure = [];
         let allSyllablesText = [];
         
+        // Atualizar contador de hinos disponíveis
+        function updateAvailableCount() {
+            const countSpan = document.getElementById('availableCount');
+            if (countSpan) {
+                countSpan.textContent = `📖 ${availableHymns.length} hinos com notas disponíveis`;
+            }
+        }
+        
         function processHymnData() {
             processedSyllables = [];
             renderStructure = [];
             allSyllablesText = [];
             
-            if (!isHymnAvailable(currentHymn)) return;
+            if (!isHymnAvailable(currentHymn)) {
+                console.warn("Hino sem notas disponíveis:", currentHymnId);
+                return;
+            }
             
             const bpm = parseInt(document.getElementById('speedSlider').value);
             const tempoUnitMs = (60000 / bpm) / 4;
@@ -684,7 +720,7 @@
             container.innerHTML = '';
             
             if (!isHymnAvailable(currentHymn) || processedSyllables.length === 0 || renderStructure.length === 0) {
-                container.innerHTML = '<div class="unavailable-message">📖 Hino não disponível</div>';
+                container.innerHTML = '<div class="unavailable-message">📖 Hino não disponível (sem notas musicais cadastradas)</div>';
                 return;
             }
             
@@ -717,6 +753,7 @@
                         container.appendChild(br);
                     }
                 }
+                verseNumber++;
             }
         }
         
@@ -785,7 +822,7 @@
         
         async function startPlayback() {
             if (!isHymnAvailable(currentHymn) || processedSyllables.length === 0) {
-                document.getElementById('status').innerHTML = '⚠️ Hino sem dados';
+                document.getElementById('status').innerHTML = '⚠️ Hino sem dados ou sem notas musicais';
                 return;
             }
             
@@ -844,9 +881,17 @@
         function updateHymnInfo() {
             const input = document.getElementById('hymnInput').value.trim();
             let newId = parseInt(input);
-            if (isNaN(newId) || newId < 1) newId = 1;
-            if (newId > 486) newId = 486;
+            if (isNaN(newId)) newId = 1;
+            
             newId = newId.toString();
+            
+            // Verificar se o hino solicitado está disponível (tem notas)
+            if (!availableHymns.includes(newId)) {
+                // Se não estiver disponível, mostrar mensagem e manter o atual
+                document.getElementById('status').innerHTML = `⚠️ Hino ${newId} não possui notas cadastradas`;
+                document.getElementById('hymnInput').value = currentHymnId;
+                return;
+            }
             
             if (newId !== currentHymnId) {
                 currentHymnId = newId;
@@ -864,10 +909,14 @@
             processHymnData();
             buildLyricsDisplay();
             stopPlayback();
+            document.getElementById('status').innerHTML = '';
         }
         
         function navegar(delta) {
-            if (availableHymns.length === 0) return;
+            if (availableHymns.length === 0) {
+                document.getElementById('status').innerHTML = '⚠️ Nenhum hino com notas disponível';
+                return;
+            }
             const currentIdx = availableHymns.indexOf(currentHymnId);
             let newIdx = delta === -1 ? currentIdx - 1 : currentIdx + 1;
             if (newIdx < 0) newIdx = availableHymns.length - 1;
@@ -933,6 +982,7 @@
         });
         
         // Inicializar
+        updateAvailableCount();
         updateHymnInfo();
         initAudio();
         
