@@ -147,21 +147,21 @@ const hymnsData = {
         velX3: "N",
         versos: [
             "Ao |Cor|dei|ro |i|ma|cu|la|do, |Je|sus |Cris|to, |e|xal|te|mos; |"+
-            "Do |Seu |No|me |fa|la|re|mos, |pois, |com |in|fi|ni|to |a|mor, |"+
+            "Do |Seu |No|me |fa|la|re|mos, |pois, |com |in|fi|ni|to a|mor, |"+
             "Ve|io |à |ter|ra, |glo|ri|o|so, |com |po|der |e |es|plen|dor. |"+
 
             "Se|gui|re|mos |a |Je|sus |Cris|to |com |in|tei|ra |con|fi|an|ça; |"+
-            "Te|mos |vi|va |es|pe|ran|ça |de |che|gar |ao |lar |de |a|mor, |"+
+            "Te|mos |vi|va |es|pe|ran|ça |de |che|gar |ao |lar |de a|mor, |"+
             "Di|ri|gi|dos, |am|pa|ra|dos |pe|lo |sá|bio |Con|du|tor. |"+
 
             "Só |a |Cris|to |da|re|mos |gló|ri|a |e |lou|vo|res |em |e|ter|no, |"+
             "Pois |liv|rou|-nos |do |in|fer|no, |do |pe|ca|do |e |do |mal, |"+
             "Pa|ra |dar|-nos |a |he|ran|ça |no |Seu |lar |ce|les|ti|al. |"+
 
-            "Gló|ri|a |ao |Jus|to, |fi|el |Cor|dei|ro, |"+
+            "Gló|ri|a ao |Jus|to, |fi|el |Cor|dei|ro, |"+
             "Pu|ro, |San|to, |Ver|da|dei|ro! |"+
             "Pe|la |mor|te |no |ma|dei|ro, |"+
-            "Nos |re|con|ci|li|ou |com |De|us. |"
+            "Nos |re|con|ci|liou |com |De|us. |"
 
         ],
         temposVersos: [],
@@ -184,11 +184,11 @@ const hymnsData = {
             "Os |ta|len|tos |Je|sus |nos |tem |da|do, |"+
             "Don |ce|les|tes |de |gran|de |va|lor; |"+
             "Nós |de|ve|mos, |com |to|do |o |cu|da|do, |"+
-            "Gran|je|á-|los, |ser|vin|do |ao |Se|nhor." ,
+            "Gran|je|á-|los, |ser|vin|do ao |Se|nhor." ,
 
             "Gran|je|ai, |gran|je|ai |os |ta|len|tos; |"+
-            "So|bre |o |mui|to |o |Se|nhor |vos |po|rá; |"+
-            "Vi|gi|ai |e |es|tai |sem|pre |a|ten|tos, |"+
+            "So|bre o |mui|to o |Se|nhor |vos |po|rá; |"+
+            "Vi|gi|ai |e |es|tai |sem|pre a|ten|tos, |"+
             "Eis |que |E|le |à |por|ta |es|tá." ,
 
             "Se |de |tu|do |nós |for|mos |pru|den|tes, |"+
@@ -225,10 +225,10 @@ const hymnsData = {
             "Oh! |Vem, |sim, |vem |nos |a|le|grar, |Se|nhor; |"+
             "És |nos|sa |Es|pe|ran|ça |e |nos|so |De|fen|sor. |" ,
 
-            "No |mun|do |há |vai|da|de, |mui|ta |tris|te|za |e |dor, |"+
-            "Mas |Teus |re|mi|dos |sen|tem |a |Tu|a |paz |e |a|mor. |" ,
+            "No |mun|do |há |vai|da|de, |mui|ta |tris|te|za e |dor, |"+
+            "Mas |Teus |re|mi|dos |sen|tem |a |Tu|a |paz |e a|mor. |" ,
 
-            "Do |céu |Te |es|pe|ra|mos, |glo|ri|o|so, |e|ter|no |Rei; |"+
+            "Do |céu |Te |es|pe|ra|mos, |glo|rio|so, e|ter|no |Rei; |"+
             "Tu |és |ve|raz |Pas|tor |e |nós |so|mos |Tu|a |grei."
 
         ],
@@ -252,20 +252,20 @@ const hymnsData = {
             "Lu|mi|no|sa |é |a |sen|da"+
             "Que |con|duz, |por |fé, |a |Deus;"+
             "Não |há |na|da |que |me |pren|da"+
-            "Ne|m |de|te|nha |os |pas|sos |meus." ,
+            "Ne|m |de|te|nha os |pas|sos |meus." ,
 
             "Que |pra|zer |é |vi|ver |Com |o |meu |bom |Je|sus!"+
-            "Na |tris|te|za |e |na |a|le|gri|a |sin|to |em |mim |a |Su|a |luz." ,
+            "Na |tris|te|za e |na a|le|gri|a |sin|to em |mim |a |Su|a |luz." ,
 
             "Ju|bi|lo|so, |eu |pros|si|go"+
-            "Pa|ra |a |gló|ri|a |e|ter|nal;"+
-            "Sei |que |Cris|to |es|tá |co|mi|go,"+
+            "Pa|ra a |gló|ri|a |e|ter|nal;"+
+            "Sei |que |Cris|to es|tá |co|mi|go,"+
             "Pro|te|gen|do|-me |do |mal." ,
 
             "Je|sus |Cris|to |me |con|so|la"+
-            "Quan|do |es|tou |em |a|fli|ção;"+
+            "Quan|do es|tou |em |a|fli|ção;"+
             "Seu |Es|pí|ri|to |con|tro|la"+
-            "Mi|nha |men|te |e |co|ra|ção." ,
+            "Mi|nha |men|te e |co|ra|ção." ,
 
         ],
         temposVersos: [],
@@ -285,24 +285,24 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Pros|se|gui |vi|to|ri|o|sos |em |Cris|to,"+
-            "E|le, |em |bre|ve, |dos |céus |vai |vol|tar;"+
+            "Pros|se|gui |vi|to|rio|sos |em |Cris|to,"+
+            "E|le, em |bre|ve, |dos |céus |vai |vol|tar;"+
             "Man|da|rá |re|co|lher |Seus |re|mi|dos"+
-            "Pa|ra, |à |gló|ri|a |e|ter|na, |os |le|var." ,
+            "Pa|ra, à |gló|ri|a |e|ter|na, os |le|var." ,
 
-            "Cer|ta|men|te |e|xal|ta|do |se|rá"+
+            "Cer|ta|men|te e|xal|ta|do |se|rá"+
             "Quem |o |No|me |de |Cris|to |não |ne|gar;"+
-            "E|xal|ta|do |com |gló|ri|a |ce|les|ti|al,"+
-            "Her|da|rá |a |ri|que|za |e|ter|nal." ,
+            "E|xal|ta|do |com |gló|ri|a |ce|les|tial,"+
+            "Her|da|rá |a |ri|que|za e|ter|nal." ,
 
-            "Pros|se|gui, |rei|ei|tan|do |o |pe|ca|do,"+
+            "Pros|se|gui, |re|jei|tan|do o |pe|ca|do,"+
             "Pois |i|reis |en|con|trar |o |Se|nhor;"+
             "Pa|ra |vós, |E|le |tem |pre|pa|ra|do"+
-            "Um |lu|gar |no |Seu |rei|no |de |a|mor." ,
+            "Um |lu|gar |no |Seu |rei|no |de a|mor." ,
 
             "Pros|se|gui |nes|ta |fé |glo|ri|o|sa,"+
-            "O |i|ni|mi|go |de |vós |fu|gi|rá;"+
-            "Vi|gi|ai |na |o|ra|ção, |no |cu|da|do,"+
+            "O i|ni|mi|go |de |vós |fu|gi|rá;"+
+            "Vi|gi|ai |na o|ra|ção, |no |cu|da|do,"+
             "E |con|vos|co |Je|sus |es|ta|rá."
         ],
         temposVersos: [],
@@ -323,23 +323,23 @@ const hymnsData = {
         velX3: "N",
         versos: [
             "Ó |i|gre|ja |de |Deus, |res|plan|de|ce"+
-            "E |a|le|gra|-te, |de |co|ra|ção,"+
+            "E a|le|gra|-te, |de |co|ra|ção,"+
             "Es|pa|lhan|do |a |se|men|te |ce|les|te,"+
-            "A|nun|ci|an|do |a |ve|raz |sal|va|ção." ,
+            "A|nun|ci|an|do a |ve|raz |sal|va|ção." ,
 
-            "Tu |és |a |i|gre|ja |de |Je|sus |Cris|to, |o |Cor|dei|ro,"+
+            "Tu |és |a |i|gre|ja |de |Je|sus |Cris|to, o |Cor|dei|ro,"+
             "Que |tem |o |Seu |tro|no |nos |céus;"+
-            "E|le, |o |jus|to, |Fi|el, |ver|da|dei|ro,"+
+            "E|le, o |jus|to, |Fi|el, |ver|da|dei|ro,"+
             "Te |da|rá |as |pro|mes|sas |de |Deus." ,
 
-            "És |i|gre|ja |for|mo|sa |e |a|ma|da"+
+            "És |i|gre|ja |for|mo|sa |e a|ma|da"+
             "Por |Cris|to, |o |teu |Sal|va|dor,"+
             "Que |te |quer |sem|pre |mais |a|dor|na|da"+
-            "De |jus|ti|ça |e |su|bli|me |a|mor." ,
+            "De |jus|ti|ça e |su|bli|me |a|mor." ,
 
-            "À |glo|ri|o|sa |e |ce|les|te |ci|da|de"+
+            "À |glo|rio|sa e |ce|les|te |ci|da|de"+
             "I|rás, |com |Je|sus, |Sal|va|dor;"+
-            "Lá |há |paz, |gran|de |a|mor, |san|ti|da|de;"+
+            "Lá |há |paz, |gran|de a|mor, |san|ti|da|de;"+
             "Lá |ve|rás |o |fi|el |Cri|a|dor." ,
 
         ],
@@ -360,19 +360,19 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Sem|pre |em |Je|sus |con|fi|a|rei, |Su|a |Pa|la|vra |hon|ra|rei;"+
-            "Por |Su|a |mor|te |a|troz |na |cruz, |me |con|ce|deu |e|ter|na |luz." ,
+            "Sem|pre em |Je|sus |con|fi|a|rei, |Su|a |Pa|la|vra |hon|ra|rei;"+
+            "Por |Su|a |mor|te a|troz |na |cruz, |me |con|ce|deu |e|ter|na |luz." ,
 
             "Cris|to |me |gui|a |com |po|der,"+
             "Cris|to |me |gui|a |com |sa|ber;"+
-            "E|le |é |o |A|mi|go |mui |fi|el,"+
-            "Cris|to |Je|sus, |o |E|ma|nu|el." ,
+            "E|le é |o A|mi|go |mui |fi|el,"+
+            "Cris|to |Je|sus, |o E|ma|nu|el." ,
 
             "Os |bons |con|se|lhos |de |Je|sus |são, |pa|ra |mim, |di|vi|na |luz;"+
             "E|les |me |tra|zem |re|ti|dão |e |di|vi|nal |con|so|la|ção." ,
 
             "Eu |vou |a|van|te, |com |va|lor; |si|go |por |fé |o |meu |Se|nhor."+
-            "No |céu, |um |di|a, |o |ve|rei |e |i|gual |a |E|le |en|tão |se|rei." ,
+            "No |céu, |um |di|a, |o |ve|rei |e i|gual |a |E|le en|tão |se|rei." ,
 
         ],
         temposVersos: [],
@@ -392,14 +392,14 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Ó |a|ma|dos, |ven|ce|re|mos |es|te |mun|do |en|ga|na|dor;"+
+            "Ó |a|ma|dos, |ven|ce|re|mos |es|te |mun|do en|ga|na|dor;"+
             "Pe|la |fé |nós |lu|ta|re|mos, |co|fi|an|do |no |Se|nhor." ,
 
             "Con|fie|mos |em |Deus,"+
             "E|le |é |o |nos|so |Pai;"+
             "E|le |ou|ve |aos |Seus"+
             "E, |ao |céu, |le|vá|-los |vai."+
-            "Pe|lo |Seu |i|men|so |a|mor"+
+            "Pe|lo |Seu |i|men|so a|mor"+
             "Nos |pro|te|ge |o |Se|nhor;"+
             "Oh! |O|re|mos, |com |fer|vor,"+
             "Ao |gran|de |Deus, |For|ma|dor." ,
@@ -431,16 +431,16 @@ const hymnsData = {
             "Cum|pre |em |nós |a |pro|mes|sa |de |Deus, |o |Cri|a|dor." ,
 
             "Man|da |os |Teus |dons |ce|les|tes |pe|lo |Es|pí|ri|to |san|to;"+
-            "Co|bre |os |fi|éis |com |o |man|to |do |Teu |Con|so|la|dor." ,
+            "Co|bre os |fi|éis |com |o |man|to |do |Teu |Con|so|la|dor." ,
 
             "Os |Teus |fi|éis, |re|u|ni|dos, |bus|cam |os |Teus |dons |ce|les|tes;"+
-            "Cla|mam |com |to|do |o |fer|vor: |A|ten|de, |ó |Se|nhor!"+
+            "Cla|mam |com |to|do o |fer|vor: |A|ten|de, |ó |Se|nhor!"+
             "Es|pe|ran|ço|sos, |a|guar|dam, |cren|do |no |que |pro|me|tes|te;"+
             "Fa|ze |que |to|dos |sin|ta|mos |o |Teu |Con|so|la|dor." ,
 
             "Os |Teus |fi|éis, |re|u|ni|dos, |cons|tan|te|men|te |cla|man|do,"+
             "Sen|tem, |ó |bom |Re|den|tor, |ce|les|ti|al |fer|vor;"+
-            "Pa|ci|en|te|men|te |es|pe|ra|mos, |sem|pre, |com |fé, |im|plo|ran|do:"+
+            "Pa|ci|en|te|men|te es|pe|ra|mos, |sem|pre, |com |fé, |im|plo|ran|do:"+
             "Vem, |ó |Se|nhor, |con|fir|mar|-nos |com |o |Con|so|la|dor!" ,
 
         ],
@@ -587,8 +587,8 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Pro|mes|sa |ex|ce|len|te |fi|zes|te, |ó |Deus,"+
-            "Fi|el |cum|pri|men|to |a |Pa|la|vra |te|rá;"+
+            "Pro|mes|sa ex|ce|len|te |fi|zes|te, |ó |Deus,"+
+            "Fi|el |cum|pri|men|to a |Pa|la|vra |te|rá;"+
             "Sen|tir |Teu |Es|pí|ri|to |que|rem |os |Teus;"+
             "Teu |po|vo |cla|man|do |es|tá." ,
 
@@ -598,7 +598,7 @@ const hymnsData = {
             "Vi|si|ta|-nos, |Pai |e|ter|nal." ,
 
             "Oh! |Vem |des|per|tar|-nos, |a|ma|do |Se|nhor;"+
-            "O |Es|pí|ri|to |San|to |en|vi|a |dos |céus;"+
+            "O Es|pí|ri|to |San|to |en|vi|a |dos |céus;"+
             "Com |fé |a|guar|da|mos |o |Con|so|la|dor,"+
             "Que |faz |vir|tu|o|sos |os |Teus." ,
 
@@ -625,20 +625,20 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Ó |se|nhor, |vem |vi|si|tar|-me |e |a|len|tar |a |mi|nha |fé;"+
-            "Eu |de|se|jo |con|sa|grar|-me |e |al|can|çar, |de |Ti, |mer|cê." ,
+            "Ó |se|nhor, |vem |vi|si|tar|-me |e a|len|tar |a |mi|nha |fé;"+
+            "Eu |de|se|jo |con|sa|grar|-me |e al|can|çar, |de |Ti, |mer|cê." ,
 
-            "Com |o |Es|pí|ri|to |di|vi|no"+
+            "Com o |Es|pí|ri|to |di|vi|no"+
             "Vem, |Je|sus, |me |ba|ti|zar;"+
             "Aos |Teus |pés |eu |me |in|cli|no"+
             "E |Te |ro|go |sem |ces|sar:"+
             "Oh! |Vem |Se|nhor, |Com |Teu |Dom |me |con|so|lar." ,
 
             "Ó |Je|sus, |és |mi|nha |Sor|te, |és |mi|nha |Sal|va|ção;"+
-            "Faz|-me |fir|me, |faz|-me |for|te |pe|la |Tu|a |San|ta |un|ção." ,
+            "Faz|-me |fir|me, |faz|-me |for|te |pe|la |Tu|a |San|ta un|ção." ,
 
             "E |ao |fim |se|rei |di|to|so, |pois |Con|ti|go |es|ta|rei;"+
-            "No |Teu |rei|no |glo|ri|o|so, |fa|ce |a |fa|ce |Te |ve|rei." ,
+            "No |Teu |rei|no |glo|ri|o|so, |fa|ce a |fa|ce |Te |ve|rei." ,
 
         ],
         temposVersos: [],
@@ -666,14 +666,14 @@ const hymnsData = {
             "É |Je|sus |meu |Re|fú|gio, |meu |fi|el |pro|te|tor,"+
             "E |n'E|le |a|bri|ga|do |te|rei |Seu |vi|gor;"+
             "Ca|da |di|a |que |pas|sa, |sin|to |mais |Seu |a|mor"+
-            "E |a |vi|da |ce|les|te |do |meu |Sal|va|dor." ,
+            "E a |vi|da |ce|les|te |do |meu |Sal|va|dor." ,
 
             "Ao |Se|nhor, |mais |u|ni|do |eu |al|me|jo |vi|ver"+
-            "E |cum|prir, |nes|te |mun|do, |Seu |glo|ri|o|so |que|rer;"+
+            "E |cum|prir, |nes|te |mun|do, |Seu |glo|rio|so |que|rer;"+
             "Os |Seus |pas|sos |se|guin|do, |eu |i|rei |re|ce|ber"+
-            "Mais |for|ça |e |co|ra|gem, |a |fim |de |ven|cer." ,
+            "Mais |for|ça e |co|ra|gem, |a |fim |de |ven|cer." ,
 
-            "Vou |com |a |fé |no |meu |Mes|tre, |a |tor|men|ta |en|fren|tar,"+
+            "Vou |com |a |fé |no |meu |Mes|tre, |a |tor|men|ta en|fren|tar,"+
             "Mes|mo |que |for|te|men|te |e|la |se |le|van|tar;"+
             "Com |Je|sus, |a |vi|tó|ria |eu |i|rei |al|can|çar,"+
             "Pois |Su|as |pro|mes|sas |não |po|dem |fa|lhar." ,
@@ -696,24 +696,24 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Man|da, |ó |Se|nhor, |do |céu, |fo|go |san|to |ao |po|vo |Teu;"+
+            "Man|da, |ó |Se|nhor, |do |céu, |fo|go |san|to ao |po|vo |Teu;"+
             "Man|da|-nos |Teu |po|der;"+
-            "Fo|go |que |des|trói |o |mal, |fo|go |san|to, |ce|les|ti|al;"+
+            "Fo|go |que |des|trói |o |mal, |fo|go |san|to, |ce|les|tial;"+
             "Man|da|-nos |Teu |po|der." ,
 
             "Man|da|-nos |o |Teu |po|der,"+
-            "O |Po|der |re|no|va|dor, |pe|lo |Teu |i|men|so |a|mor;"+
+            "O |Po|der |re|no|va|dor, |pe|lo |Teu |i|men|so a|mor;"+
             "Vem, |Se|nhor, |se|lar |Teu |po|vo"+
             "Com |o |bom |Con|so|la|dor." ,
 
-            "Vem |as |bên|ções |der|ra|mar |e, |os |que |dor|mem, |des|per|tar;"+
+            "Vem |as |bên|ções |der|ra|mar |e, os |que |dor|mem, |des|per|tar;"+
             "Man|da|-nos |Teu |po|der;"+
             "E |das |nos|sas |vi|das |faz |tes|te|mu|nho |e|fi|caz;"+
             "Man|da|-nos |Teu |po|der." ,
 
-            "Vem |nos |dar |as |o|ra|ções, |vi|si|tan|do |os |co|ra|ções;"+
+            "Vem |nos |dar |as |o|ra|ções, |vi|si|tan|do os |co|ra|ções;"+
             "Man|da|-nos |Teu |po|der;"+
-            "Em |cons|tan|te |co|mu|nhão, |es|pe|ra|mos |Tu|a |un|ção;"+
+            "Em |cons|tan|te |co|mu|nhão, |es|pe|ra|mos |Tu|a un|ção;"+
             "Man|da|-nos |Teu |po|der." ,
 
         ],
@@ -743,12 +743,12 @@ const hymnsData = {
             "Com |o |bom |Con|so|la|dor, |vem, |oh! |vem |ba|ti|zar." ,
 
             "Teu |Es|pí|ri|to |der|ra|ma,"+
-            "A |pro|mes|sa |cum|pre, |ó |Deus,"+
+            "A |pro|mes|sa |cum|pre, ó |Deus,"+
             "En|vi|an|do |aos |Teus |fi|lhos"+
             "As |vir|tu|des |lá |dos |céus." ,
 
             "Teu |Es|pí|ri|to |der|ra|ma,"+
-            "Re|ves|tin|do|-nos |de |a|mor;"+
+            "Re|ves|tin|do|-nos |de a|mor;"+
             "Dif |Teus |dons |ma|ra|vi|lho|sos,"+
             "En|ri|que|ce|-nos, |Se|nhor."
 
@@ -772,8 +772,8 @@ const hymnsData = {
         versos: [
             "Não |mais |o|pri|mi|dos |se|re|mos"+
             "Na |vol|ta |do |nos|so |Se|nhor;"+
-            "A |voz |es|pe|ra|da |ou|vi|re|mos:"+
-            "'Oh! |Vin|de!', |di|rá |o |Sal|va|dor;"+
+            "A |voz |es|pe|ra|da ou|vi|re|mos:"+
+            "'Oh! |Vin|de!', |di|rá o |Sal|va|dor;"+
             "A |vi|da |e|ter|na |com |gló|ria"+
             "Te|re|mos, |por |Cris|to, |nos |céus;"+
             "Com|ple|ta |se|rá |a |vi|tó|ria"+
@@ -781,19 +781,19 @@ const hymnsData = {
 
             "Não |mais |per|se|gui|dos |se|re|mos"+
             "Na |vol|ta |do |nos|so |Se|nhor;"+
-            "Dei|xan|do |es|te |mun|do, |i|re|mos"+
-            "Ao |céu |nos|sa |pá|tria |de |a|mor;"+
-            "Na|que|la |ci|da|de |glo|ri|o|sa,"+
-            "Lu|gar |de |e|ter|no |es|plen|dor,"+
-            "A |he|ran|ça |di|vi|na, |pre|ci|o|sa,"+
+            "Dei|xan|do es|te |mun|do, |i|re|mos"+
+            "Ao |céu |nos|sa |pá|tria |de a|mor;"+
+            "Na|que|la |ci|da|de |glo|rio|sa,"+
+            "Lu|gar |de |e|ter|no es|plen|dor,"+
+            "A he|ran|ça |di|vi|na, |pre|cio|sa,"+
             "Te|re|mos |de |Deus, |Cri|a|dor." ,
 
-            "A |vol|ta |de |Cris|to |glo|ri|o|so"+
-            "Se|rá |com |po|der |e |es|plen|dor;"+
+            "A |vol|ta |de |Cris|to |glo|rio|so"+
+            "Se|rá |com |po|der |e es|plen|dor;"+
             "De|ve|mos |es|tar |re|ves|ti|dos"+
-            "De |gra|ça, |jus|ti|ça |e |a|mor."+
+            "De |gra|ça, |jus|ti|ça |e a|mor."+
             "I|re|mos, |en|tão, |ó |que|ri|dos,"+
-            "Des|fru|tar |a |he|ran|ça |e|ter|nal,"+
+            "Des|fru|tar |a |he|ran|ça e|ter|nal,"+
             "Pois |Je|sus |nos |da|rá |a |co|ro|a |re|al,"+
             "No |di|to|so |lar |ce|les|ti|al." ,
 
@@ -816,7 +816,7 @@ const hymnsData = {
         velX3: "N",
         versos: [
             "Gui|a|-me, |ó |Se|nhor, |na |ful|gu|ran|te |luz;"+
-            "Dá|-me |mais |do |a|mor, |que |à |gló|ria |me |con|duz." ,
+            "Dá|-me |mais |do |a|mor, |que à |gló|ria |me |con|duz." ,
 
             "Gui|a|-me, |gui|a|-me |com |Tu|a |mão, |Se|nhor;"+
             "Gua|rda|-me, |gua|rda|-me |do |mun|do |en|ga|na|dor." ,
@@ -845,18 +845,18 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [
-            "O |Se|nhor |é |o |meu |Pas|tor, |na|da |dei|xa|rá |me |fal|tar;"+
-            "Com |a |Su|a |man|si|dão, |em |ver|des |pas|tos |faz|-me |an|dar;"+
-            "Re|fri|gé|rio, |fé |e |paz |mi|nha |al|ma |n'E|le |a|chou;"+
-            "Nas |ve|re|das |ce|les|ti|ais, |os |meus |pas|sos |Je|sus |fir|mou." ,
+            "O |Se|nhor |é o |meu |Pas|tor, |na|da |dei|xa|rá |me |fal|tar;"+
+            "Com |a |Su|a |man|si|dão, |em |ver|des |pas|tos |faz|-me an|dar;"+
+            "Re|fri|gé|rio, |fé |e |paz |mi|nha |al|ma |n'E|le a|chou;"+
+            "Nas |ve|re|das |ce|les|tiais, |os |meus |pas|sos |Je|sus |fir|mou." ,
 
-            "Se |eu |ti|ves|se |que |an|dar |pe|lo |va|le |da |mor|te, |ó |Deus,"+
-            "Eu |não |te|me|ri|a |o |mal, |por|quan|to |es|tou |nos |bra|ços |Teus;"+
-            "Tu|a |va|ra, |ó |Se|nhor, |me |con|ser|va |em |re|ti|dão,"+
-            "Teu |ca|ja|do |di|vi|nal |traz |con|for|to |e |con|so|la|ção." ,
+            "Se eu |ti|ves|se |que |an|dar |pe|lo |va|le |da |mor|te, ó |Deus,"+
+            "Eu |não |te|me|ri|a o |mal, |por|quan|to es|tou |nos |bra|ços |Teus;"+
+            "Tu|a |va|ra, |ó |Se|nhor, |me |con|ser|va em |re|ti|dão,"+
+            "Teu |ca|ja|do |di|vi|nal |traz |con|for|to e |con|so|la|ção." ,
 
             "U|ma |me|sa |pa|ra |mim, |ó |Se|nhor, |Tu |vens |pre|pa|rar;"+
-            "Com |Teu |ó|le|o |vens |me |un|gir, |fa|zes |meu |cá|lix |trans|bor|dar;"+
+            "Com |Teu |ó|le|o |vens |me un|gir, |fa|zes |meu |cá|lix |trans|bor|dar;"+
             "A |bon|da|de, |a |mer|cê |so|bre |mim |con|tem|pla|rei;"+
             "Nas |mo|ra|das |do |meu |Deus |pa|ra |sem|pre |ha|bi|ta|rei." ,
 
@@ -916,19 +916,19 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Um |gran|de |bem, |pre|ci|o|so |bem, |eu |re|ce|bi |do |Cri|a|dor"+
+            "Um |gran|de |bem, |pre|cio|so |bem, |eu |re|ce|bi |do |Cri|a|dor"+
             "Que |me |cha|mou |e |re|ve|lou, |por |com|pai|xão, |o |Re|den|tor;"+
             "O |Seu |que|rer |eu |com|pre|en|di |e |pe|ca|dor |eu |me |sen|ti;"+
             "Meu |co|ra|ção |se |que|bran|tou, |to|do |o |meu |ser |se |trans|for|mou"+
             "Eu |sou |fe|liz, |ben|di|go |a |Deus; |com |sal|va|ção |me |a|gra|ci|ou" ,
 
-            "Que |gran|de |bem, |pre|ci|o|so |bem! |Eu |ser|vo |a |Deus, |o |For|ma|dor,"+
+            "Que |gran|de |bem, |pre|cio|so |bem! |Eu |ser|vo |a |Deus, |o |For|ma|dor,"+
             "Que |pa|ra |Si |me |se|pa|rou; |re|mi|do |sou |do |Sal|va|dor;"+
             "Pu|ri|fi|cou |meu |co|ra|ção, |me |con|ce|deu |o |Seu |per|dão;"+
             "A|té |o |fim |do |meu |vi|ver, |Seu |san|to |a|mor |a|nun|ci|a|rei;"+
             "Com |a |un|ção |do |Cri|a|dor, |de |to|do |o |mal |me |a|fas|ta|rei." ,
 
-            "É |gran|de |bem, |pre|ci|o|so |bem, |vi|ver |na |fé, |ter |paz |com |Deus,"+
+            "É |gran|de |bem, |pre|cio|so |bem, |vi|ver |na |fé, |ter |paz |com |Deus,"+
             "Par|ti|ci|par, |com |os |fi|éis, |dos |e|ter|nais |te|sou|ros |Seus;"+
             "Sou |mui |fe|liz, |pois |al|can|cei |lu|gar |nos |céus, |por |Cris|to, |o |Rei;"+
             "A |Deus, |o |Pai, |e |a |Je|sus |e|xal|ta|rei |com |to|do |o |a|mor;"+
@@ -991,15 +991,15 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [
-            "O |Se|nhor |é |a |mi|nha |Luz |e |mi|nha |e|ter|na |Sal|va|ção."+
+            "O |Se|nhor |é |a |mi|nha |Luz |e |mi|nha e|ter|na |Sal|va|ção."+
             "Na|da |de|vo |eu |te|mer, |pois |E|le |é |meu |fi|el |Guar|di|ão,"+
             "O |Se|nhor |é |o |meu |Deus, |na|da |a|qui |re|ce|a|rei;"+
             "Pa|ra |sem|pre |sen|ti|rei |a |pro|vi|dên|cia |do |meu |gran|de |Rei." ,
 
-            "Se |vi|er |me |cir|cun|dar |to|do |o |e|xér|ci|to |do |mal,"+
-            "O |Se|nhor |en|vi|a|rá |Seu |gran|de |e|xér|ci|to |ce|les|ti|al."+
+            "Se |vi|er |me |cir|cun|dar |to|do o |e|xér|ci|to |do |mal,"+
+            "O |Se|nhor |en|vi|a|rá |Seu |gran|de e|xér|ci|to |ce|les|ti|al."+
             "Com |o |co|ra|ção |em |paz, |ser|vo |ao |san|to |Cri|a|dor;"+
-            "Pe|que|ni|no |e |fra|co |sou, |mas |meu |Re|fú|gio |é |Deus, |meu |Se|nhor." ,
+            "Pe|que|ni|no e |fra|co |sou, |mas |meu |Re|fú|gio |é |Deus, |meu |Se|nhor." ,
 
             "Meu |de|se|jo |é |mo|rar |sem|pre |na |ca|sa |do |Se|nhor,"+
             "Pois |as|sim |con|tem|pla|rei |a |for|mo|su|ra |do |meu |Cri|a|dor."+
@@ -1031,7 +1031,7 @@ const hymnsData = {
 
             "Mar|che|mos |pa|ra |o |céu, |mo|ra|da |do |Se|nhor,"+
             "O|lhan|do |bem |a|ten|tos |Pa|ra |o |Re|den|tor;"+
-            "Mar|che|mos |com |va|lor |à |pá|tria |ce|les|ti|al;"+
+            "Mar|che|mos |com |va|lor |à |pá|tria |ce|les|tial;"+
             "Lá |des|fru|ta|re|mos |vi|da |e|ter|nal." ,
 
             "Pa|ra |o |céu |mar|che|mos, |chei|os |de |a|mor,"+
@@ -1070,7 +1070,7 @@ const hymnsData = {
             "Ò |Se|nhor, |vem |con|du|zir|-me"+
             "Pe|lo |Es|pí|ri|to |à |pá|tria |e|ter|nal;"+
             "Da |ver|da|de |vem |cin|gir|-me"+
-            "E |de |to|da |a |ar|ma|du|ra |ce|les|ti|al." ,
+            "E |de |to|da |a |ar|ma|du|ra |ce|les|tial." ,
 
             "Se|nhor |Je|sus, |a |Tu|a |mão |po|ten|te"+
             "Me |fa|rá |ven|cer |o |mun|do |en|ga|na|dor;"+
@@ -1104,10 +1104,10 @@ const hymnsData = {
             "Nun|ca |se|rei |con|fun|di|do |na |a|fli|ção |ou |na |dor." ,
 
             "Cris|to |é |bom |e |cle|men|te, |bál|sa|mo |a |to|da |dor;"+
-            "Paz |di|vi|nal |ex|ce|len|te |vem |do |Se|nhor." ,
+            "Paz |di|vi|nal |e ex|ce|len|te |vem |do |Se|nhor." ,
 
             "Em |Je|sus |Cris|to |eu |te|nho |fé, |só |n'E|le |es|pe|ra|rei;"+
-            "Mes|mo |es|tan|do |em |an|gús|tia, |n'E|le |eu |con|fi|a|rei" ,
+            "Mes|mo |es|tan|do em |an|gús|tia, |n'E|le |eu |con|fi|a|rei" ,
 
             "Nas |mi|nhas |pro|vas, |con|fi|a|rei |em |Cris|to, |Li|ber|ta|dor;"+
             "N'E|le |eu |te|nho |fir|me|za, |pois |é |fi|el |Pro|te|tor."
@@ -1132,7 +1132,7 @@ const hymnsData = {
         versos: [
             "For|te |Ro|cha |é |Deus |Sem|pi|ter|no;"+
             "Nos|sa |fé |só |n'E|le |se |fun|da;"+
-            "Seu |a|mor |ce|les|ti|al |e |pa|ter|no,"+
+            "Seu |a|mor |ce|les|tial |e |pa|ter|no,"+
             "Na |tri|bu|la|ção |nos |cir|cun|da."+
             "Do |as|tu|to |ten|ta|dor |nos |li|vra |o |Cri|a|dor |e |nos |pro|te|ge;"+
             "Na|da |nós |te|me|re|mos,"+
@@ -1408,10 +1408,10 @@ const hymnsData = {
             "Mal |ne|nhum |de|ve|mos |nós |te|mer;"+
             "Nun|ca |pe|re|ceu |quem |a |Je|sus |se |en|tre|gou"+
             "De |sin|ce|ro |co|ra|ção;"+
-            "Ce|les|ti|al |a|mor |pro|vou"+
+            "Ce|les|tial |a|mor |pro|vou"+
             "Quem |sen|tiu, |de |Deus, |per|dão;"+
             "Jun|tos |ca|mi|nhe|mos, |fir|mes |e |cons|tan|tes,"+
-            "Ru|mo |à |ce|les|ti|al |Si|ão." ,
+            "Ru|mo |à |ce|les|tial |Si|ão." ,
 
             "Se |a |nos|sa |vi|da |en|tre|gar|mos |a |Je|sus,"+
             "Tu|do |po|de|re|mos |su|por|tar;"+
@@ -1505,14 +1505,14 @@ const hymnsData = {
             "Que|ro, |ó |Deus |, |con|sa|grar|-Te |meu |ser;"+
             "Mi|nha |al|ma |de|se|ja |em |Teu |rei|no |vi|ver." ,
 
-            "Eu |de|se|jo, |Se|nhor, |com |fer|vor |sem|pre |es|tar"+
-            "Aos |Teus |pés, |em |cons|tan|te |o|ra|ção;"+
+            "Eu |de|se|jo, |Se|nhor, |com |fer|vor |sem|pre es|tar"+
+            "Aos |Teus |pés, |em |cons|tan|te o|ra|ção;"+
             "Gua|rda |meu |co|ra|ção |pa|ra |nun|ca |pe|car;"+
-            "Faz|-me |an|dar |sem|pre |na |re|ti|dão." ,
+            "Faz|-me an|dar |sem|pre |na |re|ti|dão." ,
 
             "Eu |de|se|jo, |Se|nhor, |por |Ti |sem|pre |vi|ver"+
             "E |cin|gir |a |co|ro|a |nos |céus;"+
-            "Se|ja |em |lu|tas |ou |paz, |que|ro |sem|pre |di|zer:"+
+            "Se|ja em |lu|tas |ou |paz, |que|ro |sem|pre |di|zer:"+
             "Meu |Des|can|so |és |Tu |ó |meu |Deus." ,
 
         ],
@@ -1534,11 +1534,11 @@ const hymnsData = {
         velX3: "N",
         versos: [
             "Quan|to |em |mim |Tu |o|pe|ras|te"+
-            "Pe|lo |Teu |i|men|so |a|mor!"+
-            "Gra|ça |e |for|ça |en|vi|as|te,"+
+            "Pe|lo |Teu |i|men|so a|mor!"+
+            "Gra|ça e |for|ça |en|vi|as|te,"+
             "À |mi|nh'al|ma, |ó |Se|nhor." ,
 
-            "Vem, |Se|nhor |Je|sus, |com |vir|tu|de |e |fé,"+
+            "Vem, |Se|nhor |Je|sus, |com |vir|tu|de e |fé,"+
             "E |com |gra|ça, |for|ti|fi|car"+
             "O |meu |co|ra|ção, |que |Teu |tem|plo |é;"+
             "Que|ro |sem|pre |Te |e|xal|tar." ,
@@ -1548,10 +1548,10 @@ const hymnsData = {
             "Sem|pre |mais |fi|el |me |fa|ça,"+
             "Ò |Je|sus, |meu |Re|den|tor." ,
 
-            "Da |e|ter|na |e |sã |ver|da|de"+
+            "Da |e|ter|na e |sã |ver|da|de"+
             "Faz|-me |sem|pre |se|gui|dor,"+
-            "Que|ro |an|dar |em |san|ti|da|de,"+
-            "I|mi|tan|do |a |Ti, |Se|nhor."
+            "Que|ro an|dar |em |san|ti|da|de,"+
+            "I|mi|tan|do a |Ti, |Se|nhor."
 
         ],
         temposVersos: [],
@@ -1647,20 +1647,20 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Eis |que |os |mon|tes |se |a|ba|la|ram"+
+            "Eis |que os |mon|tes |se a|ba|la|ram"+
             "An|te |Deus, |o |Cri|a|dor;"+
-            "Ri|o |e |mar |tam|bém |pa|ra|ram"+
+            "Rio |e |mar |tam|bém |pa|ra|ram"+
             "Pe|la |or|dem |do |Se|nhor." ,
 
-            "Tre|ma |o |céu, |a |ter|ra, |o |mar,"+
+            "Tre|ma o |céu, |a |ter|ra, o |mar,"+
             "Na |pre|sen|ça |do |Se|nhor,"+
-            "E, |do |mun|do, |os |mo|ra|do|res,"+
+            "E, |do |mun|do, os |mo|ra|do|res,"+
             "Deem|-lhe |gló|ria |e |lou|vor." ,
 
             "O |Se|nhor |fez, |do |ro|che|do,"+
-            "Fon|te |de |á|guas |pa|ra |os |Seus;"+
-            "Quan|do |a |fo|me |trou|xe |o |me|do,"+
-            "Pão |man|dou|-lhes |des|de |os |céus." ,
+            "Fon|te |de á|guas |pa|ra os |Seus;"+
+            "Quan|do a |fo|me |trou|xe o |me|do,"+
+            "Pão |man|dou|-lhes |des|de os |céus." ,
 
             "Na|da |im|pe|de |o |Oni|po|ten|te"+
             "De |o|pe|rar |a |Seu |pra|zer;"+
@@ -1736,7 +1736,7 @@ const hymnsData = {
             "E |pu|ro |a|mor." ,
 
             "Man|da |Tu|a |Pa|la|vra, |ó |For|ma|dor,"+
-            "Pe|lo |Es|pí|ri|to |San|to |Con|so|la|dor;"+
+            "Pe|lo Es|pí|ri|to |San|to |Con|so|la|dor;"+
             "De|se|ja|mos |me|lhor |com|pre|en|der"+
             "Teu |di|vi|no |e |san|to |que|rer." ,
 
@@ -1768,20 +1768,20 @@ const hymnsData = {
             "É, |na |an|gús|tia, |So|cor|ro |pre|sen|te,"+
             "É |Quem |do |pó |nos |for|mou." ,
 
-            "Gran|di|o|so |é |o |nos|so |Deus,"+
+            "Gran|dio|so é o |nos|so |Deus,"+
             "O |Deus |que |son|da |os |co|ra|ções;"+
-            "So|bre |a |ter|ra |é |E|le |e|xal|ta|do"+
+            "So|bre |a |ter|ra |é |E|le e|xal|ta|do"+
             "En|tre |as |su|as |na|ções." ,
 
-            "Mes|mo |mu|dan|do|-se |os |mon|tes |e |a |ter|ra,"+
+            "Mes|mo |mu|dan|do|-se os |mon|tes |e a |ter|ra,"+
             "Não |sen|ti|re|mos |te|mor;"+
             "Tu|do |de|bai|xo |das |mãos |Deus |en|cer|ra,"+
-            "Pois |é |de |tu|do |o |Se|nhor." ,
+            "Pois |é |de |tu|do o |Se|nhor." ,
 
-            "Gran|de |é |o |Deus |que |nos |tem |a|gre|ga|do,"+
+            "Gran|de |é o |Deus |que |nos |tem |a|gre|ga|do,"+
             "Sem|pre |co|nos|co |es|tá;"+
-            "'Deus |dos |E|xér|ci|tos' |E|le |é |cha|ma|do,"+
-            "E|le |é |Quem |vi|da |nos |dá." ,
+            "'Deus |dos |E|xér|ci|tos' |E|le é |cha|ma|do,"+
+            "E|le é |Quem |vi|da |nos |dá." ,
 
         ],
         temposVersos: [],
@@ -1812,7 +1812,7 @@ const hymnsData = {
             "Em |to|da |hu|mi|da|de. |Su|bli|me |é |o |per|dão!" ,
 
             "Se |teu |ir|mão |a|ma|res |de |um |co|ra|ção |sin|ce|ro,"+
-            "Te|rás |a |vi|da |e|ter|na |na |ce|les|ti|al |ci|da|de;"+
+            "Te|rás |a |vi|da |e|ter|na |na |ce|les|tial |ci|da|de;"+
             "Em|bo|ra |o|fen|di|do, |Su|por|ta |com |pi|e|da|de,"+
             "Con|ser|va |a |san|ti|da|de. |Su|bli|me |é |o |per|dão!" ,
 
@@ -1839,25 +1839,25 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [
-            "Quão |glo|ri|o|sa |sin|to |em |mim"+
+            "Quão |glo|rio|sa |sin|to em |mim"+
             "A |voz |do |Cri|a|dor!"+
             "Re|fri|gé|rio |e|la |traz,"+
-            "É |um |bál|sa|mo |de |a|mor." ,
+            "É |um |bál|sa|mo |de a|mor." ,
 
             "Cre|io |no |Se|nhor,"+
             "Sá|bio |Cri|a|dor;"+
-            "Sin|to |em |mim |o |Seu |po|der"+
+            "Sin|to em |mim |o |Seu |po|der"+
             "Que |me |fa|rá |ven|cer." ,
 
             "A |Pa|la|vra |do |Se|nhor,"+
-            "De|se|jo |sem|pre |ou|vir;"+
+            "De|se|jo |sem|pre ou|vir;"+
             "Se|gu|ran|ça |E|la |traz"+
-            "E |es|pe|ran|ça |do |por|vir." ,
+            "E es|pe|ran|ça |do |por|vir." ,
 
-            "Eu |al|me|jo |sem|pre |es|tar"+
-            "U|ni|do |ao |gran|de |Deus;"+
-            "Em |jus|ti|ça |e |re|ti|dão,"+
-            "Vou |se|guin|do |pa|ra |os |céus." ,
+            "Eu |al|me|jo |sem|pre es|tar"+
+            "U|ni|do ao |gran|de |Deus;"+
+            "Em |jus|ti|ça e |re|ti|dão,"+
+            "Vou |se|guin|do |pa|ra os |céus." ,
 
         ],
         temposVersos: [],
@@ -1877,7 +1877,7 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [
-            "Ó |Deus |e |Pai, |Se|nhor |de |e|ter|ni|da|de,"+
+            "Ó |Deus |e |Pai, |Se|nhor |da e|ter|ni|da|de,"+
             "Ven|ho |a|do|rar|-Te, |san|to |Cri|a|dor;"+
             "Com |fé |e |te|mor |da |Tu|a |ma|jes|ta|de,"+
             "Pa|ra |os |céus |e|le|vo |meu |cla|mor." ,
@@ -1889,7 +1889,7 @@ const hymnsData = {
 
             "Vem |vi|si|tar |mi|nh'al|ma, |ó |Deus |ben|di|to,"+
             "Das |mi|nhas |pro|vas |me |es|que|ce|rei;"+
-            "Eis|-me |aos |Teus |pés, |an|si|o|so |e |con|tri|to;"+
+            "Eis|-me |aos |Teus |pés, |an|sio|so |e |con|tri|to;"+
             "Ar|den|te|men|te |Te |e|xal|ta|rei." ,
 
         ],
@@ -1958,7 +1958,7 @@ const hymnsData = {
             "A |Pa|la|vra |do |Se|nhor, |Pão |ce|les|ti|al,"+
             "Faz|-nos |ca|mi|nhar |na |luz, |li|vra|-nos |do |mal;"+
             "Deus |nos |en|vi|ou |dos |céus, |Cris|to, |o |E|ma|nu|el,"+
-            "Ro|cha |vi|va |de |on|de |ma|na |lei|te |e |mel." ,
+            "Ro|cha |vi|va |de |on|de |ma|na |lei|te e |mel." ,
 
             "Luz |que |gui|a |nas |ve|re|das |dos |céus"+
             "E |i|lu|mi|na |quem |em |tre|vas |es|tá;"+
@@ -1966,8 +1966,8 @@ const hymnsData = {
             "As |ri|que|zas |do |bom |Deus"+
             "E |en|ten|di|men|to |di|vi|nal |nos |dá." ,
 
-            "É |um |fa|rol |de |ce|les|ti|al |es|plen|dor,"+
-            "Que |nos |gui|a |a |ci|da|de |e|ter|nal;"+
+            "É |um |fa|rol |de |ce|les|tial |es|plen|dor,"+
+            "Que |nos |gui|a |a |ci|da|de e|ter|nal;"+
             "Quem |com |Cris|to |ca|mi|nhar,"+
             "Quem |ser|vir |ao |Cri|a|dor,"+
             "Cer|to |che|ga|rá |à |pá|tria |di|vi|nal." ,
@@ -2002,7 +2002,7 @@ const hymnsData = {
             "A |Deus, |a|gra|dar." ,
 
             "Deus |fez, |em |nós, |sur|gir |a |luz,"+
-            "Nos|sa |men|te |es|cla|re|ceu;"+
+            "Nos|sa |men|te es|cla|re|ceu;"+
             "Su|a |Pa|la|vra |em |nós |pro|duz"+
             "En|ten|di|men|to |que |vem |dos |céus,"+
             "Que |nos |re|ve|la |os |pla|nos |Seus." ,
@@ -2055,7 +2055,7 @@ const hymnsData = {
             "São |sá|bios |pa|ra |ser|vir"+
             "A |Deus, |Cri|a|dor,"+
             "São |luz |pa|ra |o |mun|do"+
-            "De |tre|vas |e |têm |gran|de |es|plen|dor." ,
+            "De |tre|vas |e |têm |gran|de es|plen|dor." ,
 
         ],
         temposVersos: [],
@@ -2075,13 +2075,13 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Um |te|sou|ro |glo|ri|o|so |a|chei |em |Je|sus,"+
+            "Um |te|sou|ro |glo|rio|so |a|chei |em |Je|sus,"+
             "Um |te|sou|ro |de |i|men|so |va|lor;"+
             "Não |é |pra|ta |nem |ou|ro"+
             "Que |ao |ho|mem |se|duz,"+
             "É |a |vi|da |de |Deus, |Cri|a|dor." ,
 
-            "Um |te|sou|ro |glo|ri|o|so |a|chei"+
+            "Um |te|sou|ro |glo|rio|so |a|chei"+
             "Em |Je|sus, |o |di|vi|no |Re|den|tor;"+
             "Na|da |mais |pre|ci|o|so |en|con|tra|rei;"+
             "Gran|de |gra|ça |me |fez |o |Sal|va|dor." ,
@@ -2116,7 +2116,7 @@ const hymnsData = {
         versos: [
             "Foi |gran|de |a |tem|pes|ta|de |que, |no |mar, |se |le|van|tou,"+
             "On|das |co|bri|am |o |bar|co |e |a |to|dos |te|mor |cau|sou;"+
-            "O |Mes|tre |es|ta|va |dor|min|do, |foi |des|per|ta|do, |en|tão,"+
+            "O |Mes|tre es|ta|va |dor|min|do, |foi |des|per|ta|do, |en|tão,"+
             "Pe|los |que |a |E|le |pe|di|am |so|cor|ro |e |sal|va|ção." ,
 
             "Ao |Seu |man|dar |san|to |e |di|vi|nal,"+
@@ -2125,9 +2125,9 @@ const hymnsData = {
             "Paz |se|ja |em |vós;"+
             "Con|vos|co |es|tá |o |Se|nhor |do |mar,"+
             "Por|tan|to, |com |fé, |vós |de|veis |re|mar,"+
-            "Pois |E|le |es|tá |pron|to |a |vos |sal|var,"+
+            "Pois |E|le es|tá |pron|to |a |vos |sal|var,"+
             "Ten|de |paz, |ten|de |paz;"+
-            "As |on|das |ces|sam |de |en|ca|pe|lar,"+
+            "As |on|das |ces|sam |de en|ca|pe|lar,"+
             "Paz |se|ja |em |vós." ,
 
             "Re|pre|en|den|do |o |ven|to, |Je|sus |a|qui|e|tou |o |mar,"+
@@ -2156,10 +2156,10 @@ const hymnsData = {
             "Põe |em |Deus |a |con|fi|an|ça, |se|gue |sem|pre |a |Je|sus;"+
             "E|le |é |a |Es|pe|ran|ça |que |à |gló|ria |te |con|duz;"+
             "Não |va|ci|les, |mas |con|fi|a, |pois |e|ter|no |é |Seu |po|der;"+
-            "Nós |pe|ri|gos |E|le |en|vi|a |os |Seus |an|jos |te |sus|ter." ,
+            "Nós |pe|ri|gos |E|le en|vi|a |os |Seus |an|jos |te |sus|ter." ,
 
             "Mes|mo |que |os |a|nos |pas|sem, |Seu |a|mor |não |pas|sa|rá;"+
-            "Céus |e |ter|ra |tam|bém |pas|sam, |mas |o |Ver|bo |fir|me |es|tá."+
+            "Céus |e |ter|ra |tam|bém |pas|sam, |mas |o |Ver|bo |fir|me es|tá."+
             "Vin|do |as |tre|vas |so|bre |o |mun|do |e, |do |sol, |ces|san|do |a |luz,"+
             "Cris|to, |por |a|mor |pro|fun|do, |ao |Seu |rei|no |te |con|duz." ,
 
@@ -2241,13 +2241,13 @@ const hymnsData = {
 
             "Só |a |Je|sus |me |a|pe|ga|rei"+
             "E |mal |ne|nhum |eu |re|ce|a|rei;"+
-            "Con|fi|o |sem|pre |em |Seu |po|der,"+
+            "Con|fi|o |sem|pre em |Seu |po|der,"+
             "Na|da |po|de|rá |ja|mais |me |a|ba|ter." ,
 
             "Ao |fim |do |meu |pe|re|gri|nar,"+
             "I|rei |com |Cris|to |Je|sus |rei|nar;"+
             "Se|rei |di|to|so, |mui |fe|liz,"+
-            "No |glo|ri|o|so, |san|to, |ce|les|ti|al |pa|ís." ,
+            "No |glo|rio|so, |san|to, |ce|les|tial |pa|ís." ,
 
         ],
         temposVersos: [],
@@ -2270,7 +2270,7 @@ const hymnsData = {
             "O |Se|nhor |me |con|duz |a|van|te"+
             "Nes|ta |sen|da |de |a|mor,"+
             "Ao |des|ti|no, |mui |bri|lhan|te,"+
-            "De |ri|que|za |e |es|plen|dor." ,
+            "De |ri|que|za |e es|plen|dor." ,
 
             "Faz|-me |mais |per|se|ve|ran|te"+
             "Nes|ta |gra|ça, |ó |Se|nhor;"+
@@ -2278,8 +2278,8 @@ const hymnsData = {
             "Teus |te|sou|ros |de |a|mor." ,
 
             "Pe|lo |Es|pí|ri|to |di|vi|no,"+
-            "Teu |a|mor |a|cres|ce |em |mim;"+
-            "Só |por |Teu |glo|ri|o|so |en|si|no,"+
+            "Teu |a|mor |a|cres|ce em |mim;"+
+            "Só |por |Teu |glo|rio|so |en|si|no,"+
             "Che|ga|rei |a|té |o |fim." ,
 
             "A|mo |Tu|a |sã |ver|da|de,"+
@@ -2312,8 +2312,8 @@ const hymnsData = {
 
             "Oh! |vem |a |Je|sus,"+
             "Que |por |nós |mor|reu |so|bre |a |cruz;"+
-            "Seu |san|gue |pre|ci|o|so |E|le |der|ra|mou,"+
-            "E |com |Deus |nos |re|con|ci|li|ou." ,
+            "Seu |san|gue |pre|ci|oso |E|le |der|ra|mou,"+
+            "E |com |Deus |nos |re|con|ci|liou." ,
 
             "Re|jei|ta |do |mun|do |a |vai|da|de,"+
             "Pois |e|la |te |quer |se|du|zir;"+
@@ -2574,7 +2574,7 @@ const hymnsData = {
         velX3: "S",
         versos: [
             "I|gual |ao |Mes|tre |eu |de|se|jo |ser,"+
-            "Em |hu|mi|da|de |e |man|si|dão |vi|ver,"+
+            "Em |hu|mi|da|de e |man|si|dão |vi|ver,"+
             "Sem|pre, |com |ze|lo,"+
             "Em |san|ti|da|de |an|dar"+
             "E |mi|nha |vi|da |a |E|le |con|sa|grar." ,
@@ -2589,9 +2589,9 @@ const hymnsData = {
             "Tam|bém |de|se|jo |a |mi|nha |cruz |le|var"+
             "E, |pa|ra |sem|pre, |com |E|le |ha|bi|tar." ,
 
-            "Co|mo |é |o |Mes|tre, |no |céu, |O |ve|rei;"+
+            "Co|mo é |o |Mes|tre, |no |céu, |O |ve|rei;"+
             "À |se|me|lhan|ça |d'E|le |eu |se|rei,"+
-            "Num |cor|po |san|to, |glo|ri|o|so |e |i|mor|tal,"+
+            "Num |cor|po |san|to, |glo|rio|so |e |i|mor|tal,"+
             "Ha|bi|ta|rei |na |ci|da|de |e|ter|nal." ,
 
         ],
@@ -2629,7 +2629,7 @@ const hymnsData = {
             "Por |Seu |i|men|so |a|mor." ,
 
             "E|le |é |o |a|mor |que |não |tem |par,"+
-            "A|mi|go |ce|les|ti|al;"+
+            "A|mi|go |ce|les|tial;"+
             "A |vi|da |e|ter|na |quer |te |dar"+
             "No |rei|no |di|vi|nal." ,
 
@@ -2850,8 +2850,8 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "No|me |glo|ri|o|so, |o |de |Je|sus,"+
-            "No|me |pre|ci|o|so, |de |i|men|so |a|mor,"+
+            "No|me |glo|rio|so, |o |de |Je|sus,"+
+            "No|me |pre|cio|so, |de |i|men|so |a|mor,"+
             "No|me |per|fei|to |e |sem |i|gual,"+
             "Que |sal|va |o |pe|ca|dor!" ,
 
@@ -2865,7 +2865,7 @@ const hymnsData = {
             "Ou|tro |não |há |pa|ra |res|ga|tar"+
             "Ao |ho|mem |pe|ca|dor." ,
 
-            "No|me |gran|di|o|so, |o |de |Je|sus,"+
+            "No|me |gran|dio|so, |o |de |Je|sus,"+
             "For|te, |po|ten|te, |li|ber|ta|dor;"+
             "Por |es|se |No|me, |que |não |tem |par,"+
             "Deus |sal|va |o |pe|ca|dor." ,
@@ -2888,7 +2888,7 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Se|me|a|rei |a |pre|ci|o|sa |se|men|te"+
+            "Se|me|a|rei |a |pre|cio|sa |se|men|te"+
             "Do |E|van|ge|lho |de |Cris|to |Je|sus;"+
             "Se|me|a|rei |a |Pa|la|vra |po|ten|te"+
             "Que |bons |fru|tos |da |gra|ça |pro|duz." ,
@@ -3064,7 +3064,7 @@ const hymnsData = {
         versos: [
             "Va|mos |lan|çar |a |se|men|te"+
             "Com |a|le|gri|a |e |a|mor,"+
-            "Nes|ta |glo|ri|o|sa |se|a|ra"+
+            "Nes|ta |glo|rio|sa |se|a|ra"+
             "Do |nos|so |a|ma|do |Se|nhor." ,
 
             "San|ta |Se|men|te |é |a |Pa|la|vra |de |Deus;"+
@@ -3156,7 +3156,7 @@ const hymnsData = {
             "Bom |é |es|tar|mos |nós |a|qui |en|to|an|do |lou|vor,"+
             "Des|fru|tan|do, |por |gra|ça, |as |bên|ções |de |a|mor;"+
             "Ca|da |um |de |nós |di|rá: |do |Se|nhor |re|ce|bi"+
-            "Su|as |bên|ções |glo|ri|o|sas; |bom |é |es|tar|mos |nós |a|qui." ,
+            "Su|as |bên|ções |glo|rio|sas; |bom |é |es|tar|mos |nós |a|qui." ,
 
             "Bom |é |es|tar|mos |nós |a|qui |in|vo|can|do |ao |Se|nhor,"+
             "E|le|van|do |a |nos|sa |o|ra|ção |com |fer|vor;"+
@@ -3222,7 +3222,7 @@ const hymnsData = {
             "A |vi|da |deu |por |ti"+
             "Cris|to |Je|sus, |o |Sal|va|dor;"+
             "Ver|teu |por |ti, |na |cruz,"+
-            "San|gue |pre|ci|o|so, |ex|pi|a|dor;"+
+            "San|gue |pre|cio|so, |ex|pi|a|dor;"+
             "Por |ti, |por |ti, |Su|a |vi|da |deu;"+
             "Oh! |dar|-lhe |teu |co|ra|ção;"+
             "Por |ti, |por |ti, |Su|a |vi|da |deu"+
@@ -3359,7 +3359,7 @@ const hymnsData = {
             "À |en|con|trar|-se |com |o |Pai." ,
 
             "É |me|lhor |per|ma|ne|cer |um |di|a"+
-            "Nós |Teus |á|tri|os, |ó |Se|nhor,"+
+            "Nós |Teus |á|trios, |ó |Se|nhor,"+
             "Do |que |mil |em |qual|quer |ou|tra |par|te"+
             "Lon|ge |do |di|vi|no |a|mor."+
             "Pois |tu |és |Sol |e |Es|cu|do"+
@@ -4066,7 +4066,7 @@ const hymnsData = {
             "Co|mo |o|ve|lhas |que |não |têm |ne|nhum |pas|tor,"+
             "Lon|ge |do |bem |e |do |a|mor |do |Cri|a|dor,"+
             "To|dos |an|dá|va|mos |no |mal, |sem |en|xer|gar"+
-            "O |bom |ca|mi|nho |ce|les|ti|al |pa|ra |tri|lhar." ,
+            "O |bom |ca|mi|nho |ce|les|tial |pa|ra |tri|lhar." ,
 
             "2 Há |um |re|ba|nho |e |um |Pas|tor, |que |é |Je|sus;"+
             "Su|as |o|ve|lhas, |com |a|mor, |sem|pre |con|duz;"+
@@ -4145,7 +4145,7 @@ const hymnsData = {
             "Tão |so|men|te |an|de|mos |em |a|mor." ,
 
             "Je|sus |Cris|to, |Je|sus |Cris|to"+
-            "É |o |A|mi|go |ce|les|ti|al,"+
+            "É |o |A|mi|go |ce|les|tial,"+
             "A|mo|ro|so |e |com|pas|si|vo;"+
             "É |o |A|mi|go |sem |i|gual." ,
 
@@ -4154,7 +4154,7 @@ const hymnsData = {
             "É |E|le |que |nos |fa|la |dos |te|sou|ros"+
             "Que |i|re|mos |des|fru|tar |nos |céus." ,
 
-            "Seus |sá|bi|os |e |glo|ri|o|sos |man|da|men|tos,"+
+            "Seus |sá|bios |e |glo|rio|sos |man|da|men|tos,"+
             "Je|sus |Cris|to |vem |nos |en|si|nar;"+
             "Um |di|a |O |ve|re|mos |fa|ce |a |fa|ce,"+
             "E|le |mes|mo |pro|me|teu |vol|tar." ,
@@ -4527,7 +4527,7 @@ const hymnsData = {
         velX3: "S",
         versos: [
         "Ó |ir|mão |que |dei|xas|te |a |ca|sa |do |Se|nhor,"+
-        "Não |mais |an|des |lon|ge |do |teu |Pai |ce|les|ti|al;"+
+        "Não |mais |an|des |lon|ge |do |teu |Pai |ce|les|tial;"+
         "E|le |quer |per|do|ar|-te, |por |Seu |su|bli|me |a|mor;"+
         "Vol|ta |ao |teu |lar |Pa|ter|nal!" ,
 
@@ -4995,7 +4995,7 @@ const hymnsData = {
             "Que |me |per|do|ou."+
             "Re|di|mi|da |por |Seu |gran|de |fa|vor,"+
             "Mi|nha |al|ma |lou|va |a |Deus."+
-            "Com |Seu |san|gue |pre|ci|o|so,"+
+            "Com |Seu |san|gue |pre|cio|so,"+
             "O |Re|den|tor |pa|gou |os |pe|ca|dos |meus." ,
 
             "Sor|te |en|tre |os |re|mi|dos |me |con|ce|deu |Je|sus,"+
@@ -5042,7 +5042,7 @@ const hymnsData = {
             "É |pi|e|do|so |e |su|bli|me, |o |jus|to |Deus;"+
             "E|le |tem |mi|se|ri|cór|di|a |dos |san|tos |Seus."+
             "Vol|ta, |mi|nh'al|ma, |a |des|can|sar,"+
-            "Bên|ções |pre|ci|o|sas |Deus |vai |te |dar." ,
+            "Bên|ções |pre|cio|sas |Deus |vai |te |dar." ,
 
             "Meus |pés |li|vras|te |da |que|da, |ó |meu |Se|nhor,"+
             "E |pres|er|vas|te |do |pran|to |Teu |ser|vi|dor."+
@@ -5050,7 +5050,7 @@ const hymnsData = {
             "Que |tão |so|men|te |de |Ti |pro|vém?!" ,
 
             "E|le|va|rei |meus |lou|vo|res |a |Ti, |ó |Deus,"+
-            "Di|an|te |de |to|do |o |Teu |po|vo, |nos |á|tri|os |Teus."+
+            "Di|an|te |de |to|do |o |Teu |po|vo, |nos |á|trios |Teus."+
             "Teu |san|to |No|me |in|vo|ca|rei;"+
             "Com |mi|nha |vi|da |Te |ser|vi|rei." ,
 
@@ -5123,7 +5123,7 @@ const hymnsData = {
             "A|mor |que |não |pos|so |ex|pri|mir!" ,
 
             "Por |no|me, |Je|sus, |o |Se|nhor, |me |cha|mou,"+
-            "Mi|nh'al|ma |pre|ci|o|sa |Lhe |é;"+
+            "Mi|nh'al|ma |pre|cio|sa |Lhe |é;"+
             "Com |Seu |gran|de |a|mor |E|le |me |cir|cun|dou,"+
             "Fir|mou|-me |na |gra|ça |e |na |fé." ,
 
@@ -5341,7 +5341,7 @@ const hymnsData = {
             "E |os |ju|í|zos |de |Deus, |For|ma|dor." ,
 
             "Paz |ha|ja |en|tre |nós |con|ti|nu|a|men|te,"+
-            "Pros|pe|ri|da|de |e |ce|les|ti|al |a|mor;"+
+            "Pros|pe|ri|da|de |e |ce|les|tial |a|mor;"+
             "Por |es|sa |paz |di|vi|na,|ex|ce|len|te,"+
             "A |Deus |o|re|mos |sem|pre |com |fer|vor." ,
 
@@ -5682,7 +5682,7 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [
-            "Ó |Se|nhor |glo|ri|o|so, |Deus |da |per|fei|ção,"+
+            "Ó |Se|nhor |glo|rio|so, |Deus |da |per|fei|ção,"+
             "Tu |nos |li|ber|tas|te |da |es|cra|vi|dão;"+
             "Ca|mi|nhan|do |es|ta|mos |ao |Teu |lar |de |a|mor,"+
             "En|to|an|do,|sem|pre,|hi|nos |de |lou|vor." ,
@@ -5924,7 +5924,7 @@ const hymnsData = {
 
             "Dá|-nos, |por |Tu|a |bon|da|de,"+
             "Da |he|ran|ça |o |Pe|nhor;"+
-            "An|si|o|sa|men|te |es|pe|ra|mos,"+
+            "An|sio|sa|men|te |es|pe|ra|mos,"+
             "Bon|do|so |Sal|va|dor." ,
 
         ],
@@ -5945,7 +5945,7 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Dos |céus, |com |gló|ria, |sur|gi|rá |a |ce|les|ti|al |ci|da|de;"+
+            "Dos |céus, |com |gló|ria, |sur|gi|rá |a |ce|les|tial |ci|da|de;"+
             "Ci|da|de |san|ta |on|de |Deus |co|nos|co |es|ta|rá."+
             "Na|que|le |rei|no |e|ter|no |há |paz |e |a|mor |su|per|no;"+
             "Lou|vor |e |gló|ria |ao |Se|nhor |da|re|mos |com |fer|vor." ,
@@ -5955,7 +5955,7 @@ const hymnsData = {
             "Por |Cris|to, |nos|sa |Gló|ria, |te|re|mos |a |vi|tó|ria,"+
             "En|tão |ve|re|mos |o |es|plen|dor |do |rei|no |do |Se|nhor." ,
 
-            "Je|sus |mui |bre|ve |vol|ta|rá, |Glo|ri|o|so |e |O|ni|po|ten|te,"+
+            "Je|sus |mui |bre|ve |vol|ta|rá, |Glo|rio|so |e |O|ni|po|ten|te,"+
             "Nas |nu|vens |nos |a|co|lhe|rá |e |a |Si |nos |u|ni|rá;"+
             "Com |E|le |su|bi|re|mos |e, |en|tão, |con|tem|pla|re|mos"+
             "O |nos|so |e|ter|no |Cri|a|dor |no |rei|no |de |es|plen|dor." ,
@@ -6026,7 +6026,7 @@ const hymnsData = {
             "Mais |fe|liz, |mais |fe|liz"+
             "Eu |se|rei |quan|do |es|ti|ver |no |meu |pa|ís." ,
 
-            "É |glo|ri|o|so |e |i|ne|fá|vel"+
+            "É |glo|rio|so |e |i|ne|fá|vel"+
             "O |meu |pa|ís |ce|les|ti|al,"+
             "De |ri|que|za |i|ni|gua|lá|vel"+
             "E |de |gló|ria |pe|re|nal" ,
@@ -6092,7 +6092,7 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Ó |Pai |ce|les|ti|al |de |a|mor |e|ter|nal,"+
+            "Ó |Pai |ce|les|tial |de |a|mor |e|ter|nal,"+
             "Im|plo|ro |com |to|do |o |meu |ser:"+
             "Vem |me |for|ti|fi|car |e |tam|bém |con|so|lar,"+
             "Com |o |Teu |glo|ri|o|so |po|der." ,
@@ -6105,7 +6105,7 @@ const hymnsData = {
 
             "Fi|el |e |bom |Deus, |dá|-me |gra|ça |dos |céus"+
             "De |re|sis|tir |ao |ten|ta|dor,"+
-            "Que |fu|ri|o|so |es|tá |e |tor|men|to |me |dá"+
+            "Que |fu|rio|so |es|tá |e |tor|men|to |me |dá"+
             "Nes|te |mun|do |de |lu|tas |e |dor." ,
 
             "Ó |Pai, |vem |me |dar |for|ças |pa|ra |lu|tar"+
@@ -6610,7 +6610,7 @@ const hymnsData = {
 
             "Ter|mi|nan|do |o |san|to |cul|to |ao |Cri|a|dor,"+
             "Sin|to |paz |e |a|le|gri|a;"+
-            "Me|di|tan|do |no |glo|ri|o|so |Seu |a|mor,"+
+            "Me|di|tan|do |no |glo|rio|so |Seu |a|mor,"+
             "Dei|xo |a |ca|sa |do |Se|nhor." ,
 
         ],
@@ -6634,7 +6634,7 @@ const hymnsData = {
             "O |di|vi|nal |Cor|dei|ro, |pu|rís|si|mo, |i|no|cen|te,"+
             "To|mou |os |meus |pe|ca|dos |e |deu|-me |Su|a |fé;"+
             "Pros|trar|-me|-ei |hu|mil|de, |a |E|le |re|ve|ren|te,"+
-            "Por |Seu |pre|ci|o|so |san|gue, |eu |al|can|cei |mer|cê." ,
+            "Por |Seu |pre|cio|so |san|gue, |eu |al|can|cei |mer|cê." ,
 
             "Es|ta|va |no |pe|ca|do, |mas |gra|ça |te|nho |a|cha|do"+
             "Em |Cris|to, |mui |bon|do|so, |Au|tor |da |sal|va|ção;"+
@@ -6899,14 +6899,14 @@ const hymnsData = {
             "Gran|de |vi|tu|pé|rio |su|por|tou |na |cruz;"+
             "Pe|la |Su|a |mor|te, |ao |ho|mem |per|do|ou." ,
 
-            "Que |glo|ri|o|so |a|mor, |que |su|bli|me |a|mor"+
+            "Que |glo|rio|so |a|mor, |que |su|bli|me |a|mor"+
             "Deus |ma|ni|fes|tou, |sal|van|do |o |pe|ca|dor!"+
             "Que |di|vi|no |a|mor, |que |i|men|so |a|mor"+
             "Deus |nos |re|ve|lou |em |Cris|to, |o |Sal|va|dor!" ,
 
             "O |de|cre|to |san|to |do |e|ter|no |Deus,"+
             "Foi |na |cruz, |cum|pri|do |pe|lo |Re|den|tor;"+
-            "O |Seu |sa|cri|fi|ci|o |nos |a|briu |os |céus,"+
+            "O |Seu |sa|cri|fi|cio |nos |a|briu |os |céus,"+
             "Trou|xe |luz |e |vi|da |pa|ra |o |pe|ca|dor." ,
 
             "Por |a|mor |pro|fun|do, |Deus |man|dou |Je|sus;"+
@@ -7270,7 +7270,7 @@ const hymnsData = {
             "D'E|le |vem |per|dão |pa|ra |o |pe|ca|dor"+
             "Que |de|se|ja |se |sal|var." ,
 
-            "Á|gua |vi|va |do |tro|no |ce|les|ti|al,"+
+            "Á|gua |vi|va |do |tro|no |ce|les|tial,"+
             "Re|fri|gé|rio |a |to|dos |traz;"+
             "Ou|tras |á|guas |há, |mas |ne|nhuma |i|gual"+
             "À |do |Prín|ci|pe |da |paz." ,
@@ -7554,7 +7554,7 @@ const hymnsData = {
 
             "So|bre |a |a|mar|ga |cruz, |por |ti, |pro|vou |a |mor|te;"+
             "Ou|ve |a |voz |do |Se|nhor;"+
-            "Não |rei|ei|tes |tão |pre|ci|o|sa |e |gran|de |sor|te;"+
+            "Não |re|jei|tes |tão |pre|cio|sa |e |gran|de |sor|te;"+
             "Vem |pro|var |Seu |a|mor." ,            
         ],
         temposVersos: [],
@@ -7628,7 +7628,7 @@ const hymnsData = {
             "E |ven|ce|rei |o |ten|ta|dor." ,
 
             "Vi|ver |de|se|jo, |ó |Deus, |em |re|ti|dão,"+
-            "Com |as |vir|tu|des |ce|les|ti|ais;"+
+            "Com |as |vir|tu|des |ce|les|tiais;"+
             "De |Ti |re|ce|be|rei |o |ga|lar|dão"+
             "E |as |ri|que|zas |e|ter|nais." ,
 
@@ -7737,7 +7737,7 @@ const hymnsData = {
             "Pois |bre|ve |o |Mes|tre |vai |vol|tar." ,
 
             "Tra|ba|lhe|mos, |ir|mãos, |com |a|fin|co |e |a|mor,"+
-            "A|nun|ci|an|do |aos |fa|min|tos |que |o |pão |ce|les|ti|al"+
+            "A|nun|ci|an|do |aos |fa|min|tos |que |o |pão |ce|les|tial"+
             "É |Je|sus, |a |Pa|la|vra |de |vi|da |e |vi|gor;"+
             "E|la |nos |a|li|men|ta |e |nos |li|vra |do |mal." ,
 
@@ -7782,7 +7782,7 @@ const hymnsData = {
             "A |mi|nha |men|te |es|cla|re|ceu;"+
             "Li|vrou|-me |da |per|di|ção." ,
 
-            "Je|sus, |vem |com |a |Tu|a |glo|ri|o|sa |luz"+
+            "Je|sus, |vem |com |a |Tu|a |glo|rio|sa |luz"+
             "Pa|ra |me |gui|ar"+
             "No |E|van|ge|lho |san|to,"+
             "A|té |fin|dar |meu |pe|re|gri|nar." ,
@@ -7815,7 +7815,7 @@ const hymnsData = {
             "Só |em |Cris|to, |só |em |Cris|to,"+
             "Vós, |se|den|tes, |po|de|reis |vos |sa|ci|ar." ,
 
-            "Nes|ta |fon|te |tão |pre|ci|o|sa, |i|nes|go|tá|vel,"+
+            "Nes|ta |fon|te |tão |pre|cio|sa, |i|nes|go|tá|vel,"+
             "Re|fri|gé|rio |to|dos |a|cha|rão;"+
             "Re|cor|ren|do |a |Je|sus, |Pas|tor |a|má|vel,"+
             "Os |se|den|tes |não |mais |se|de |sen|ti|rão." ,
@@ -8111,7 +8111,7 @@ const hymnsData = {
             "Á|guas |bro|ta|ram |e |trou|xeram |sal|va|ção." ,
 
             "Cris|to, |Luz |do |mun|do,"+
-            "É |o |Au|tor |de |tão |pre|ci|o|sa |re|den|ção." ,
+            "É |o |Au|tor |de |tão |pre|cio|sa |re|den|ção." ,
 
             "Cris|to, |Es|tre|la |d'Al|va, |Luz |ce|les|ti|al,"+
             "Que |res|plan|de|ceu |a |to|do |o |mor|tal,"+
@@ -8144,7 +8144,7 @@ const hymnsData = {
             "O |que |ho|je |é |mis|té|rio |pa|ra |os |san|tos |do |Se|nhor,"+
             "Re|ve|la|do |lhes |se|rá |por |Seu |Es|pí|ri|to |de |a|mor,"+
             "Pois |es|tá |em |Je|sus |Cris|to |a |ple|ni|tu|de |di|vi|nal"+
-            "E |os |jus|tos |par|ti|ci|pam |do |se|gre|do |ce|les|ti|al." ,
+            "E |os |jus|tos |par|ti|ci|pam |do |se|gre|do |ce|les|tial." ,
 
             "Je|sus |Cris|to |ha|bi|ta |em |nós,"+
             "Su|a |luz |ha|bi|ta |em |nós;"+
@@ -8270,7 +8270,7 @@ const hymnsData = {
             "Na |fé |for|ta|le|ci|dos, |re|ves|ti|dos |de |po|der"+
             "Se|re|mos |pe|lo |Mes|tre, |que |nos |dá |o |Seu |sa|ber;"+
             "A|van|te, |es|for|ce|mo|-nos |em |o|bras |di|vi|nais;"+
-            "O |prê|mio |é |vi|da |e|ter|na |nas |mo|ra|das |ce|les|ti|ais." ,
+            "O |prê|mio |é |vi|da |e|ter|na |nas |mo|ra|das |ce|les|tiais." ,
 
             "Lem|bre|mo|-nos |de |to|dos |os |con|se|lhos |que |nos |deu"+
             "Je|sus, |o |Ver|da|dei|ro, |que |a |gló|ria |pro|me|teu;"+
@@ -8301,7 +8301,7 @@ const hymnsData = {
             "Na |ho|ra |da |a|fli|ção." ,
 
             "Vem, |vem |con|so|lar|-me,"+
-            "Pai |ce|les|ti|al, |com |Teu |a|mor;"+
+            "Pai |ce|les|tial, |com |Teu |a|mor;"+
             "Con|fi|o |em |Ti, |ó |Deus |Cri|a|dor,"+
             "Po|de|ro|so |e |fi|el |Se|nhor." ,
 
@@ -8382,7 +8382,7 @@ const hymnsData = {
             "To|do |o |fi|el |pro|te|gi|do |es|tá." ,
 
             "Pas|so |a |pas|so, |por |fé |pros|si|go"+
-            "Ru|mo |à |pá|tria |ce|les|ti|al;"+
+            "Ru|mo |à |pá|tria |ce|les|tial;"+
             "Na |tem|pes|ta|de |te|nho |a|bri|go;"+
             "Te|nho |so|cor|ro |di|vi|nal." ,
 
@@ -8878,7 +8878,7 @@ const hymnsData = {
 
             "Por |Ti, |ó |Je|sus, |te|mos |vi|da |e|ter|nal,"+
             "Tam|bém |as |ri|que|zas |re|ais,"+
-            "As |quais |nos |da|rás |no |Teu |lar |ce|les|ti|al,"+
+            "As |quais |nos |da|rás |no |Teu |lar |ce|les|tial,"+
             "Se |for|mos, |em |tu|do, |le|ais." ,
 
         ],
@@ -9105,7 +9105,7 @@ const hymnsData = {
 
             "Es|con|der |não |de|ve|mos, |do |mun|do,"+
             "Nos|sa |fé |em |Cris|to |Je|sus;"+
-            "A|mor |ce|les|ti|al |e |pro|fun|do"+
+            "A|mor |ce|les|tial |e |pro|fun|do"+
             "O |Jus|to |mos|trou |por |nós |na |cruz,"+
             "Sim, |Cris|to |mos|trou |na |cruz." ,
 
@@ -9135,7 +9135,7 @@ const hymnsData = {
         versos: [
             "Quan|do |vi|er |do |céu |Cris|to |Je|sus, |o |Rei,"+
             "O |mun|do |de |i|lu|são, |ven|ci|do |eu |te|rei;"+
-            "Re|pou|so |ce|les|ti|al |e |vi|da |e|ter|nal"+
+            "Re|pou|so |ce|les|tial |e |vi|da |e|ter|nal"+
             "Re|ce|be|rei |de |Deus, |a |Quem |me |con|sa|grei." ,
 
             "Cons|is|te |o |meu |vi|ver |em |a|gra|dar |a |Deus,"+
@@ -9244,7 +9244,7 @@ const hymnsData = {
         versos: [
             "Ir|mãos, |a|me|mos |ao |Se|nhor,"+
             "Pois |gran|de |é |Seu |a|mor;"+
-            "Seu |pre|ci|o|so |san|gue |der|ra|mou"+
+            "Seu |pre|cio|so |san|gue |der|ra|mou"+
             "E |nos|sas |al|mas |la|vou." ,
 
             "Com |to|da |a |nos|sa |de|vo|ção,"+
@@ -9260,7 +9260,7 @@ const hymnsData = {
             "Ir|mãos, |a|me|mos |ao |Se|nhor,"+
             "Au|tor |e |Con|su|ma|dor"+
             "Des|ta |fé, |que |dá |a |sal|va|ção"+
-            "E |ce|les|ti|al |ga|lar|dão." ,
+            "E |ce|les|tial |ga|lar|dão." ,
 
         ],
         temposVersos: [],
@@ -9492,7 +9492,7 @@ const hymnsData = {
             "Bre|ve|men|te |vi|rá |o |Se|nhor |Je|sus"+
             "Pre|mi|ar, |com |o |Seu |ga|lar|dão,"+
             "Os |que |fi|el|men|te |a|guar|dam"+
-            "Su|a |glo|ri|o|sa |a|pa|ri|ção." ,
+            "Su|a |glo|rio|sa |a|pa|ri|ção." ,
 
             "Bre|ve |vol|ta|rá |Je|sus |Cris|to,"+
             "Tri|un|fan|te, |com |ri|jo |cla|mor;"+
@@ -9643,7 +9643,7 @@ const hymnsData = {
 
             "Trans|pas|sa|da |com |a |lan|ça |foi |o |cor|po |do |Se|nhor,"+
             "So|bre |a |cruz |foi |der|ra|ma|do |o |Seu |san|gue |re|mi|dor;"+
-            "E, |por |es|se |sa|cri|fi|ci|o, |re|ce|be|mos |sal|va|ção;"+
+            "E, |por |es|se |sa|cri|fi|cio, |re|ce|be|mos |sal|va|ção;"+
             "O |E|van|ge|lho |nos |de|cla|ra:"+
             "'Só |em |Cris|to |há |per|dão'. ",
 
@@ -10042,14 +10042,14 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [
-            "Um |a|mor |i|men|so, |san|to |e |ce|les|ti|al,"+
+            "Um |a|mor |i|men|so, |san|to |e |ce|les|tial,"+
             "Sin|to |a|go|ra |em |Cris|to, |Mes|tre |di|vi|nal;"+
             "Deus |o |Pai |ben|di|to, |trans|for|mou |meu |ser;"+
             "Re|ve|lou|-me |a |gra|ça, |pe|lo |Seu |po|der" ,
 
             "Na|da |me |se|pa|ra |do |di|vi|no |a|mor"+
             "Que |me |u|ne |a |Cris|to, |o |meu |Sal|va|dor;"+
-            "O |fer|vor |glo|ri|o|so |de |ser|vir |a |Deus"+
+            "O |fer|vor |glo|rio|so |de |ser|vir |a |Deus"+
             "Me |con|duz |a|van|te |ru|mo |ao |céu |dos |céus." ,
 
             "Paz |e |vi|da |e|ter|na |te|nho |por |Je|sus,"+
@@ -10121,7 +10121,7 @@ const hymnsData = {
 
             "Do |mun|do |já |se|pa|ra|do |es|tou,"+
             "Foi |Je|sus |Quem |me |se|pa|rou;"+
-            "Com |Seu |san|gue |pre|ci|o|so |me |res|ga|tou." ,
+            "Com |Seu |san|gue |pre|cio|so |me |res|ga|tou." ,
 
             "Na|da |no |mun|do |ja|mais |po|de|rá"+
             "Pri|var|-me |do |Seu |a|mor;"+
@@ -10240,7 +10240,7 @@ const hymnsData = {
             "A |san|ta |pre|sen|ça |de |Deus,"+
             "Meu |cá|li|ce |faz |tras|bor|dar;"+
             "Te|rei |re|go|zi|jo |nos |céus,"+
-            "Glo|ri|o|so, |e|ter|no, |sem |par." ,
+            "Glo|rio|so, |e|ter|no, |sem |par." ,
 
         ],
         temposVersos: [],
@@ -10422,7 +10422,7 @@ const hymnsData = {
             "É |In|ter|ces|sor |jun|to |a |Deus." ,
 
             "Cris|to |in|ter|ce|de |por |ti"+
-            "Jun|to |a |Deus, |o |Pai |ce|les|ti|al;"+
+            "Jun|to |a |Deus, |o |Pai |ce|les|tial;"+
             "Cris|to |é |o |mo|de|lo |san|to |e |per|fei|to,"+
             "Cris|to |é |o |A|mi|go |le|al." ,
 
@@ -10463,13 +10463,13 @@ const hymnsData = {
         "Sin|to |a |paz |de |Deus;"+
         "Cris|to, |ao |meu |co|ra|ção,"+
         "Bên|ções |traz |dos |céus;"+
-        "Se, |com |E|le, |a|qui |vi|ver |tão |glo|ri|o|so |é,"+
-        "Quão |glo|ri|o|so |en|tão |se|rá,"+
+        "Se, |com |E|le, |a|qui |vi|ver |tão |glo|rio|so |é,"+
+        "Quão |glo|rio|so |en|tão |se|rá,"+
         "Se |per|ma|ne|cer |na |fé?!" ,
 
         "Eu |me |sin|to |mui |di|to|so,"+
         "Pe|la |gra|ça |do |bom |Deus;"+
-        "Meu |fu|tu|ro |é |mui |glo|ri|o|so,"+
+        "Meu |fu|tu|ro |é |mui |glo|rio|so,"+
         "Pois |es|pe|ro |ir |aos |céus." ,
 
         "O |meu |ser |foi |trans|for|ma|do"+
@@ -10574,7 +10574,7 @@ const hymnsData = {
             "Gló|ria! |A|le|lu|ia! |Con|tem|pla|rei"+
             "Fa|ce |a |fa|ce |o |meu |Se|nhor,"+
             "E |en|tão |i|gual |a |E|le |se|rei"+
-            "No |Seu |glo|ri|o|so |lar |de |es|plen|dor." ,
+            "No |Seu |glo|rio|so |lar |de |es|plen|dor." ,
 
             "Gló|ria! |A|le|lu|ia! |San|to |é |o |Se|nhor,"+
             "Três |ve|zes |San|to |e |ri|co |em |a|mor;"+
@@ -10614,7 +10614,7 @@ const hymnsData = {
             "O |fi|el |a |Deus, |que |em |si |a |pos|suir, |re|ce|be|rá"+
             "Ga|lar|dão |ex|ce|len|te." ,
 
-            "Se |fa|lar|mos, |ó |ir|mãos, |a |lin|gua|gem |ce|les|ti|al"+
+            "Se |fa|lar|mos, |ó |ir|mãos, |a |lin|gua|gem |ce|les|tial"+
             "E |a |dos |ho|mens, |em |ver|da|de,"+
             "Is|so |não |nos |le|va|rá |à |ci|da|de |e|ter|nal,"+
             "Se |em |nós |não |es|ti|ver |a |Ca|ri|da|de." ,
@@ -10655,7 +10655,7 @@ const hymnsData = {
             "E|co|a|rá |dos |al|tos |céus"+
             "O |som |da |trom|be|ta |do |e|ter|no |Deus;"+
             "E, |do |meu |so|no, |a|cor|da|rei"+
-            "Pa|ra |en|con|trar |o |glo|ri|o|so |Rei." ,
+            "Pa|ra |en|con|trar |o |glo|rio|so |Rei." ,
 
             "Vou |com |Je|sus |me |en|con|trar;"+
             "Gran|de |há |de |ser |o |meu |ju|bi|lar,"+
@@ -10814,7 +10814,7 @@ const hymnsData = {
 
             "Eu |não |ser|vi|rei |à |i|ni|qui|da|de,"+
             "Pois |re|te|nho |em |mim |a |fé |no |Sal|va|dor;"+
-            "En|tra|rei |na |ce|les|ti|al |ci|da|de"+
+            "En|tra|rei |na |ce|les|tial |ci|da|de"+
             "Pa|ra |es|tar |com |o |meu |Se|nhor." ,
 
             "Com |e|ter|na |bem-|a|ven|tu|ran|ça,"+
@@ -11275,11 +11275,11 @@ const hymnsData = {
 
             "Je|sus, |Pas|tor |di|vi|no,"+
             "En|tre|go |a |Ti |meu |ser,"+
-            "Pois, |com |Teu |sa|cri|fí|ci|o,"+
+            "Pois, |com |Teu |sa|cri|fí|cio,"+
             "Fi|zes|te|-me |vi|ver;"+
             "A|mor |ce|les|te |e |San|to"+
             "Mos|tras|te |so|bre |a |cruz;"+
-            "Glo|ri|o|so |é |per|ten|cer |a |Ti,"+
+            "Glo|rio|so |é |per|ten|cer |a |Ti,"+
             "Ó |Sal|va|dor |Je|sus!" ,
 
             "É |um |te|sou|ro |de |gran|de |va|lor"+
@@ -11310,25 +11310,70 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [
-            "Se|nhor, |a |Tu|a i|gre|ja |es|pe|ra al|can|çar"+
-            "O |rei|no |de |gló|ria |sem |par;"+
-            "No |mun|do e|la en|con|tra |tris|te|za |e |dor,"+
+            "Se|nhor, |a |Tu|a i|gre|ja |es|pe|ra al|can|çar |"+
+            "O |rei|no |de |gló|ria |sem |par; |"+
+            "No |mun|do e|la en|con|tra |tris|te|za |e |dor, |"+
             "A|fli|ção, |fa|di|ga e |pro|vas, |Se|nhor." ,
 
-            "Se|nhor, |a |Tu|a i|gre|ja |Te |quer |en|con|trar"+
-            "E |sem|pre |Con|ti|go |es|tar;"+
-            "Oh! |Gui|a |seus |pas|sos |por |Teu |gran|de a|mor;"+
+            "Se|nhor, |a |Tu|a i|gre|ja |Te |quer |en|con|trar |"+
+            "E |sem|pre |Con|ti|go |es|tar; |"+
+            "Oh! |Gui|a |seus |pas|sos |por |Teu |gran|de a|mor; |"+
             "Vem |lhe |dar |os |Teus |a|dor|nos, |Se|nhor." ,
 
-            "Se|nhor, |a |Tu|a i|gre|ja |quer |ver|-Te |vol|tar,"+
-            "Tam|bém |quer |no |céu |ha|bi|tar;"+
-            "Quer |ver |Tu|a |fa|ce, |ó |Rei |ce|les|ti|al,"+
+            "Se|nhor, |a |Tu|a i|gre|ja |quer |ver|-Te |vol|tar, |"+
+            "Tam|bém |quer |no |céu |ha|bi|tar; |"+
+            "Quer |ver |Tu|a |fa|ce, |ó |Rei |ce|les|tial, |"+
             "E a|do|rar|-Te |no |Teu |rei|no e|ter|nal." ,
 
         ],
-        temposVersos: [],
-        notas: [],
-        temposNotas: []
+        temposVersos: [
+            4,6,2,4,4,8,4,4,8,4,4,12,
+            4,8,4,4,8,4,4,12,
+            4,8,4,4,8,4,4,8,4,4,8,
+            4,4,6,2,4,4,8,4,4,12,
+
+            4,6,2,4,4,8,4,4,8,4,4,12,
+            4,8,4,4,8,4,4,12,
+            4,8,4,4,8,4,4,8,4,4,8,
+            4,4,6,2,4,4,8,4,4,12,
+
+            4,6,2,4,4,8,4,4,8,4,4,12,
+            4,8,4,4,8,4,4,12,
+            4,8,4,4,8,4,4,8,4,4,8,
+            4,4,6,2,4,4,8,4,4,12
+        ],
+        notas: [
+            'D4','D4','E4','F#4','G4','A4','B4','A4','G4','F#4','E4','E4','D4',
+            'A4','D5','D5','E5','D5','B4','B4','A4',
+            'A4','D5','D5','B4','A4','F#4','A4','B4','A4','F#4','E4',
+            'D4','F#4','A4','B4','A4','D4','F#4','E4','E4','D4',
+
+            'D4','D4','E4','F#4','G4','A4','B4','A4','G4','F#4','E4','E4','D4',
+            'A4','D5','D5','E5','D5','B4','B4','A4',
+            'A4','D5','D5','B4','A4','F#4','A4','B4','A4','F#4','E4',
+            'D4','F#4','A4','B4','A4','D4','F#4','E4','E4','D4',
+
+            'D4','D4','E4','F#4','G4','A4','B4','A4','G4','F#4','E4','E4','D4',
+            'A4','D5','D5','E5','D5','B4','B4','A4',
+            'A4','D5','D5','B4','A4','F#4','A4','B4','A4','F#4','E4',
+            'D4','F#4','A4','B4','A4','D4','F#4','E4','E4','D4'
+        ],
+        temposNotas: [
+            4,6,2,4,4,6,2,4,4,8,4,4,12,
+            4,8,4,4,8,4,4,12,
+            4,8,4,4,8,4,4,8,4,4,8,
+            4,4,6,2,4,4,8,4,4,12,
+
+            4,6,2,4,4,6,2,4,4,8,4,4,12,
+            4,8,4,4,8,4,4,12,
+            4,8,4,4,8,4,4,8,4,4,8,
+            4,4,6,2,4,4,8,4,4,12,
+
+            4,6,2,4,4,6,2,4,4,8,4,4,12,
+            4,8,4,4,8,4,4,12,
+            4,8,4,4,8,4,4,8,4,4,8,
+            4,4,6,2,4,4,8,4,4,12
+        ]
     },
     "263": { 
         nome: "Cristo é Luz resplandecente",
@@ -11358,7 +11403,7 @@ const hymnsData = {
             "To|do |a|que|le |que |o|be|de|ce"+
             "À |von|ta|de |do |Se|nhor." ,
 
-            "É |a |ce|les|ti|al |Ver|da|de"+
+            "É |a |ce|les|tial |Ver|da|de"+
             "Que |trans|for|ma |o |pe|ca|dor,"+
             "E, |quem |d'E|la |se |re|ves|te,"+
             "Fi|lho |e|lei|to |é |do |Se|nhor." ,
@@ -11426,8 +11471,8 @@ const hymnsData = {
 
             "Ó |Cri|a|dor, |bên|ções |dos |céus,"+
             "Os |Teus |a|ma|dos |es|pe|ram"+
-            "An|si|o|sa|men|te, |Se|nhor;"+
-            "Pai |ce|les|ti|al, |ou|ve |os |Teus;"+
+            "An|sio|sa|men|te, |Se|nhor;"+
+            "Pai |ce|les|tial, |ou|ve |os |Teus;"+
             "Bál|sa|mo |às |nos|sas |al|mas"+
             "São |Tu|as |bên|ções |de |a|mor." ,
 
@@ -11459,25 +11504,71 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Vin|de |às |fi|lei|ras |do |bom |Sal|va|dor,"+
-            "Que |vos |cin|gi|rá |com |ar|mas |de |va|lor,"+
-            "Pa|ra |com|ba|ter|des |sem |ne|nhum |te|mor"+
+            "Vin|de |às |fi|lei|ras |do |bom |Sal|va|dor, |"+
+            "Que |vos |cin|gi|rá |com |ar|mas |de |va|lor, |"+
+            "Pa|ra |com|ba|ter|des |sem |ne|nhum |te|mor |"+
             "Con|tra |o |pe|ca|do, |com |to|do o |vi|gor." ,
 
-            "Cris|to, |so|bre a |mor|te, |foi |o |Ven|ce|dor,"+
-            "Sen|do, |do |se|pul|cro, |o |Su|plan|ta|dor;"+
-            "Sem |ne|nhu|ma |cul|pa, |so|bre a |cruz |mor|reu,"+
+            "Cris|to, |so|bre a |mor|te, |foi |o |Ven|ce|dor, |"+
+            "Sen|do, |do |se|pul|cro, |o |Su|plan|ta|dor; |"+
+            "Sem |ne|nhu|ma |cul|pa, |so|bre a |cruz |mor|reu, |"+
             "Mas, |vi|to|ri|o|so, |re|tor|nou |ao |céu." ,
 
-            "Cris|to, |nos|so |Mes|tre, |Gui|a |ce|les|ti|al,"+
-            "É |Quem |nos |de|fen|de |do |po|der |do |mal;"+
-            "Sem|pre |res|plan|de|ce |com |a |Su|a |luz,"+
-            "Na |glo|ri|o|sa |sen|da |que |ao |céu |con|duz." ,
+            "Cris|to, |nos|so |Mes|tre, |Gui|a |ce|les|tial, |"+
+            "É |Quem |nos |de|fen|de |do |po|der |do |mal; |"+
+            "Sem|pre |res|plan|de|ce |com |a |Su|a |luz, |"+
+            "Na |glo|rio|sa |sen|da |que |ao |céu |con|duz." ,
 
         ],
-        temposVersos: [],
-        notas: [],
-        temposNotas: []
+        temposVersos: [
+            2,2,2,2,4,4,2,2,2,2,8,
+            2,2,2,2,4,4,2,2,2,2,8,
+            2,2,2,2,4,4,2,2,2,2,8,
+            2,2,2,2,4,4,2,2,2,2,8,
+
+            2,2,2,2,4,4,2,2,2,2,8,
+            2,2,2,2,4,4,2,2,2,2,8,
+            2,2,2,2,4,4,2,2,2,2,8,
+            2,2,2,2,4,4,2,2,2,2,8,
+
+            2,2,2,2,4,4,2,2,2,2,8,
+            2,2,2,2,4,4,2,2,2,2,8,
+            2,2,2,2,4,4,2,2,2,2,8,
+            2,2,2,2,4,4,2,2,2,2,8
+
+        ],
+        notas: [
+            'Bb4','Bb4','Bb4','A4','G4','F4','Bb4','Bb4','Bb4','G4','A4',
+            'C5','C5','Bb4','A4','Bb4','F4','G4','G4','F4','E4','F4',
+            'D5','D5','Bb4','A4','C5','A4','Eb5','Eb5','D5','C5','D5','Bb4',
+            'Bb4','Bb4','A4','G4','F4','Bb4','G4','C5','Bb4','A4','Bb4',
+
+            'Bb4','Bb4','Bb4','A4','G4','F4','Bb4','Bb4','Bb4','G4','A4',
+            'C5','C5','Bb4','A4','Bb4','F4','G4','G4','F4','E4','F4',
+            'D5','D5','Bb4','A4','C5','A4','Eb5','Eb5','D5','C5','D5','Bb4',
+            'Bb4','Bb4','A4','G4','F4','Bb4','G4','C5','Bb4','A4','Bb4',
+
+            'Bb4','Bb4','Bb4','A4','G4','F4','Bb4','Bb4','Bb4','G4','A4',
+            'C5','C5','Bb4','A4','Bb4','F4','G4','G4','F4','E4','F4',
+            'D5','D5','Bb4','A4','C5','A4','Eb5','Eb5','D5','C5','D5','Bb4',
+            'Bb4','Bb4','A4','G4','F4','Bb4','G4','C5','Bb4','A4','Bb4'
+        ],
+        temposNotas: [
+            2,2,2,2,4,4,2,2,2,2,8,
+            2,2,2,2,4,4,2,2,2,2,8,
+            2,2,2,2,4,4,2,2,2,2,4,4,
+            2,2,2,2,4,4,2,2,2,2,8,
+
+            2,2,2,2,4,4,2,2,2,2,8,
+            2,2,2,2,4,4,2,2,2,2,8,
+            2,2,2,2,4,4,2,2,2,2,4,4,
+            2,2,2,2,4,4,2,2,2,2,8,
+
+            2,2,2,2,4,4,2,2,2,2,8,
+            2,2,2,2,4,4,2,2,2,2,8,
+            2,2,2,2,4,4,2,2,2,2,4,4,
+            2,2,2,2,4,4,2,2,2,2,8
+        ]
     },
     "267": { 
         nome: "Graça maravilhosa",
@@ -11571,25 +11662,71 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Res|sus|ci|ta|dos, |por |gra|ça, |fo|mos"+
-            "Com |Je|sus |Cris|to, |o |Re|den|tor;"+
-            "Fi|lhos |e|lei|tos |de |Deus |já |so|mos,"+
+            "Res|sus|ci|ta|dos, |por |gra|ça, |fo|mos |"+
+            "Com |Je|sus |Cris|to, |o |Re|den|tor; |"+
+            "Fi|lhos |e|lei|tos |de |Deus |já |so|mos, |"+
             "E |co-|her|dei|ros |do |Sal|va|dor." ,
 
-            "Nós |bus|ca|re|mos |a |san|ti|da|de,"+
-            "A |paz, |a |gra|ça, |to|do |o |bem,"+
-            "A |sã |dou|tri|na, |a |Ca|ri|da|de:"+
+            "Nós |bus|ca|re|mos |a |san|ti|da|de, |"+
+            "A |paz, |a |gra|ça, |to|do |o |bem, |"+
+            "A |sã |dou|tri|na, |a |Ca|ri|da|de: |"+
             "Do |Deus |e|ter|no |tu|do |pro|vém." ,
 
-            "Bên|ções |glo|ri|o|sas |des|cem |do |al|to"+
-            "On|de |ha|bi|ta |o |Cri|a|dor;"+
-            "Se |rei|ei|tar|mos |o |mun|do in|gra|to,"+
+            "Bên|ções |glo|rio|sas |des|cem |do |al|to |"+
+            "On|de |ha|bi|ta |o |Cri|a|dor; |"+
+            "Se |rei|ei|tar|mos |o |mun|do in|gra|to, |"+
             "Sal|vos |se|re|mos |por |Seu |a|mor." ,
 
         ],
-        temposVersos: [],
-        notas: [],
-        temposNotas: []
+        temposVersos: [
+            4,4,4,12,12,4,4,4,12,12,
+            4,4,4,12,12,4,4,4,24,
+            4,4,4,12,12,4,4,4,12,12,
+            4,4,4,12,12,4,4,4,44,
+
+            4,4,4,12,12,4,4,4,12,12,
+            4,4,4,12,12,4,4,4,24,
+            4,4,4,12,12,4,4,4,12,12,
+            4,4,4,12,12,4,4,4,24,
+
+            4,4,4,12,12,4,4,4,12,12,
+            4,4,4,12,12,4,4,4,24,
+            4,4,4,12,12,4,4,4,12,12,
+            4,4,4,12,12,4,4,4,24
+
+        ],
+        notas: [
+            'B4','A#4','B4','D5','B4','D5','B4','G4','F#4','E4',
+            'D4','C5','B4','A4','A4','D4','E4','D4','B4',
+            'G4','F#4','G4','B4','G4','B4','C5','C#5','D5','D5',
+            'C5','G4','E4','D4','B4','C5','B4','A4','G4',
+
+            'B4','A#4','B4','D5','B4','D5','B4','G4','F#4','E4',
+            'D4','C5','B4','A4','A4','D4','E4','D4','B4',
+            'G4','F#4','G4','B4','G4','B4','C5','C#5','D5','D5',
+            'C5','G4','E4','D4','B4','C5','B4','A4','G4',
+
+            'B4','A#4','B4','D5','B4','D5','B4','G4','F#4','E4',
+            'D4','C5','B4','A4','A4','D4','E4','D4','B4',
+            'G4','F#4','G4','B4','G4','B4','C5','C#5','D5','D5',
+            'C5','G4','E4','D4','B4','C5','B4','A4','G4'
+        ],
+        temposNotas: [
+            4,4,4,12,12,4,4,4,12,12,
+            4,4,4,12,12,4,4,4,24,
+            4,4,4,12,12,4,4,4,12,12,
+            4,4,4,12,12,4,4,4,24,
+
+            4,4,4,12,12,4,4,4,12,12,
+            4,4,4,12,12,4,4,4,24,
+            4,4,4,12,12,4,4,4,12,12,
+            4,4,4,12,12,4,4,4,24,
+
+            4,4,4,12,12,4,4,4,12,12,
+            4,4,4,12,12,4,4,4,24,
+            4,4,4,12,12,4,4,4,12,12,
+            4,4,4,12,12,4,4,4,24            
+        ]
     },
     "270": { 
         nome: "Deste mundo mais nada esperarei",
@@ -11704,7 +11841,7 @@ const hymnsData = {
             "Seu |que|rer |in|tei|ra|men|te |a|cei|ta|rei." ,
 
             "A|le|lu|ia! |Eu |se|rei |co|mo |é |meu |Se|nhor,"+
-            "No |glo|ri|o|so |di|a |em |que |E|le |do |céu |vol|tar;"+
+            "No |glo|rio|so |di|a |em |que |E|le |do |céu |vol|tar;"+
             "Nes|ta |vi|da |me |sus|tém |o |bom |Con|so|la|dor;"+
             "Pe|la |fé |que |me |a|ju|da |a |ca|mi|nhar." ,
 
@@ -11818,7 +11955,7 @@ const hymnsData = {
             "Na|da |que|ro |des|te |mun|do, |a|van|te |eu |vou." ,
 
             "No |di|a |do |Se|nhor, |os |an|jos |to|ca|rão"+
-            "A |ce|les|ti|al |trom|be|ta |que |to|dos |ou|vi|rão;"+
+            "A |ce|les|tial |trom|be|ta |que |to|dos |ou|vi|rão;"+
             "Re|tor|na|rá |Je|sus, |o |nos|so |Re|den|tor,"+
             "Em |gló|ria, |so|bre |as |nu|vens, |cer|ca|do |de |es|plen|dor." ,
 
@@ -11962,7 +12099,7 @@ const hymnsData = {
             "A|le|gres |ca|mi|nhe|mos |com |o |bom |Pai |de |a|mor,"+
             "Se|guin|do|-O, |tri|un|fan|tes, |pois |do |mal |nos |li|vrou;"+
             "Nós |fo|mos |a|do|ta|dos |fi|lhos |ao |Cri|a|dor,"+
-            "Pe|lo |pre|ci|o|so |san|gue |que |Cris|to |der|ra|mou." ,
+            "Pe|lo |pre|cio|so |san|gue |que |Cris|to |der|ra|mou." ,
 
         ],
         temposVersos: [],
@@ -11982,30 +12119,130 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [
-            "É|ra|mos |mor|tos |nas |o|bras |más;"+
-            "Ja|mais |ti|ve|mos |di|vi|na |paz;"+
-            "Gló|ria |ao |bom |Je|sus, |já |te|mos |Su|a |luz;"+
+            "É|ra|mos |mor|tos |nas |o|bras |más; |"+
+            "Ja|mais |ti|ve|mos |di|vi|na |paz; |"+
+            "Gló|ria |ao |bom |Je|sus, |já |te|mos |Su|a |luz; |"+
             "D'E|le |nos |vem |po|der |pa|ra |ven|cer." ,
 
-            "Nós |fo|mos |fei|tos, |do |mun|do, a |luz"+
-            "Por |nos|so |Mes|tre, |Cris|to |Je|sus;"+
-            "Fir|mes |de|ve|mos |ser, |nun|ca |ao |mal |ce|der;"+
+            "Nós |fo|mos |fei|tos, |do |mun|do, a |luz |"+
+            "Por |nos|so |Mes|tre, |Cris|to |Je|sus; |"+
+            "Fir|mes |de|ve|mos |ser, |nun|ca |ao |mal |ce|der; |"+
             "A|van|te |pa|ra os |céus, |lar |do |bom |Deus." ,
 
-            "Já |des|te |mun|do |não |so|mos |mais;"+
-            "Te|mos |mo|ra|das |ce|les|ti|ais."+
-            "Tem|plos |do |gran|de |Deus |são |os |e|lei|tos |Seus;"+
+            "Já |des|te |mun|do |não |so|mos |mais; |"+
+            "Te|mos |mo|ra|das |ce|les|ti|ais. |"+
+            "Tem|plos |do |gran|de |Deus |são |os |e|lei|tos |Seus; |"+
             "Vi|va|mos |no |te|mor |do |Sal|va|dor." ,
 
-            "To|dos |u|ni|dos |quer|-nos |Je|sus;"+
-            "Os |Seus |re|mi|dos |ao |céu |con|duz;"+
-            "É |bom |vi|ver |no a|mor, |aos |o|lhos |do |Se|nhor,"+
+            "To|dos |u|ni|dos |quer|-nos |Je|sus; |"+
+            "Os |Seus |re|mi|dos |ao |céu |con|duz; |"+
+            "É |bom |vi|ver |no a|mor, |aos |o|lhos |do |Se|nhor, |"+
             "Hu|mil|des |e |fi|éis |ao |Rei |dos |reis." ,
 
         ],
-        temposVersos: [],
-        notas: [],
-        temposNotas: []
+        temposVersos: [
+            12,8,4,12,12,
+            12,8,4,12,
+            12,8,4,12,12,
+            12,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,24,
+
+            12,8,4,12,12,
+            12,8,4,12,
+            12,8,4,12,12,
+            12,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,24,
+
+            12,8,4,12,12,
+            12,8,4,12,
+            12,8,4,12,12,
+            12,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,24,
+
+            12,8,4,12,12,
+            12,8,4,12,
+            12,8,4,12,12,
+            12,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,24
+        ],
+        notas: [
+            'B4','C5','C5','B4','G4',
+            'G4','A4','A4','B4',
+            'B4','C5','C5','B4','G4',
+            'A4','B4','A4','G4',
+            'C5','C5','C5','C5','B4','B4',
+            'D5','A4','C5','C5','B4','B4',
+            'G4','G4','G4','G4','A4','B4',
+            'B4','B4','A4','G4',
+
+            'B4','C5','C5','B4','G4',
+            'G4','A4','A4','B4',
+            'B4','C5','C5','B4','G4',
+            'A4','B4','A4','G4',
+            'C5','C5','C5','C5','B4','B4',
+            'D5','A4','C5','C5','B4','B4',
+            'G4','G4','G4','G4','A4','B4',
+            'B4','B4','A4','G4',
+
+            'B4','C5','C5','B4','G4',
+            'G4','A4','A4','B4',
+            'B4','C5','C5','B4','G4',
+            'A4','B4','A4','G4',
+            'C5','C5','C5','C5','B4','B4',
+            'D5','A4','C5','C5','B4','B4',
+            'G4','G4','G4','G4','A4','B4',
+            'B4','B4','A4','G4'
+
+        ],
+        temposNotas: [
+            12,8,4,12,12,
+            12,8,4,12,
+            12,8,4,12,12,
+            12,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,24,
+
+            12,8,4,12,12,
+            12,8,4,12,
+            12,8,4,12,12,
+            12,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,24,
+
+            12,8,4,12,12,
+            12,8,4,12,
+            12,8,4,12,12,
+            12,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,24,
+
+            12,8,4,12,12,
+            12,8,4,12,
+            12,8,4,12,12,
+            12,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,8,4,12,
+            12,8,4,24
+        ]
     },
     "279": { 
         nome: "Oh! Não temas igreja de Deus",
@@ -12068,7 +12305,7 @@ const hymnsData = {
 
             "Da |fé |o |es|cu|do |te|mos, |po|de|mos |ba|ta|lhar;"+
             "A|van|te! |Va|lo|ro|sos |e |sem |de|sa|ni|mar;"+
-            "Com|ba|te|re|mos |fir|mes |com |ce|les|ti|al |va|lor,"+
+            "Com|ba|te|re|mos |fir|mes |com |ce|les|tial |va|lor,"+
             "E |tu|do |ven|ce|re|mos |em |no|me |do |Se|nhor." ,
 
             "Pro|e|zas |nós |fa|re|mos |por |Cris|to, |o |Re|den|tor,"+
@@ -12094,7 +12331,7 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "O |Rei |dos |reis |nos |fez |sol|da|dos |ce|les|ti|ais,"+
+            "O |Rei |dos |reis |nos |fez |sol|da|dos |ce|les|tiais,"+
             "Nos |re|ves|tiu |de |fé |e |ar|mas |di|vi|nais;"+
             "A |guer|ra |se |le|van|ta |com |ím|pe|to |e |fu|ror,"+
             "Mas |nós |re|sis|ti|re|mos,"+
@@ -12309,7 +12546,7 @@ const hymnsData = {
             "Por |fé |eu |que|ro |a|má|-Lo |a|té |o |fim;"+
             "Je|sus |o |Re|den|tor, |ha|bi|ta |em |mim!" ,
 
-            "Ao |men|ci|o|nar |o |No|me |do |Se|nhor,"+
+            "Ao |men|cio|nar |o |No|me |do |Se|nhor,"+
             "Meu |co|ra|ção |ju|bi|la |de |a|mor;"+
             "Oh! |Que |co|mu|nhão! |Que |con|so|la|ção!"+
             "Eu |sin|to |gran|de |re|go|zi|jo!" ,
@@ -12454,7 +12691,7 @@ const hymnsData = {
         versos: [
             "Com |Je|sus, |ir|mãos, |sim, |mar|che|mos,"+
             "Nin|guém |po|de|rá |nos |a|ba|ter;"+
-            "For|ça |ce|les|ti|al |pro|va|re|mos"+
+            "For|ça |ce|les|tial |pro|va|re|mos"+
             "E |i|re|mos |to|do |o |mal |ven|cer." ,
 
             "Sem|pre |a|van|te, |com |o |Va|lo|ro|so!"+
@@ -12566,25 +12803,106 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [
-            "Tu |és |o |O|lei|ro, |ó |meu |Se|nhor,"+
-            "Eu |sou |ar|gi|la |na |Tu|a |mão;"+
-            "Va|so |de |hon|ra |e |de |lou|vor"+
+            "Tu |és |O|lei|ro, |ó |meu |Se|nhor, |"+
+            "Eu |sou |ar|gi|la |na |Tu|a |mão; |"+
+            "Va|so |de |hon|ra |e |de |lou|vor |"+
             "Faz|-me, |Se|nhor, |com |Tu|a |un|ção." ,
 
-            "Vem |mo|de|lar|-me, |ó |For|ma|dor,"+
-            "Pe|la |Pa|la|vra |do |Teu |po|der;"+
-            "Hu|mil|de e |man|so |faz|-me, |Se|nhor,"+
+            "Vem |mo|de|lar|-me, |ó |For|ma|dor, |"+
+            "Pe|la |Pa|la|vra |do |Teu |po|der; |"+
+            "Hu|mil|de e |man|so |faz|-me, |Se|nhor, |"+
             "Cum|pre |em |mim |Teu |san|to |que|rer." ,
 
-            "Em |Teus |pre|cei|tos |que|ro |vi|ver,"+
-            "Pa|ra |ser|vir|-Te |e |Te a|gra|dar;"+
-            "Pe|la |Pa|la|vra |vem |re|mo|ver"+
+            "Em |Teus |pre|cei|tos |que|ro |vi|ver, |"+
+            "Pa|ra |ser|vir|-Te |e |Te a|gra|dar; |"+
+            "Pe|la |Pa|la|vra |vem |re|mo|ver |"+
             "O |que |me im|pe|de |de |Te |lou|var." ,
 
         ],
-        temposVersos: [],
-        notas: [],
-        temposNotas: []
+        temposVersos: [
+            4,4,4,12,12,
+            4,4,4,24,
+            4,4,4,12,12,
+            4,4,4,24,
+            4,4,4,12,12,
+            4,4,4,24,
+            4,4,4,12,12,
+            4,4,4,24,
+
+            4,4,4,12,12,
+            4,4,4,24,
+            4,4,4,12,12,
+            4,4,4,24,
+            4,4,4,12,12,
+            4,4,4,24,
+            4,4,4,12,12,
+            4,4,4,24,
+
+            4,4,4,12,12,
+            4,4,4,24,
+            4,4,4,12,12,
+            4,4,4,24,
+            4,4,4,12,12,
+            4,4,4,24,
+            4,4,4,12,12,
+            4,4,4,24
+        ],
+        notas: [
+            'G4', 'F4', 'G4', 'Ab4', 'G4',
+            'Eb4', 'D4', 'Eb4', 'F4',
+            'F4', 'E4', 'F4', 'G4', 'F4',//aqui
+            'F4', 'Eb4', 'D4', 'Eb4',
+            'G4', 'F4', 'G4', 'Ab4', 'G4',
+            'Bb4', 'A4', 'Bb4', 'C5',
+            'C5', 'D5', 'C5', 'Bb4', 'G4',
+            'F4', 'Eb4', 'F4', 'Eb4',
+
+            'G4', 'F4', 'G4', 'Ab4', 'G4',
+            'Eb4', 'D4', 'Eb4', 'F4',
+            'F4', 'E4', 'F4', 'G4', 'F4',//aqui
+            'F4', 'Eb4', 'D4', 'Eb4',
+            'G4', 'F4', 'G4', 'Ab4', 'G4',
+            'Bb4', 'A4', 'Bb4', 'C5',
+            'C5', 'D5', 'C5', 'Bb4', 'G4',
+            'F4', 'Eb4', 'F4', 'Eb4',
+
+            'G4', 'F4', 'G4', 'Ab4', 'G4',
+            'Eb4', 'D4', 'Eb4', 'F4',
+            'F4', 'E4', 'F4', 'G4', 'F4',//aqui
+            'F4', 'Eb4', 'D4', 'Eb4',
+            'G4', 'F4', 'G4', 'Ab4', 'G4',
+            'Bb4', 'A4', 'Bb4', 'C5',
+            'C5', 'D5', 'C5', 'Bb4', 'G4',
+            'F4', 'Eb4', 'F4', 'Eb4'
+        ],
+        temposNotas: [
+            4,4,4,12,12,
+            4,4,4,24,
+            4,4,4,12,12,
+            4,4,4,24,
+            4,4,4,12,12,
+            4,4,4,24,
+            4,4,4,12,12,
+            4,4,4,24,
+
+            4,4,4,12,12,
+            4,4,4,24,
+            4,4,4,12,12,
+            4,4,4,24,
+            4,4,4,12,12,
+            4,4,4,24,
+            4,4,4,12,12,
+            4,4,4,24,
+
+            4,4,4,12,12,
+            4,4,4,24,
+            4,4,4,12,12,
+            4,4,4,24,
+            4,4,4,12,12,
+            4,4,4,24,
+            4,4,4,12,12,
+            4,4,4,24
+        ]
     },
     "294": { 
         nome: "Avante! Coragem! Marchemos",
@@ -12877,7 +13195,7 @@ const hymnsData = {
             "E |em |jus|ti|ça |nos |faz |ca|mi|nhar." ,
 
             "Ha|bi|ta |em |Ti, |ó |Deus, |sa|be|do|ri|a,"+
-            "To|da |ciên|cia, |glo|ri|o|so |Se|nhor;"+
+            "To|da |ciên|cia, |glo|rio|so |Se|nhor;"+
             "Tu|a |e|ter|na |luz |sem|pre |nos |gui|a"+
             "Na |sã |ver|da|de, |a|mor |e |te|mor." ,
 
@@ -12975,7 +13293,7 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Que |glo|ri|o|sa |Es|pe|ran|ça |é |Je|sus, |o |Sal|va|dor,"+
+            "Que |glo|rio|sa |Es|pe|ran|ça |é |Je|sus, |o |Sal|va|dor,"+
             "Nos|sa |Bem-|a|ven|tu|ran|ça, |nos|so |a|ma|do |Re|mi|dor!"+
             "Nos|sa |Luz |e |A|le|gri|a, |po|de|ro|so |De|fen|sor,"+
             "Nos|so |Es|cu|do, |nos|so |Gui|a |é |Je|sus, |o |Re|den|tor." ,
@@ -13103,7 +13421,7 @@ const hymnsData = {
 
             "Ó |Ro|cha |e|ter|na |e |e|ter|na |For|ta|le|za,"+
             "Por |fé |nós |vi|ve|mos |no |Teu |gran|de |a|mor;"+
-            "Fi|zes|te|-nos |dig|nos |da |ce|les|ti|al |ri|que|za,"+
+            "Fi|zes|te|-nos |dig|nos |da |ce|les|tial |ri|que|za,"+
             "Pois |to|do |o |nos|so |bem |vem |de |Ti, |ó |Re|den|tor,"+
             "Pois |to|do |o |nos|so |bem |vem |de |Ti, |Re|den|tor." ,
 
@@ -13137,13 +13455,13 @@ const hymnsData = {
             "A |nos|sa |Jus|ti|ça, |Je|sus, |o |Se|nhor." ,
 
             "A |Deus |to|da |a |hon|ra |e |gló|ria |e|ter|nal,"+
-            "Pois |é |pi|e|do|so |o |Pai |ce|les|ti|al;"+
-            "Por |seu |Fi|lho |a|ma|do, |Deus |re|con|ci|li|ou"+
+            "Pois |é |pi|e|do|so |o |Pai |ce|les|tial;"+
+            "Por |seu |Fi|lho |a|ma|do, |Deus |re|con|ci|liou"+
             "Os |ho|mens |Con|si|go |e |os |res|ga|tou." ,
 
             "Por |bo|a |von|ta|de |de |Deus, |Cri|a|dor,"+
             "Do |no|vo |Con|cer|to |é |Je|sus |Me|di|a|dor;"+
-            "Pre|ci|o|sas |pro|mes|sas |i|rão |se |cum|prir"+
+            "Pre|cio|sas |pro|mes|sas |i|rão |se |cum|prir"+
             "Na |vol|ta |de |Cris|to, |em |bre|ve |por|vir." ,
 
         ],
@@ -13278,30 +13596,90 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Nós |Te |lou|va|mos, |ó |Rei |dos |reis,"+
-            "Pois |nos |tens |fei|to |san|tos |e |fi|éis"+
-            "Pa|ra |an|dar|mos |em |Teu |te|mor,"+
+            "Nós |Te |lou|va|mos, |ó |Rei |dos |reis, |"+
+            "Pois |nos |tens |fei|to |san|tos |e |fi|éis |"+
+            "Pa|ra |an|dar|mos |em |Teu |te|mor, |"+
             "Co|mo |o|ve|lhas |Tu|as, |ó |Se|nhor." ,
 
-            "Nós |es|pe|ra|mos, |com |Teu |po|der,"+
-            "Tu|a |von|ta|de |sem|pre o|be|de|cer,"+
-            "Mos|tran|do ao |mun|do |o|bras |de |luz"+
+            "Nós |es|pe|ra|mos, |com |Teu |po|der, |"+
+            "Tu|a |von|ta|de |sem|pre o|be|de|cer, |"+
+            "Mos|tran|do ao |mun|do |o|bras |de |luz |"+
             "Pe|las |vir|tu|des |Tu|as, |ó |Je|sus." ,
 
-            "Faz|-nos |sa|ber |Teu |san|to |que|rer;"+
-            "Bên|ções |ce|les|tes |vem |nos |con|ce|der."+
-            "A |sã |Pa|la|vra, |vin|da |dos |céus,"+
+            "Faz|-nos |sa|ber |Teu |san|to |que|rer; |"+
+            "Bên|ções |ce|les|tes |vem |nos |con|ce|der. |"+
+            "A |sã |Pa|la|vra, |vin|da |dos |céus, |"+
             "Dá |no|va |vi|da |aos |re|mi|dos |Teus." ,
 
-            "Com |es|sa |vi|da, |ó |Rei |dos |reis,"+
-            "Po|de|mos |ser|-Te |sem|pre |mais |fi|éis;"+
-            "Tu|as |o|ve|lhas |so|mos, |Se|nhor,"+
+            "Com |es|sa |vi|da, |ó |Rei |dos |reis, |"+
+            "Po|de|mos |ser|-Te |sem|pre |mais |fi|éis; |"+
+            "Tu|as |o|ve|lhas |so|mos, |Se|nhor, |"+
             "Tu |és |o |nos|so |ú|ni|co |Pas|tor." ,
 
         ],
-        temposVersos: [],
-        notas: [],
-        temposNotas: []
+        temposVersos: [
+            4,2,2,4,4,4,2,2,8,
+            4,2,2,4,4,2,2,2,2,8,
+            4,2,2,4,4,4,2,2,8,
+            4,2,2,4,4,2,2,2,2,8,
+
+            4,2,2,4,4,4,2,2,8,
+            4,2,2,4,4,2,2,2,2,8,
+            4,2,2,4,4,4,2,2,8,
+            4,2,2,4,4,2,2,2,2,8,
+
+            4,2,2,4,4,4,2,2,8,
+            4,2,2,4,4,2,2,2,2,8,
+            4,2,2,4,4,4,2,2,8,
+            4,2,2,4,4,2,2,2,2,8,
+
+            4,2,2,4,4,4,2,2,8,
+            4,2,2,4,4,2,2,2,2,8,
+            4,2,2,4,4,4,2,2,8,
+            4,2,2,4,4,2,2,2,2,8
+        ],
+        notas: [
+            'F4','G4','A4','Bb4','F4','D5','C5','Bb4','C5',
+            'C5','B4','C5','D5','C5','C5','Bb4','A4','G4','F4',
+            'D5','C#5','D5','Eb5','D5','D5','C5','Bb4','G4',
+            'Bb4','A4','G4','F4','Bb4','D5','C5','Bb4','A4','Bb4',
+
+            'F4','G4','A4','Bb4','F4','D5','C5','Bb4','C5',
+            'C5','B4','C5','D5','C5','C5','Bb4','A4','G4','F4',
+            'D5','C#5','D5','Eb5','D5','D5','C5','Bb4','G4',
+            'Bb4','A4','G4','F4','Bb4','D5','C5','Bb4','A4','Bb4',
+
+            'F4','G4','A4','Bb4','F4','D5','C5','Bb4','C5',
+            'C5','B4','C5','D5','C5','C5','Bb4','A4','G4','F4',
+            'D5','C#5','D5','Eb5','D5','D5','C5','Bb4','G4',
+            'Bb4','A4','G4','F4','Bb4','D5','C5','Bb4','A4','Bb4',
+
+            'F4','G4','A4','Bb4','F4','D5','C5','Bb4','C5',
+            'C5','B4','C5','D5','C5','C5','Bb4','A4','G4','F4',
+            'D5','C#5','D5','Eb5','D5','D5','C5','Bb4','G4',
+            'Bb4','A4','G4','F4','Bb4','D5','C5','Bb4','A4','Bb4'
+        ],
+        temposNotas: [
+            4,2,2,4,4,4,2,2,8,
+            4,2,2,4,4,2,2,2,2,8,
+            4,2,2,4,4,4,2,2,8,
+            4,2,2,4,4,2,2,2,2,8,
+
+            4,2,2,4,4,4,2,2,8,
+            4,2,2,4,4,2,2,2,2,8,
+            4,2,2,4,4,4,2,2,8,
+            4,2,2,4,4,2,2,2,2,8,
+
+            4,2,2,4,4,4,2,2,8,
+            4,2,2,4,4,2,2,2,2,8,
+            4,2,2,4,4,4,2,2,8,
+            4,2,2,4,4,2,2,2,2,8,
+
+            4,2,2,4,4,4,2,2,8,
+            4,2,2,4,4,2,2,2,2,8,
+            4,2,2,4,4,4,2,2,8,
+            4,2,2,4,4,2,2,2,2,8
+        ]
     },
     "311": { 
         nome: "Teus tesouros revelaste",
@@ -13354,30 +13732,90 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Tri|bu|tos |de |lou|vor |da|rei |ao |gran|de |Deus,"+
-            "Ao |Deus |que |es|cre|veu |meu |no|me |lá |nos |céus;"+
-            "Que |gran|de a|mor!"+
+            "Tri|bu|tos |de |lou|vor |da|rei |ao |gran|de |Deus, |"+
+            "Ao |Deus |que |es|cre|veu |meu |no|me |lá |nos |céus; |"+
+            "Que |gran|de a|mor! |"+
             "Ben|di|to |se|ja |sem|pre o |Deus |do |meu |lou|vor!" ,
 
-            "Pe|ran|te o |Cri|a|dor |eu |me |in|cli|na|rei;"+
-            "Pros|tra|do |aos |Seus |pés, |Seu |No|me |ben|di|rei;"+
-            "Fi|el |é |Deus!"+
+            "Pe|ran|te o |Cri|a|dor |eu |me |in|cli|na|rei; |"+
+            "Pros|tra|do |aos |Seus |pés, |Seu |No|me |ben|di|rei; |"+
+            "Fi|el |é |Deus! |"+
             "Do |seu |lu|gar |e|xcel|so |ou|ve os |san|tos |Seus." ,
 
-            "No |tro|no e|ter|no es|tá |o O|ni|po|ten|te |Deus,"+
-            "Cer|ca|do |por |e|xér|ci|tos |de |an|jos |Seus;"+
-            "Que |es|plen|dor!"+
+            "No |tro|no e|ter|no es|tá |o O|ni|po|ten|te |Deus, |"+
+            "Cer|ca|do |por |e|xér|ci|tos |de |an|jos |Seus; |"+
+            "Que |es|plen|dor! |"+
             "E|ter|na |gló|ria a |Deus, |o |san|to |Cri|a|dor!" ,
 
-            "Meu |Deus |me |con|ta|rá |com |to|dos |os |fi|éis;"+
-            "He|ran|ça |me |da|rá |com |Cris|to, o |Rei |dos |reis;"+
-            "E|le|va|rei"+
+            "Meu |Deus |me |con|ta|rá |com |to|dos |os |fi|éis; |"+
+            "He|ran|ça |me |da|rá |com |Cris|to, o |Rei |dos |reis; |"+
+            "E|le|va|rei |"+
             "O |meu |lou|vor |a |Deus |e |a |Je|sus, |meu |Rei." ,
 
         ],
-        temposVersos: [],
-        notas: [],
-        temposNotas: []
+        temposVersos: [
+            4,4,4,4,4,12,4,4,4,4,4,12,
+            4,4,4,4,4,4,4,4,4,8,8,12,
+            4,8,8,12,
+            4,4,4,4,4,4,4,4,4,8,8,12,
+
+            4,4,4,4,4,12,4,4,4,4,4,12,
+            4,4,4,4,4,4,4,4,4,8,8,12,
+            4,8,8,12,
+            4,4,4,4,4,4,4,4,4,8,8,12,
+
+            4,4,4,4,4,12,4,4,4,4,4,12,
+            4,4,4,4,4,4,4,4,4,8,8,12,
+            4,8,8,12,
+            4,4,4,4,4,4,4,4,4,8,8,12,
+
+            4,4,4,4,4,12,4,4,4,4,4,12,
+            4,4,4,4,4,4,4,4,4,8,8,12,
+            4,8,8,12,
+            4,4,4,4,4,4,4,4,4,8,8,12
+        ],
+        notas: [
+            'D4','F#4','D4','A4','F#4','D5','C#5','B4','A4','G4','F#4','E4',
+            'E4','F#4','D4','B4','A4','G#4','E4','E5','D5','C#5','B4','A4',
+            'A4','B4','C#5','D5',
+            'D4','E4','F#4','G4','A4','B4','C#5','D5','E5','D5','C#5','D5',
+
+            'D4','F#4','D4','A4','F#4','D5','C#5','B4','A4','G4','F#4','E4',
+            'E4','F#4','D4','B4','A4','G#4','E4','E5','D5','C#5','B4','A4',
+            'A4','B4','C#5','D5',
+            'D4','E4','F#4','G4','A4','B4','C#5','D5','E5','D5','C#5','D5',
+
+            'D4','F#4','D4','A4','F#4','D5','C#5','B4','A4','G4','F#4','E4',
+            'E4','F#4','D4','B4','A4','G#4','E4','E5','D5','C#5','B4','A4',
+            'A4','B4','C#5','D5',
+            'D4','E4','F#4','G4','A4','B4','C#5','D5','E5','D5','C#5','D5',
+
+            'D4','F#4','D4','A4','F#4','D5','C#5','B4','A4','G4','F#4','E4',
+            'E4','F#4','D4','B4','A4','G#4','E4','E5','D5','C#5','B4','A4',
+            'A4','B4','C#5','D5',
+            'D4','E4','F#4','G4','A4','B4','C#5','D5','E5','D5','C#5','D5'
+        ],
+        temposNotas: [
+            4,4,4,4,4,12,4,4,4,4,4,12,
+            4,4,4,4,4,4,4,4,4,8,8,12,
+            4,8,8,12,
+            4,4,4,4,4,4,4,4,4,8,8,12,
+
+            4,4,4,4,4,12,4,4,4,4,4,12,
+            4,4,4,4,4,4,4,4,4,8,8,12,
+            4,8,8,12,
+            4,4,4,4,4,4,4,4,4,8,8,12,
+
+            4,4,4,4,4,12,4,4,4,4,4,12,
+            4,4,4,4,4,4,4,4,4,8,8,12,
+            4,8,8,12,
+            4,4,4,4,4,4,4,4,4,8,8,12,
+
+            4,4,4,4,4,12,4,4,4,4,4,12,
+            4,4,4,4,4,4,4,4,4,8,8,12,
+            4,8,8,12,
+            4,4,4,4,4,4,4,4,4,8,8,12
+        ]
     },
     "313": { 
         nome: "Arrebatado aos céus",
@@ -13695,34 +14133,107 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Ben|di|to |se|ja o |Deus |Vi|ven|te"+
-            "Que |nos |ge|rou |de |no|vo, em |Cris|to,"+
-            "E, |pe|la |gra|ça |ex|ce|len|te,"+
-            "Nos |deu |he|ran|ça |lá |nos |céus,"+
+            "Ben|di|to |se|ja o |Deus |Vi|ven|te |"+
+            "Que |nos |ge|rou |de |no|vo, em |Cris|to, |"+
+            "E, |pe|la |gra|ça |ex|ce|len|te, |"+
+            "Nos |deu |he|ran|ça |lá |nos |céus, |"+
             "Ha|bi|ta|ção |de |Deus." ,
 
-            "A |nos|sa |fé |é |mais |pre|ci|o|sa"+
-            "Do |que |o |ou|ro |pe|re|cí|vel;"+
-            "O |fim |é a |sal|va|ção |glo|ri|o|sa,"+
-            "In|cor|rup|tí|vel |ga|lar|dão,"+
+            "A |nos|sa |fé |é |mais |pre|cio|sa |"+
+            "Do |que |o |ou|ro |pe|re|cí|vel; |"+
+            "O |fim |é a |sal|va|ção |glo|rio|sa, |"+
+            "In|cor|rup|tí|vel |ga|lar|dão, |"+
             "E|ter|na |re|den|ção." ,
 
-            "A |sã |Pa|la|vra |da |ver|da|de"+
-            "Que |pa|ra |sem|pre |per|ma|ne|ce,"+
-            "Nos |le|va ao |Pai |da e|ter|ni|da|de;"+
-            "Tam|bém |se|re|mos |e|ter|nais,"+
-            "Com |cor|pos |ce|les|ti|ais." ,
+            "A |sã |Pa|la|vra |da |ver|da|de |"+
+            "Que |pa|ra |sem|pre |per|ma|ne|ce, |"+
+            "Nos |le|va ao |Pai |da e|ter|ni|da|de; |"+
+            "Tam|bém |se|re|mos |e|ter|nais, |"+
+            "Com |cor|pos |ce|les|tiais." ,
 
-            "Pe|re|ce, o |ho|mem, |co|mo a |er|va"+
-            "E |su|a |gló|ria |a|qui |ter|mi|na,"+
-            "Mas |Deus, |aos |Seus |fi|éis, |re|ser|va"+
-            "A |gló|ria |que |não |fin|da|rá:"+
+            "Pe|re|ce, o |ho|mem, |co|mo a |er|va |"+
+            "E |su|a |gló|ria a|qui |ter|mi|na, |"+
+            "Mas |Deus, |aos |Seus |fi|éis, |re|ser|va |"+
+            "A |gló|ria |que |não |fin|da|rá: |"+
             "Seu |po|vo |rei|na|rá." ,
 
         ],
-        temposVersos: [],
-        notas: [],
-        temposNotas: []
+        temposVersos: [
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,6,
+            2,4,4,12,4,12,
+
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,6,
+            2,4,4,12,4,12,
+
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,6,
+            2,4,4,12,4,12,
+
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,6,
+            2,4,4,12,4,12
+        ],
+        notas: [
+            'Eb4','Eb4','Eb4','Eb4','F4','G4','Ab4','Ab4','G4',
+            'G4','G4','G4','G4','Ab4','Bb4','C5','Eb5','Db5',
+            'Db5','C5','C5','C5','Bb4','Ab4','G4','Bb4','Ab4',
+            'Ab4','Ab4','Ab4','Ab4','Ab4','G4','F4','Eb4',
+            'F4','G4','Ab4','C5','Bb4','Ab4',
+
+            'Eb4','Eb4','Eb4','Eb4','F4','G4','Ab4','Ab4','G4',
+            'G4','G4','G4','G4','Ab4','Bb4','C5','Eb5','Db5',
+            'Db5','C5','C5','C5','Bb4','Ab4','G4','Bb4','Ab4',
+            'Ab4','Ab4','Ab4','Ab4','Ab4','G4','F4','Eb4',
+            'F4','G4','Ab4','C5','Bb4','Ab4',
+
+            'Eb4','Eb4','Eb4','Eb4','F4','G4','Ab4','Ab4','G4',
+            'G4','G4','G4','G4','Ab4','Bb4','C5','Eb5','Db5',
+            'Db5','C5','C5','C5','Bb4','Ab4','G4','Bb4','Ab4',
+            'Ab4','Ab4','Ab4','Ab4','Ab4','G4','F4','Eb4',
+            'F4','G4','Ab4','C5','Bb4','Ab4',
+
+            'Eb4','Eb4','Eb4','Eb4','F4','G4','Ab4','Ab4','G4',
+            'G4','G4','G4','G4','Ab4','Bb4','C5','Eb5','Db5',
+            'Db5','C5','C5','C5','Bb4','Ab4','G4','Bb4','Ab4',
+            'Ab4','Ab4','Ab4','Ab4','Ab4','G4','F4','Eb4',
+            'F4','G4','Ab4','C5','Bb4','Ab4'
+        ],
+        temposNotas: [
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,6,
+            2,4,4,12,4,12,
+
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,6,
+            2,4,4,12,4,12,
+
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,6,
+            2,4,4,12,4,12,
+
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,8,4,
+            4,6,2,2,2,2,2,6,
+            2,4,4,12,4,12
+
+        ]
     },
     "322": { 
         nome: "Vem Rei eterno",
@@ -13868,7 +14379,7 @@ const hymnsData = {
             "Por |Cris|to, |Su|mo |Pas|tor, |fru|í|mos |o |gran|de |bem"+
             "De |ser|mos |fi|lhos |do |bom |Deus,"+
             "Que |já |nos |faz |pro|var |tam|bém"+
-            "As |ce|les|ti|ais |pri|mí|ci|as |da |e|ter|nal |Je|ru|sa|lém." ,
+            "As |ce|les|tiais |pri|mí|ci|as |da |e|ter|nal |Je|ru|sa|lém." ,
 
         ],
         temposVersos: [],
@@ -14009,7 +14520,7 @@ const hymnsData = {
 
             "Com |fé |com|ba|te, |sê |fer|vo|ro|so,"+
             "Tu |ven|ce|rás |com |va|lor;"+
-            "Cris|to |pro|me|te |ao |vi|to|ri|o|so,"+
+            "Cris|to |pro|me|te |ao |vi|to|rio|so,"+
             "O |ga|lar|dão |de |es|plen|dor." ,
 
             "Em |Cris|to |tens |a |di|vi|na |mer|cê,"+
@@ -14164,7 +14675,7 @@ const hymnsData = {
             "Je|sus |Cris|to, |o |Rei |di|vi|no, |gra|ça |e |paz |me |con|ce|deu;"+
             "Pe|la |fé |o |céu |con|tem|plo, |en|tra|rei |no |san|to |tem|plo,"+
             "On|de |Deus, |o |Pai |bon|do|so, |Su|a |fa|ce |mos|tra|rá"+
-            "Ao |Seu |po|vo |vi|to|ri|o|so |que, |com |E|le, |ha|bi|ta|rá." ,
+            "Ao |Seu |po|vo |vi|to|rio|so |que, |com |E|le, |ha|bi|ta|rá." ,
 
             "Não |te |a|fli|jas, |mi|nha |al|ma, |há |re|pou|so |lá |no |céu,"+
             "On|de |e|xis|te |paz |e |cal|ma |que |o |mun|do |não |te |deu;"+
@@ -14239,7 +14750,7 @@ const hymnsData = {
             "Hi|nos |de |lou|vo|res |ao |e|ter|no |Rei." ,
 
             "Sei |que |ao |fin|dar |a |lu|ta |con|tra |o |mal,"+
-            "Vi|ve|rei |com |Deus |na |pá|tria |ce|les|ti|al;"+
+            "Vi|ve|rei |com |Deus |na |pá|tria |ce|les|tial;"+
             "Lá |e|xis|te |paz, |jus|ti|ça |e |a|mor,"+
             "E |os |sal|vos |lou|va|rão |ao |Cri|a|dor." ,
 
@@ -14325,7 +14836,7 @@ const hymnsData = {
             "E |nos |con|duz |ao |Cri|a|dor."+
             "Fe|liz |se|rá |quem |o |pro|var,"+
             "Pois |é |um |a|mor |que |não |tem |par;"+
-            "A|mor |glo|ri|o|so, |a|mor |su|bli|me,"+
+            "A|mor |glo|rio|so, |a|mor |su|bli|me,"+
             "Só |em |Je|sus |se |po|de |a|char." ,
 
         ],
@@ -14349,7 +14860,7 @@ const hymnsData = {
             "O |Se|nhor |é |sem|pi|ter|no, |E|le |nun|ca |mu|da|rá;"+
             "To|das |as |fi|éis |pro|mes|sas |a |Seu |tem|po |cum|pri|rá;"+
             "Por |Seu |san|gue |i|ma|cu|la|do, |trou|xe |re|ge|ne|ra|ção;"+
-            "O|pe|rou, |em |nos|sa |men|te, |ce|les|ti|al |trans|for|ma|ção." ,
+            "O|pe|rou, |em |nos|sa |men|te, |ce|les|tial |trans|for|ma|ção." ,
 
             "So|mos |reis |e |sa|cer|do|tes, |fei|tos |pa|ra |o |Cri|a|dor,"+
             "E |a |E|le |ser|vi|re|mos |em |jus|ti|ça |e |a|mor,"+
@@ -14422,7 +14933,7 @@ const hymnsData = {
             "E|le |é |o |Ca|mi|nho |que |le|va |ao |céu,"+
             "Tam|bém |é |meu |Sal|va|dor." ,
 
-            "Eu |su|bi|rei |com |Cris|to |à |ce|les|ti|al |Si|ão,"+
+            "Eu |su|bi|rei |com |Cris|to |à |ce|les|tial |Si|ão,"+
             "É |E|le |Quem |me |gui|a |na |pe|re|gri|na|ção;"+
             "Quan|do |eu |en|trar |na |gló|ria |do |meu |a|ma|do |Rei,"+
             "Ao |con|tem|plar |Su|a |fa|ce, |re|go|zi|jar|-me|-ei." ,
@@ -14434,7 +14945,7 @@ const hymnsData = {
 
             "No |mun|do |sou |pe|re|gri|no,"+
             "An|do |a|qui |com |Je|sus;"+
-            "Bus|co |as |mo|ra|das |do |Pai |ce|les|ti|al,"+
+            "Bus|co |as |mo|ra|das |do |Pai |ce|les|tial,"+
             "O |lar |de |jus|ti|ça |e |luz." ,
 
         ],
@@ -14488,11 +14999,11 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Si|ão |ce|les|ti|al, |é |re|pou|so |dos |san|tos,"+
+            "Si|ão |ce|les|tial, |é |re|pou|so |dos |san|tos,"+
             "O |seu |Ar|qui|te|to |é |cha|ma|do |o |Se|nhor; "+
             "A|li |en|tra|rão, |com |lou|vor |e |com |can|tos,"+
             "A|que|les |que |a|do|ram |o |bom |Cri|a|dor."+
-            "De |pre|ci|o|si|da|des |es|tá |a|dor|na|da |por |Deus,"+
+            "De |pre|cio|si|da|des |es|tá |a|dor|na|da |por |Deus,"+
             "É |in|des|cri|tí|vel, |sem |par, |su|a |luz;"+
             "A |su|a |gran|de|za, |o |Se|nhor |re|ser|vou |pa|ra |os |Seus;"+
             "Re|fle|te |a |gló|ria |de |Cris|to |Je|sus;"+
@@ -14688,8 +15199,8 @@ const hymnsData = {
             "Ho|je, |Cris|to |Je|sus, |à |des|tra |de |Deus, |sen|ta|do |es|tá"+
             "E, |do |ho|mem |que |n'E|le |crer, |se |com|pa|de|ce|rá." ,
 
-            "So|bre |to|das |as |cou|sas |Cris|to |tem |po|der |to|tal;"+
-            "N'E|le |ha|bi|ta |a |ple|ni|tu|de |de |Deus, |Pai |ce|les|ti|al."+
+            "So|bre |to|das |as |coi|sas |Cris|to |tem |po|der |to|tal;"+
+            "N'E|le |ha|bi|ta |a |ple|ni|tu|de |de |Deus, |Pai |ce|les|tial."+
             "Es|se |mes|mo |Je|sus |que |foi |pa|ra |os |céus, |re|tor|na|rá;"+
             "Co|ro|a|do |de |gló|ria |e |hon|ra |E|le |vol|ta|rá." ,
 
@@ -14795,7 +15306,7 @@ const hymnsData = {
             "A |jor|na|da |fa|rei |com |Je|sus, |meu |Se|nhor,"+
             "Cer|ta|men|te |ao |céu |che|ga|rei;"+
             "Pe|re|gri|no |a|qui |sou, |bus|co |o |lar |de |es|plen|dor,"+
-            "On|de |os |bens |ce|les|ti|ais |fru|i|rei." ,
+            "On|de |os |bens |ce|les|tiais |fru|i|rei." ,
 
             "Sem|pre |u|ni|do |a |Cris|to |de|vo |es|tar,"+
             "Pa|ra, |nos |pe|ri|gos, |não |va|ci|lar;"+
@@ -14979,7 +15490,7 @@ const hymnsData = {
 
             "Do |tro|no |ce|les|te, |po|der |nós |bus|ca|re|mos,"+
             "E |chu|vas |de |bên|ções |da|rá |o |Cri|a|dor;"+
-            "Na |gra|ça |glo|ri|o|sa, |por |fé, |nós |cres|ce|re|mos;"+
+            "Na |gra|ça |glo|rio|sa, |por |fé, |nós |cres|ce|re|mos;"+
             "Oh! |Gló|ria! |A|le|lu|ia! |Ho|sa|na |ao |Se|nhor!" ,
 
             "Es|tá |per|to |a |vol|ta |de |Cris|to, |o |Rei |da |gló|ria;"+
@@ -15058,7 +15569,7 @@ const hymnsData = {
             "Que |he|ran|ça |glo|ri|o|sa |do |Se|nhor |vou |re|ce|ber!"+
             "Es|ta |fé |ma|ra|vi|lho|sa |que|ro |sem|pre |em |mim |re|ter." ,
 
-            "Um |fu|tu|ro |mui |glo|ri|o|so |eu |a|chei |em |Ti, |Se|nhor;"+
+            "Um |fu|tu|ro |mui |glo|rio|so |eu |a|chei |em |Ti, |Se|nhor;"+
             "Ó |bom |Deus, |fi|el, |pi|e|do|so, |re|ves|tis|te|-me |de |a|mor."+
             "Eu |a|guar|do, |an|si|o|so, |ver |Teu |ros|to, |ó |Cri|a|dor." ,
 
@@ -15095,7 +15606,7 @@ const hymnsData = {
             "So|men|te |o |san|gue, |na |cruz |der|ra|ma|do,"+
             "Li|vrou|-me |da |mor|te, |por |gra|ça |de |Deus." ,
 
-            "O |san|gue |pre|ci|o|so |e |i|ma|cu|la|do"+
+            "O |san|gue |pre|cio|so |e |i|ma|cu|la|do"+
             "De |Cris|to |Je|sus |con|du|ziu|-me |a |Deus;"+
             "É |ne|le |que |sem|pre |es|tou |a|bri|ga|do,"+
             "Por |e|le |con|ser|vo |a |vi|da |dos |céus." ,
@@ -15156,7 +15667,7 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "O |Teu |pre|ci|o|so |san|gue, |ó |di|vi|nal |Cor|dei|ro,"+
+            "O |Teu |pre|cio|so |san|gue, |ó |di|vi|nal |Cor|dei|ro,"+
             "Do |mun|do |res|ga|tou|-me, |por |Teu |i|men|so |a|mor;"+
             "Faz |que |em |Ti |es|te|ja |a |mi|nha |con|fi|an|ça,"+
             "Dá|-me |per|se|ve|ran|ça |e |fé, |ó |Re|den|tor." ,
@@ -15166,7 +15677,7 @@ const hymnsData = {
             "Vin|do |o |i|ni|mi|go |pa|ra |en|la|çar|-me |a |vi|da,"+
             "Sei |que |te|rei |guar|ri|da |em |Ti, |meu |gran|de |Rei." ,
 
-            "Es|tan|do |sem|pre |a|ten|to |à |ce|les|ti|al |Pa|la|vra,"+
+            "Es|tan|do |sem|pre |a|ten|to |à |ce|les|tial |Pa|la|vra,"+
             "Nun|ca |se|rei |ven|ci|do |do |mal, |ó |meu |Se|nhor."+
             "O |Teu |fa|lar |di|vi|no |con|for|ta|rá |mi|nh'al|ma,"+
             "Dan|do|-lhe |paz |e |cal|ma, |fir|me|za |e |fer|vor." ,
@@ -15592,7 +16103,7 @@ const hymnsData = {
             "Com |po|der, |gra|ça |e |luz."+
             "Sal|vo |não |se|rá |quem |não |com|ba|ter,"+
             "Quem, |na |ca|mi|nha|da, |es|mo|re|cer;"+
-            "Os |vi|to|ri|o|sos |rei|na|rão |e |com |Deus |vi|ve|rão." ,
+            "Os |vi|to|rio|sos |rei|na|rão |e |com |Deus |vi|ve|rão." ,
 
             "Tem |pro|te|ção |o |po|vo |do |Se|nhor,"+
             "Pro|te|ção |e|fi|caz;"+
@@ -15608,7 +16119,7 @@ const hymnsData = {
             "Sal|va|ção |nos |man|dou,"+
             "Co|mo |não |da|rá |aos |e|lei|tos |Seus"+
             "Gra|ça |e |po|der |de |che|gar |aos |céus?"+
-            "Que |i|ne|fá|vel |a|fei|ção, |ce|les|ti|al |e|lei|ção!" ,
+            "Que |i|ne|fá|vel |a|fei|ção, |ce|les|tial |e|lei|ção!" ,
 
         ],
         temposVersos: [],
@@ -15748,7 +16259,7 @@ const hymnsData = {
             "Não |a |po|dem |ja|mais |der|ri|bar."+
             "Pe|la |i|gre|ja, |Je|sus |ve|io |ao |mun|do"+
             "E |mor|reu |pa|ra |a |vi|da |lhe |dar;"+
-            "Com |a|mor |tão |pre|ci|o|so |e |pro|fun|do,"+
+            "Com |a|mor |tão |pre|cio|so |e |pro|fun|do,"+
             "E|le |a |quer, |des|de |os |céus, |a|dor|nar." ,
 
             "A |i|gre|ja |é |sem|pre |for|mo|sa"+
@@ -15758,7 +16269,7 @@ const hymnsData = {
             "Com|ba|ti|da |por |seu |i|ni|mi|go,"+
             "Nes|ta |ter|ra |a |i|gre|ja |se|rá,"+
             "Mas, |em |tu|do, |Je|sus |é |con|si|go,"+
-            "Vi|to|ri|o|sa |da|qui |sai|rá." ,
+            "Vi|to|rio|sa |da|qui |sai|rá." ,
 
             "Sem|pi|ter|no, |fi|el |Fun|da|men|to"+
             "Da |i|gre|ja |é |Cris|to |Je|sus,"+
@@ -15910,7 +16421,7 @@ const hymnsData = {
             "Re|al |for|ta|le|za |que |não |se |a|ba|la|rá,"+
             "Je|sus |ve|io |em |nós |cons|tru|ir;"+
             "Em |Deus, |nos|sa |cren|ça |fun|da|da |es|tá;"+
-            "A|guar|da|mos |glo|ri|o|so |por|vir." ,
+            "A|guar|da|mos |glo|rio|so |por|vir." ,
 
         ],
         temposVersos: [],
@@ -15971,7 +16482,7 @@ const hymnsData = {
             "Um |hi|no |glo|ri|o|so, |o |hi|no |da |vi|tó|ria;"+
             "Se|nhor, |Teu |es|plen|dor |no |céu |con|tem|pla|re|mos." ,
 
-            "As |por|tas, |lá |no |céu, |são |pé|ro|las |pre|ci|o|sas"+
+            "As |por|tas, |lá |no |céu, |são |pé|ro|las |pre|cio|sas"+
             "E |a |pra|ça |da |ci|da|de |é |ou|ro |re|lu|zen|te;"+
             "No |céu |é |tu|do |pu|ro; |ri|que|zas |glo|ri|o|sas"+
             "Des|fru|ta|re|mos |com |Je|sus, |e|ter|na|men|te." ,
@@ -15982,7 +16493,7 @@ const hymnsData = {
             "E |bus|ca |ser |a |Deus, |o |Pai, |mais |con|sa|gra|do." ,
 
             "É |gló|ria |e|ter|na |pa|ra |o |san|to |pe|re|gri|no,"+
-            "A |ce|les|ti|al |ci|da|de |por |Deus |pre|pa|ra|da;"+
+            "A |ce|les|tial |ci|da|de |por |Deus |pre|pa|ra|da;"+
             "Em |bre|ve |che|ga|re|mos |ao |tri|un|fal |des|ti|no,"+
             "On|de |há |re|pou|so |do |la|bor |e |da |jor|na|da." ,
 
@@ -16004,22 +16515,22 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Gran|di|o|so |és |Tu, |Je|sus, |Rei |da |ver|da|de,"+
+            "Gran|dio|so |és |Tu, |Je|sus, |Rei |da |ver|da|de,"+
             "Ne|nhu|ma |for|ça |po|de |Te |ven|cer;"+
             "A|ni|qui|las|te |o |ju|go |da |mal|da|de"+
             "E |Te |as|sen|tas|te |à |des|tra |do |Po|der." ,
 
             "A |Ti |de|ve|mos |nos|sa |gra|ti|dão;"+
-            "Gran|di|o|so |és |Tu, |Se|nhor |Je|sus;"+
+            "Gran|dio|so |és |Tu, |Se|nhor |Je|sus;"+
             "Tu |nos |ti|ras|te |da |es|cra|vi|dão;"+
-            "Gran|di|o|so |és |Tu, |Se|nhor |Je|sus." ,
+            "Gran|dio|so |és |Tu, |Se|nhor |Je|sus." ,
 
-            "Gran|di|o|so |és |Tu, |Je|sus, |ó |Rei |da |gló|ria,"+
+            "Gran|dio|so |és |Tu, |Je|sus, |ó |Rei |da |gló|ria,"+
             "De |ma|jes|ta|de |co|ro|a|do |es|tás;"+
             "Em |tu|do |o |Pai |Te |con|ce|deu |vi|tó|ria,"+
             "E |a |vi|tó|ria |aos |Teus |fi|éis |da|rás." ,
 
-            "Gran|di|o|so |és |Tu, |ó |di|vi|nal |Cor|dei|ro,"+
+            "Gran|dio|so |és |Tu, |ó |di|vi|nal |Cor|dei|ro,"+
             "Teu |No|me |to|dos |hão |de |con|fes|sar;"+
             "Pe|ran|te |Ti, |ó |San|to |e |Ver|da|dei|ro,"+
             "To|do |o |jo|e|lho |há |de |se |do|brar." ,
@@ -16095,7 +16606,7 @@ const hymnsData = {
             "Um |su|bli|me |e |no|vo |can|to |vão |os |san|tos |en|to|ar;"+
             "Que |gló|ria |lá |no |céu |vou |des|fru|tar!" ,
 
-            "Quan|do, |no |céu |de|se|ja|do, |vi|to|ri|o|so |eu |en|trar,"+
+            "Quan|do, |no |céu |de|se|ja|do, |vi|to|rio|so |eu |en|trar,"+
             "Lá |ve|rei |Cris|to |e|xal|ta|do. |A|le|lu|ia!"+
             "Pa|ra |sem|pre |con|so|la|do, |ou|vi|rei |o |Seu |fa|lar;"+
             "Que |gló|ria |lá |no |céu |des|fru|tar!" ,
@@ -16128,12 +16639,12 @@ const hymnsData = {
             "Aos |san|tos |da|rá |o |pa|ra|í|so, |Je|sus, |Rei |dos |reis;"+
             "No |tem|po |es|pe|ra|do |e |pre|ci|so, |sim, |Cris|to |vi|rá." ,
 
-            "Pró|xi|mo |é |o |di|a |da |vol|ta |glo|ri|o|sa"+
+            "Pró|xi|mo |é |o |di|a |da |vol|ta |glo|rio|sa"+
             "De |Je|sus |Cris|to, |o |Fi|lho |de |Deus;"+
             "Su|a |i|gre|ja |es|tá |an|si|o|sa"+
             "Por |en|con|trar|-se |com |E|le |nos |céus." ,
 
-            "Quem, |su|as |ves|tes, |no |san|gue |pre|ci|o|so"+
+            "Quem, |su|as |ves|tes, |no |san|gue |pre|cio|so"+
             "De |Je|sus |Cris|to, |por |fé, |bran|que|ar,"+
             "Ha|bi|ta|rá |no |pa|ís |glo|ri|o|so"+
             "E |po|de|rá, |com |os |san|tos, |rei|nar." ,
@@ -16205,7 +16716,7 @@ const hymnsData = {
             "Gló|ria |ao |Rei |dos |reis!" ,
 
             "É |Je|sus |Cris|to |a |Sen|da"+
-            "Da |ce|les|ti|al |Si|ão,"+
+            "Da |ce|les|tial |Si|ão,"+
             "Pá|tria |mui |de|se|ja|da,"+
             "On|de |te|re|mos |ga|lar|dão." ,
 
@@ -16234,11 +16745,11 @@ const hymnsData = {
         versos: [
             "Je|sus |Cris|to, |o |Cor|dei|ro, |du|ra |mor|te |su|por|tou;"+
             "Por |a|mor |de |nos|sas |al|mas, |Su|a |vi|da |não |pou|pou;"+
-            "Com |o |Seu |pre|ci|o|so |san|gue |nos |la|vou |e |li|ber|tou;"+
+            "Com |o |Seu |pre|cio|so |san|gue |nos |la|vou |e |li|ber|tou;"+
             "Gló|ria |a |Je|sus, |o |Jus|to |que |nos |res|ga|tou!" ,
 
             "Nos |res|ga|tou |e |nos |la|vou"+
-            "Com |Seu |pre|ci|o|so |san|gue, |Cris|to, |o |Re|den|tor;"+
+            "Com |Seu |pre|cio|so |san|gue, |Cris|to, |o |Re|den|tor;"+
             "Nos |li|ber|tou |e |nos |sal|vou"+
             "Do |mun|do |e |do |pe|ca|do, |Cris|to, |o |Sal|va|dor." ,
 
@@ -16270,30 +16781,47 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Vin|de a|pós |Mim, |fa|lou |o |Se|nhor;"+
-            "Quem |O |se|guir, |na |luz |an|da|rá;"+
-            "Gran|des |mis|té|rio |do |Cri|a|dor,"+
+            "Vin|de a|pós |Mim, |fa|lou |o |Se|nhor; |"+
+            "Quem |O |se|guir, |na |luz |an|da|rá; |"+
+            "Gran|des |mis|té|rio |do |Cri|a|dor, |"+
             "Cris|to |Je|sus |lhe |mos|tra|rá." ,
 
-            "Vin|de a|pós |Mim, |con|vi|da |Je|sus,"+
-            "O |Sal|va|dor, |A|mi|go |le|al,"+
-            "Que, |ao |fi|el, |en|vi|a |a |luz"+
+            "Vin|de a|pós |Mim, |con|vi|da |Je|sus, |"+
+            "O |Sal|va|dor, |A|mi|go |le|al, |"+
+            "Que, |ao |fi|el, |en|vi|a |a |luz |"+
             "Pa|ra o |li|vvar |de |to|do o |mal." ,
 
-            "En|con|tra|rá |a |sen|da |do |bem"+
-            "Quem |a|ten|der |ao |Fi|lho |de |Deus;"+
-            "Pre|ci|o|si|da|des |o |Mes|tre |tem"+
+            "En|con|tra|rá |a |sen|da |do |bem |"+
+            "Quem |a|ten|der |ao |Fi|lho |de |Deus; |"+
+            "Pre|cio|si|da|des |o |Mes|tre |tem |"+
             "Pa|ra |do|ar |aos |san|tos |Seus." ,
 
-            "No|bres |na |fé |por |Cris|to, |se|rão"+
-            "Os |Seus |fi|éis |her|dei|ros |dos |céus,"+
-            "Que, |pa|ra |sem|pre, |e|xul|ta|rão,"+
+            "No|bres |na |fé |por |Cris|to, |se|rão |"+
+            "Os |Seus |fi|éis |her|dei|ros |dos |céus, |"+
+            "Que, |pa|ra |sem|pre, |e|xul|ta|rão, |"+
             "Con|tem|pla|rão |o |gran|de |Deus." ,
 
         ],
-        temposVersos: [],
-        notas: [],
-        temposNotas: []
+        temposVersos: [
+
+            4,4,4,8,4,4,4,4,12,
+            4,4,4,8,4,4,4,4,12,
+            4,4,4,8,4,4,4,4,12,
+            4,4,4,8,4,8,4,12,
+        ],
+        notas: [
+            'F#4','D4','G4','F#4','A4','D5','C#5','B4','A4',
+            'A4','B4','F#4','G4','G4','G4','A4','E4','F#4',
+            'F4','F4','F4','E4','E4','E4','F#4','E4','C#5',
+            'C#5','B4','A4','D5','D4','F#4','E4','D4'
+        ],
+        temposNotas: [
+            4,4,4,8,4,4,4,4,12,
+            4,4,4,8,4,4,4,4,12,
+            4,4,4,8,4,4,4,4,12,
+            4,4,4,8,4,8,4,12,
+
+        ]
     },
     "386": { 
         nome: "Pela morte de Jesus",
@@ -16314,7 +16842,7 @@ const hymnsData = {
             "Nos|so |ben|di|to |Sal|va|dor." ,
 
             "Não |foi |com |ou|ro |que |Cris|to |nos |com|prou,"+
-            "Mas |com |Seu |san|gue |pre|ci|o|so |e |re|mi|dor,"+
+            "Mas |com |Seu |san|gue |pre|cio|so |e |re|mi|dor,"+
             "E, |por |Su|a |gra|ça, |nos |vi|vi|fi|cou;"+
             "So|mos |co-|her|dei|ros |do |Re|den|tor." ,
 
@@ -16474,7 +17002,7 @@ const hymnsData = {
             "Co|mo |o |sol |é |o |Seu |ros|to, |Seu |ves|ti|do |é |res|plen|den|te;"+
             "Fla|me|jan|tes |co|mo |o |fo|go |são |Seus |o|lhos |di|vi|nais;"+
             "Co|mo |a |voz |de |mui|tas |á|guas |é |a |Su|a |voz |po|ten|te;"+
-            "São |mais |al|vos |do |que |a |ne|ve |Seus |ca|be|los |ce|les|ti|ais." ,
+            "São |mais |al|vos |do |que |a |ne|ve |Seus |ca|be|los |ce|les|tiais." ,
 
             "Nes|se |di|a |glo|ri|o|so, |que |se |en|con|tra |já |bem |per|to,"+
             "Quem, |de |pé, |pe|ran|te |Cris|to, |po|de|rá |per|ma|ne|cer?"+
@@ -16651,30 +17179,90 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Eis|-Me |a|qui, |di|rá |o |Cri|a|dor"+
-            "Aos |Seus |fi|éis |que |ro|gam |Seu |fa|vor;"+
-            "Deus |man|da|rá |po|der |ce|les|ti|al"+
-            "Pa|ra |que os |Seus |tri|un|fem |so|bre |o |mal." ,
+            "Eis|-Me |a|qui, |di|rá |o |Cri|a|dor |"+
+            "Aos |Seus |fi|éis |que |ro|gam |Seu |fa|vor; |"+
+            "Deus |man|da|rá |po|der |ce|les|ti|al |"+
+            "Pa|ra |que os |Seus |tri|un|fem |so|bre o |mal." ,
 
-            "A |ge|ra|ção |dos |san|tos |do |Se|nhor"+
-            "Tem, |em |seu |Deus, |po|ten|te |De|fen|sor;"+
-            "Só |E|le é |Deus, |Au|tor |da |cri|a|ção;"+
+            "A |ge|ra|ção |dos |san|tos |do |Se|nhor |"+
+            "Tem, |em |seu |Deus, |po|ten|te |De|fen|sor; |"+
+            "Só |E|le é |Deus, |Au|tor |da |cri|a|ção; |"+
             "Tu|do E|le |fez |com |luz |e |per|fei|ção." ,
 
-            "Va|mos, |ir|mãos, |a |Deus |nos |a|che|gar,"+
-            "E |nos|sa |fé |em |Deus |de|po|si|tar;"+
-            "E|le |é |Pai |de |gran|de |com|pai|xão;"+
+            "Va|mos, |ir|mãos, |a |Deus |nos |a|che|gar, |"+
+            "E |nos|sa |fé |em |Deus |de|po|si|tar; |"+
+            "E|le |é |Pai |de |gran|de |com|pai|xão; |"+
             "Te|mos |tam|bém |de |Cris|to a in|ter|ces|são." ,
 
-            "Voz |ce|les|ti|al |o |jus|to |sen|ti|rá"+
-            "Den|tro |de |si |e |re|ju|bi|la|rá;"+
-            "Eis|-Me |a|qui, |di|rá |o |Cri|a|dor"+
+            "Voz |ce|les|tial |o |jus|to |sen|ti|rá |"+
+            "Den|tro |de |si |e |re|ju|bi|la|rá; |"+
+            "Eis|-Me |a|qui, |di|rá |o |Cri|a|dor |"+
             "Ao |Seu |fi|el |e |san|to |ser|vi|dor." ,
 
         ],
-        temposVersos: [],
-        notas: [],
-        temposNotas: []
+        temposVersos: [
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16
+        ],
+        notas: [
+            'Eb4','Eb4','F4','G4','Ab4','G4','Eb4','Eb4','D4','Eb4',
+            'G4','G4','G4','Bb4','C5','D5','Bb4','Bb4','A4','Bb4',
+            'Bb4','Bb4','Bb4','Bb4','Bb4','Db5','Bb4','Bb4','A4','Bb4',
+            'Eb5','D5','C5','Bb4','Bb4','Ab4','G4','F4','F4','Eb4',
+
+            'Eb4','Eb4','F4','G4','Ab4','G4','Eb4','Eb4','D4','Eb4',
+            'G4','G4','G4','Bb4','C5','D5','Bb4','Bb4','A4','Bb4',
+            'Bb4','Bb4','Bb4','Bb4','Bb4','Db5','Bb4','Bb4','A4','Bb4',
+            'Eb5','D5','C5','Bb4','Bb4','Ab4','G4','F4','F4','Eb4',
+
+            'Eb4','Eb4','F4','G4','Ab4','G4','Eb4','Eb4','D4','Eb4',
+            'G4','G4','G4','Bb4','C5','D5','Bb4','Bb4','A4','Bb4',
+            'Bb4','Bb4','Bb4','Bb4','Bb4','Db5','Bb4','Bb4','A4','Bb4',
+            'Eb5','D5','C5','Bb4','Bb4','Ab4','G4','F4','F4','Eb4',
+
+            'Eb4','Eb4','F4','G4','Ab4','G4','Eb4','Eb4','D4','Eb4',
+            'G4','G4','G4','Bb4','C5','D5','Bb4','Bb4','A4','Bb4',
+            'Bb4','Bb4','Bb4','Bb4','Bb4','Db5','Bb4','Bb4','A4','Bb4',
+            'Eb5','D5','C5','Bb4','Bb4','Ab4','G4','F4','F4','Eb4'
+        ],
+        temposNotas: [
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16,
+            8,6,2,12,4,4,4,4,4,16
+        ]
     },
     "396": { 
         nome: "Vamos, ó irmãos, marchar",
@@ -16727,28 +17315,75 @@ const hymnsData = {
         MeiaHora: "S",
         velX3: "N",
         versos: [
-            "Paz , |su|bli|me |paz, |sen|ti|mos"+
-            "Nós, |po|vo |do |Se|nhor,"+
-            "Re|mi|dos |por |a|mor."+
-            "Por |Je|sus, |a |Quem |ser|vi|mos,"+
+            "Paz , |su|bli|me |paz, |sen|ti|mos |"+
+            "Nós, |po|vo |do |Se|nhor, |"+
+            "Re|mi|dos |por |a|mor. |"+
+            "Por |Je|sus, |a |Quem |ser|vi|mos, |"+
             "Te|mos |paz |do |Cri|a|dor." ,
 
-            "Fi|lhos |des|sa |paz |glo|ri|o|sa"+
-            "Nos |fez |o |Cri|a|dor,"+
-            "Por |Cris|to, o |Re|den|tor;"+
-            "Pa|ra |nós |é |paz |pre|ci|o|sa,"+
+            "Fi|lhos |des|sa |paz |glo|rio|sa |"+
+            "Nos |fez |o |Cri|a|dor, |"+
+            "Por |Cris|to, o |Re|den|tor; |"+
+            "Pa|ra |nós |é |paz |pre|cio|sa, |"+
             "Pois |é |bên|ção |do |Se|nhor." ,
 
-            "Paz |ex|cel|sa en|con|tra|re|mos"+
-            "No |rei|no |di|vi|nal,"+
-            "Na |gló|ria |e|ter|nal;"+
-            "Fa|ce a |fa|ce |lá |ve|re|mos"+
+            "Paz |ex|cel|sa en|con|tra|re|mos |"+
+            "No |rei|no |di|vi|nal, |"+
+            "Na |gló|ria |e|ter|nal; |"+
+            "Fa|ce a |fa|ce |lá |ve|re|mos |"+
             "Deus, |o |Pai |ce|les|ti|al" ,
 
         ],
-        temposVersos: [],
-        notas: [],
-        temposNotas: []
+        temposVersos: [
+            6,2,2,2,8,4,12,8,
+            4,6,2,2,2,8,4,6,2,2,2,12,
+            6,2,2,2,8,4,12,12,
+            6,2,2,2,8,4,20,
+
+            6,2,2,2,8,4,12,8,
+            4,6,2,2,2,8,4,6,2,2,2,12,
+            6,2,2,2,8,4,12,12,
+            6,2,2,2,8,4,20,
+
+            6,2,2,2,8,4,12,8,
+            4,6,2,2,2,8,4,6,2,2,2,12,
+            6,2,2,2,8,4,12,12,
+            6,2,2,2,8,4,20
+        ],
+        notas: [
+            'C5','Eb4','D4','Eb4','Db5','C5','F4','Bb4',
+            'Ab4','Ab4','G4','Bb4','G4','F4','F4','F4','Eb4','Ab4','F4','Eb4',
+            'C5','Eb4','D4','Eb4','Db5','C5','Bb4','Db5',
+            'C5','Eb4','D4','Eb4','G4','Bb4','Ab4',
+
+            'C5','Eb4','D4','Eb4','Db5','C5','F4','Bb4',
+            'Ab4','Ab4','G4','Bb4','G4','F4','F4','F4','Eb4','Ab4','F4','Eb4',
+            'C5','Eb4','D4','Eb4','Db5','C5','Bb4','Db5',
+            'C5','Eb4','D4','Eb4','G4','Bb4','Ab4',
+
+            'C5','Eb4','D4','Eb4','Db5','C5','F4','Bb4',
+            'Ab4','Ab4','G4','Bb4','G4','F4','F4','F4','Eb4','Ab4','F4','Eb4',
+            'C5','Eb4','D4','Eb4','Db5','C5','Bb4','Db5',
+            'C5','Eb4','D4','Eb4','G4','Bb4','Ab4'
+
+        ],
+        temposNotas: [
+            6,2,2,2,8,4,12,8,
+            4,6,2,2,2,8,4,6,2,2,2,12,
+            6,2,2,2,8,4,12,12,
+            6,2,2,2,8,4,20,
+
+            6,2,2,2,8,4,12,8,
+            4,6,2,2,2,8,4,6,2,2,2,12,
+            6,2,2,2,8,4,12,12,
+            6,2,2,2,8,4,20,
+
+            6,2,2,2,8,4,12,8,
+            4,6,2,2,2,8,4,6,2,2,2,12,
+            6,2,2,2,8,4,12,12,
+            6,2,2,2,8,4,20
+
+        ]
     },
     "398": { 
         nome: "Não tardará a volta do Senhor",
@@ -16855,7 +17490,7 @@ const hymnsData = {
             "O |Sal|va|dor |res|sus|ci|tou |e |pa|ra |o |Pai |su|biu;"+
             "Do |ca|ti|vei|ro |li|ber|tou |a|que|les |que |re|miu;"+
             "Ao |céu |su|biu |o |Re|mi|dor |e |os |sal|vos |su|bi|rão |tam|bém;"+
-            "Con|tem|pla|rão |o |Cri|a|dor |na |ce|les|ti|al |Je|ru|sa|lém."
+            "Con|tem|pla|rão |o |Cri|a|dor |na |ce|les|tial |Je|ru|sa|lém."
 
         ],
         temposVersos: [],
@@ -16882,7 +17517,7 @@ const hymnsData = {
 
             "Re|ve|la, |ó |bom |Pai, |ro|ga|mos |com |fer|vor,"+
             "Teus |pla|nos |e|ter|nais, |por |Teu |Con|so|la|dor."+
-            "Pre|ci|o|so, |pa|ra |nós, |é |o |san|to |Teu |sa|ber"+
+            "Pre|cio|so, |pa|ra |nós, |é |o |san|to |Teu |sa|ber"+
             "Que |nos |fa|rá |ven|cer." ,
 
             "Oh! |Fa|ze|-nos |cres|cer |na |i|ma|gem |de |Je|sus;"+
@@ -16942,7 +17577,7 @@ const hymnsData = {
         velX3: "N",
         versos: [
             "Pe|la |fé |u|ma |vez |por |Je|sus |da|da |aos |san|tos,"+
-            "Fé |per|fei|ta |que |fez |vi|to|ri|o|sos |a |tan|tos,"+
+            "Fé |per|fei|ta |que |fez |vi|to|rio|sos |a |tan|tos,"+
             "Não |te|me|ram |hor|ro|res |nem |es|pan|tos"+
             "Os |fi|éis |que |se|gui|ram |ao |Se|nhor." ,
 
@@ -16991,7 +17626,7 @@ const hymnsData = {
 
             "Por |fé, |re|ce|be |o |gran|de |Mes|tre"+
             "Que |pa|ra |Deus |te |la|va|rá."+
-            "O |Dom |pre|ci|o|so |e |ce|les|te"+
+            "O |Dom |pre|cio|so |e |ce|les|te"+
             "A |tu|a |al|ma |pro|va|rá." ,
 
             "Em |vão |ba|ten|do |não |es|tá"+
@@ -17100,7 +17735,7 @@ const hymnsData = {
         versos: [
             "Oh! |Quan|to |a|mo |Tu|a |lei |e|ter|na |e |di|vi|nal!"+
             "E |ne|la |eu |me|di|to |di|a |e |noi|te, |ó |Se|nhor;"+
-            "Por |teus |con|se|lhos |an|do |na |jus|ti|ça |ce|les|ti|al,"+
+            "Por |teus |con|se|lhos |an|do |na |jus|ti|ça |ce|les|tial,"+
             "Nas |ve|re|das |de |a|mor." ,
 
             "És |ben|di|to |e|ter|na|men|te,"+
@@ -17278,7 +17913,7 @@ const hymnsData = {
         velX3: "N",
         versos: [
             "Se|nhor, |re|cor|da|mos |a|qui"+
-            "O |Teu |sa|cri|fí|ci|o |a|troz;"+
+            "O |Teu |sa|cri|fí|cio |a|troz;"+
             "Par|tin|do |o |pão |nos |lem|bra|mos |de |Ti;"+
             "Mar|tí|rio |so|fres|te |por |nós." ,
 
@@ -17289,7 +17924,7 @@ const hymnsData = {
 
             "Faz|-nos |dig|nos, |ó |Re|den|tor,"+
             "Da |ce|les|ti|al |co|mu|nhão"+
-            "Do |Teu |cor|po e |san|gue |pre|ci|o|so, |Se|nhor;"+
+            "Do |Teu |cor|po e |san|gue |pre|cio|so, |Se|nhor;"+
             "Con|ser|va|-nos |nes|ta u|ni|ão." ,
 
         ],
@@ -17320,7 +17955,7 @@ const hymnsData = {
             "Ao |meu |bom |Sal|va|dor |sem|pre |e|xal|ta|rei;"+
             "San|tas |bên|ções |me |faz |des|fru|tar." ,
 
-            "Pe|lo |Teu |sa|cri|fí|ci|o, |Je|sus |Re|mi|dor,"+
+            "Pe|lo |Teu |sa|cri|fí|cio, |Je|sus |Re|mi|dor,"+
             "Me |a|bis|te |o |ca|mi|nho |dos |céus;"+
             "Los |pe|ca|dos |la|vas|te |mi|nh'al|ma, |Se|nhor,"+
             "Co|mu|nhão |te|nho |a|go|ra |com |Deus." ,
@@ -17360,7 +17995,7 @@ const hymnsData = {
             "Com |e|le |vem |co|brir|-me, |por |Teu |i|men|so a|mor;"+
             "Por |e|le, |nes|ta |vi|da |pos|so |ser |ven|ce|dor." ,
 
-            "So|b |o |pre|ci|o|so |san|gue |de |Cris|to, o |Re|mi|dor,"+
+            "So|b |o |pre|cio|so |san|gue |de |Cris|to, o |Re|mi|dor,"+
             "Eu |vi|vo |pro|te|gi|do |e |não |te|rei |pa|vor;"+
             "Ca|mi|nha|rei |a|van|te, |fir|me |no |Sal|va|dor." ,
 
@@ -17397,7 +18032,7 @@ const hymnsData = {
             "Pa|ra |que |o |ho|mem |pu|des|se |vi|ver."+
             "Co|mo |o|fer|ta |le|va|da |ao |al|tar,"+
             "Foi |Je|sus |Cris|to |Se |o|fe|re|cer"+
-            "Em |sa|cri|fí|ci|o |a |Deus, |Pai |de |a|mor,"+
+            "Em |sa|cri|fí|cio |a |Deus, |Pai |de |a|mor,"+
             "Pa|ra |cum|prir |to|do |o |Seu |que|rer." ,
 
             "Cris|to |Je|sus |ex|pi|rou |no |ma|dei|ro,"+
@@ -17564,7 +18199,7 @@ const hymnsData = {
         velX3: "N",
         versos: [
             "Só |Je|sus |Cris|to, |san|to |Cor|dei|ro,"+
-            "Re|con|ci|li|ou|-nos |com |nos|so |Deus;"+
+            "Re|con|ci|liou|-nos |com |nos|so |Deus;"+
             "Ver|ten|do |san|gue |so|bre |o |ma|dei|ro,"+
             "Nos |pre|pa|rou |a |gló|ria |dos |céus." ,
 
@@ -17604,7 +18239,7 @@ const hymnsData = {
             "Sem|pre |lem|bre|mo-|no |da |mor|te"+
             "Do |nos|so |a|ma|do |e |bom | Je|sus;"+
             "Su|a |me|mó|ria |ce|le|bre|mos,"+
-            "Seu |sa|cri|fí|ci|o |so|bre |a |cruz."+
+            "Seu |sa|cri|fí|cio |so|bre |a |cruz."+
             "To|ma|re|mos, |co|mo|vi|dos,"+
             "A |San|ta |Ceia |do |Se|nhor;"+
             "So|mos, |a|go|ra, |Seus |re|mi|dos"+
@@ -17659,7 +18294,7 @@ const hymnsData = {
             "À |des|tra |de |Deus |Pai |es|tá"+
             "Je|sus, |fi|el |in|ter|ces|sor,"+
             "Que |sem|pre |nos |de|fen|de|rá,"+
-            "Por |Seu |glo|ri|o|so |e |san|to |a|mor." ,
+            "Por |Seu |glo|rio|so |e |san|to |a|mor." ,
 
             "Lou|vor |e |hon|ra |ao |Cri|a|dor,"+
             "Por |ter |man|da|do |o |Sal|va|dor"+
@@ -17846,7 +18481,7 @@ const hymnsData = {
             "E |é, |no |céu, |o |fi|el |Me|di|a|dor." ,
 
             "E|ra |i|no|cen|te, |mas |foi |con|de|na|do"+
-            "Ao |sa|cri|fí|ci|o |da |cruz |e |da |dor;"+
+            "Ao |sa|cri|fí|cio |da |cruz |e |da |dor;"+
             "Não |de|fen|deu|-Se, |man|te|ve|-Se |hu|mil|de;"+
             "Cá|lix |a|mar|go |pro|vou |o |Se|nhor." ,
 
@@ -18014,7 +18649,7 @@ const hymnsData = {
         MeiaHora: "N",
         velX3: "N",
         versos: [
-            "Pre|ci|o|sa |é, |aos |o|lhos |do |Cri|a|dor,"+
+            "Pre|cio|sa |é, |aos |o|lhos |do |Cri|a|dor,"+
             "A |mor|te |dos |Seus |fi|lhos |a|ma|dos;"+
             "Se|rão |por |Cris|to, |res|sus|ci|ta|dos"+
             "Quan|do |a|pa|re|cer, |chei|o |de |es|plen|dor." ,
@@ -18024,7 +18659,7 @@ const hymnsData = {
             "Dor|me |na |es|pe|ran|ça"+
             "Do |rei|no |de |es|plen|dor." ,
 
-            "Pre|ci|o|sa |é, |aos |o|lhos |do |Cri|a|dor,"+
+            "Pre|cio|sa |é, |aos |o|lhos |do |Cri|a|dor,"+
             "A |mor|te |dos |que |fin|dam |a |li|da;"+
             "Se|rão |des|per|tos |pa|ra |a |vi|da,"+
             "Vi|da |e|ter|nal |com |o |Sal|va|dor." ,
@@ -18102,7 +18737,7 @@ const hymnsData = {
 
         "Nas |nu|vens, |ó |Se|nhor |Je|sus,"+
         "Que|re|mos |Te |en|con|trar"+
-        "E, |no |glo|ri|o|so |lar |de |luz,"+
+        "E, |no |glo|rio|so |lar |de |luz,"+
         "Con|ti|go |ha|bi|tar." ,
 
         ],
@@ -18237,7 +18872,7 @@ const hymnsData = {
         versos: [
             "Ó |Je|sus, |quan|to és |pi|e|do|so,"+
             "In|fi|ni|to é |Teu |a|mor!"+
-            "Com |o |Teu |po|der |glo|ri|o|so,"+
+            "Com |o |Teu |po|der |glo|rio|so,"+
             "Faz |de |mim |Teu |ser|vi|dor;"+
             "De|di|ca|do e |fer|vo|ro|so,"+
             "Que|ro a|mar|-Te, |ó |Se|nhor." ,
@@ -18406,7 +19041,7 @@ const hymnsData = {
             "Se |se|guir|mos |sem|pre |fir|mes |ao |Se|nhor,"+
             "Com |sin|ce|ro |co|ra|ção,"+
             "E|le |nos |da|rá, |no |rei|no |de |es|plen|dor,"+
-            "O |glo|ri|o|so |ga|lar|dão." ,
+            "O |glo|rio|so |ga|lar|dão." ,
         
         ],
         temposVersos: [],
@@ -18558,7 +19193,7 @@ const hymnsData = {
             "De |jus|ti|ça |sem|pre |a|dor|nai|-vos,"+
             "Pa|ra |a |gran|de |fes|ta |nos |céus."+
             "To|dos |jun|tos |nós |su|bi|re|mos,"+
-            "Com |Je|sus, |ao |Pai |ce|les|ti|al;"+
+            "Com |Je|sus, |ao |Pai |ce|les|tial;"+
             "Di|an|te |d'E|le |en|to|a|re|mos"+
             "Hi|nos |de |lou|vor |e|ter|nal." ,
 
@@ -18881,7 +19516,7 @@ const hymnsData = {
             "Só |Tu |nos |tra|tas |com |ca|ri|nho,"+
             "Ó |glo|ri|o|so |Sal|va|dor." ,
 
-            "Je|sus, |glo|ri|o|so |e |fi|el,"+
+            "Je|sus, |glo|rio|so |e |fi|el,"+
             "Em |Ti |es|tá |o |nos|so |bem;"+
             "Tu |és |o |nos|so |E|ma|nu|el,"+
             "És |Quem |na |gra|ça, |nos |sus|tém."+
@@ -18920,7 +19555,7 @@ const hymnsData = {
             "Se |qui|ser|mos, |ir|mãos, |do |Se|nhor |re|ce|ber"+
             "As |vir|tu|des |da |vi|da |e|ter|nal,"+
             "Se|ja |a |nos|sa |a|fei|ção |e |o |nos|so |pra|zer"+
-            "Em |Je|sus |e |na |lei |ce|les|ti|al." ,
+            "Em |Je|sus |e |na |lei |ce|les|tial." ,
 
             "Con|sa|gra|dos |se|ja|mos |a |Deus, |Cri|a|dor,"+
             "E |E|le, |de |nós, |Se |a|gra|da|rá;"+
@@ -18995,7 +19630,7 @@ const hymnsData = {
 
             "Quão |di|to|so |é |ca|mi|nhar |com |Je|sus, |ó |me|ni|nos!"+
             "So|mos |Su|a |grei, |E|le |é |o |bom |Pas|tor;"+
-            "Se|gui|mos, |com |a|mor, |os |pre|ci|o|sos |en|si|nos"+
+            "Se|gui|mos, |com |a|mor, |os |pre|cio|sos |en|si|nos"+
             "De |Deus, |Cri|a|dor." ,
 
             "Nes|ta |jor|na|da, |u|ni|dos |de|ve|mos,"+
@@ -19005,7 +19640,7 @@ const hymnsData = {
 
             "O |Sal|va|dor |nos |con|duz |nes|ta |vi|da"+
             "Pa|ra |fa|zer|-nos |mo|rar |lá |nos |céus;"+
-            "E, |nes|sa |pá|tria, |glo|ri|o|sa |e |que|ri|da,"+
+            "E, |nes|sa |pá|tria, |glo|rio|sa |e |que|ri|da,"+
             "Con|tem|pla|re|mos |a |fa|ce |de |Deus." ,
 
         ],
@@ -19067,16 +19702,16 @@ const hymnsData = {
             "Com|i|go |es|tá |Je|sus,"+
             "Meu |bom |Mes|tre |e |Sal|va|dor,"+
             "Me |gui|a |com |a |luz, |pe|lo |Seu |i|men|so |a|mor;"+
-            "Mis|té|rios |ce|les|ti|ais |Je|sus |re|ve|la|rá;"+
+            "Mis|té|rios |ce|les|tiais |Je|sus |re|ve|la|rá;"+
             "No |Seu |bom |ca|mi|nho |an|dar |me |fa|rá." ,
 
             "Quem |me |se|pa|ra|rá |do |su|bli|me |a|mor |de |Deus?"+
             "Quem |me |con|de|na|rá?"+
             "Pois |Je|sus |de|fen|de |os |Seus."+
-            "U|ni|do |ao |Se|nhor |por |ce|les|ti|al |a|mor,"+
+            "U|ni|do |ao |Se|nhor |por |ce|les|tial |a|mor,"+
             "Ca|mi|nho |a|van|te |com |fé |e |va|lor." ,
 
-            "Das |sen|das |ce|les|ti|ais |eu |não |me |a|fas|ta|rei,"+
+            "Das |sen|das |ce|les|tiais |eu |não |me |a|fas|ta|rei,"+
             "Pois |a|mo |sem|pre |mais"+
             "A |dou|tri|na |do |meu |Rei;"+
             "Je|sus |me |gui|a|rá |e |for|ças |me |da|rá."+
@@ -19498,7 +20133,7 @@ const hymnsData = {
 
             "Va|mos |com |Je|sus, |E|le |nos |con|duz"+
             "Ao |Seu |rei|no |de |a|mor;"+
-            "Mar|che|mos |com |va|lor |à |pá|tria |ce|les|ti|al,"+
+            "Mar|che|mos |com |va|lor |à |pá|tria |ce|les|tial,"+
             "O |nos|so |Rei |nos |da|rá |a |gló|ria |e|ter|nal." ,
 
             "Oh! |Va|mos |com|ba|ter |e, |pe|la |fé, |ven|cer"+
@@ -19506,7 +20141,7 @@ const hymnsData = {
             "Si|ga|mos |ao |Se|nhor |com |to|do |fer|vor;"+
             "Só |E|le |tem |ar|mas |que |nos |fa|zem |tri|un|far." ,
 
-            "Mis|té|rios |ce|les|ti|ais, |ri|que|zas |e|ter|nais,"+
+            "Mis|té|rios |ce|les|tiais, |ri|que|zas |e|ter|nais,"+
             "Je|sus, |o |Rei, |por |a|mor |nos |des|va|da|rá;"+
             "Fe|li|zes, |pois, |nos |céus |se|re|mos |jun|to |a |Deus;"+
             "Na|que|le |lar |nos|so |co|ra|ção |ju|bi|la|rá." ,
@@ -19607,7 +20242,7 @@ const hymnsData = {
         versos: [
             "Je|sus |Cris|to, |Seus |fi|éis, |en|si|na;"+
             "Va|mos |to|dos |jun|tos |a|pren|der;"+
-            "Com |a |Su|a |ce|les|ti|al |dou|tri|na"+
+            "Com |a |Su|a |ce|les|tial |dou|tri|na"+
             "E|le |nos |re|ves|te |de |sa|ber;"+
             "E|le |gui|a |os |pe|que|ni|nos"+
             "Com |ca|ri|nho |e |com |a|mor;"+
@@ -19697,7 +20332,7 @@ const hymnsData = {
             "Nas |tri|bu|la|ções |se|rei |um |ven|ce|dor,"+
             "Pois |Deus |ou|ve |o |meu |cla|mor." ,
 
-            "A |glo|ri|o|sa |pá|tria |hei |de |al|can|çar,"+
+            "A |glo|rio|sa |pá|tria |hei |de |al|can|çar,"+
             "Se |se|guir |a |Cris|to |sem |de|sa|ni|mar;"+
             "Na|da |nes|te |mun|do |po|de |se |i|gua|lar"+
             "Com |a|que|le |e|ter|no |lar." ,
@@ -19775,7 +20410,7 @@ const hymnsData = {
 
             "Quan|do |es|ti|ver|mos |no |lar |di|vi|nal,"+
             "Com |Cris|to |Je|sus, |o |Sal|va|dor,"+
-            "Des|fru|ta|re|mos |o |bem |ce|les|ti|al;"+
+            "Des|fru|ta|re|mos |o |bem |ce|les|tial;"+
             "Oh! |Gló|ria! |Ben|di|to |é |o |Se|nhor!" ,
 
         ],
